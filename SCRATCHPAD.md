@@ -10,8 +10,8 @@
 // [X] Update buyers.md with refined Ideal Customer Profile (ICP)
 // [X] Update offers.md with 1-3 core offerings aligned with customer needs
 // [X] Update sales-strategy.md with comprehensive sales approach
-// [ ] Commit changes to Git
-// [ ] Update project-directory.md if any new files or folders were created
+// [X] Commit changes to Git
+// [X] Update project-directory.md if any new files or folders were created
 
 ---
 

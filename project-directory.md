@@ -3,6 +3,7 @@
 ```
 gruntworks/
 ├── README.md
+├── SCRATCHPAD.md
 ├── assets/
 │   ├── colors/
 │   ├── fonts/
@@ -19,7 +20,10 @@ gruntworks/
 │   ├── ideal-client-personas.md
 │   └── onboarding.md
 ├── marketing/
+│   ├── buyers.md
 │   ├── marketing-campaigns.md
+│   ├── offers.md
+│   ├── sales-strategy.md
 │   └── visual-asset-prompts.md
 └── product/
     └── product-offerings.md
@@ -44,6 +48,9 @@ The client directory contains documentation related to customers and their journ
 
 ### Marketing
 The marketing directory contains marketing campaign plans and asset specifications.
+- **buyers.md**: Detailed description of the Ideal Customer Profile (ICP) and problem discovery.
+- **offers.md**: Core offerings aligned with customer needs and challenges.
+- **sales-strategy.md**: Comprehensive sales approach to reach and engage the target market.
 - **marketing-campaigns.md**: Strategic campaign plans for different segments and objectives.
 - **visual-asset-prompts.md**: Detailed specifications for creating brand-aligned visual assets.
 
@@ -58,4 +65,7 @@ The assets directory is a placeholder for all visual and design elements.
 - **fonts/**: Placeholder for brand typography.
 - **logos/**: Placeholder for logo files in various formats.
 - **colors/**: Placeholder for color palette specifications.
+
+### Root
+- **SCRATCHPAD.md**: Document for planning, organizing, and tracking all active tasks.
 ``` 
