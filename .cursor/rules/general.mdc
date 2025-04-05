@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- Use bracket based checklists ("[ ]", "[X]")
+- After every major task, commit changes to git
+- This projects repo is: https://github.com/lemonsevens/gruntworks.git
+- Check off tasks, commit changes to git, and the automatically proceed
