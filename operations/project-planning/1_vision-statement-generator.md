@@ -179,10 +179,9 @@ Would you like to save this vision statement? (Yes/No)
 
 If the user answers 'Yes':
 
-1.  **Infer Filename:** Automatically determine a suitable filename based on the project's purpose (e.g., `[ProjectPurpose]-Vision.md`).
-2.  **Determine Business Section:** Analyze the vision statement's content (Purpose, Target Audience, Value Proposition) to decide the most appropriate root directory (`operations/`, `business/`, `marketing/`, `sales/`, `product/`).
+2.  **Infer Appropriate Business Section:** Analyze the vision statement's content (Purpose, Target Audience, Value Proposition) to decide the most appropriate root directory (`operations/`, `business/`, `marketing/`, `sales/`, `product/`) or create a new one if none match.
 3.  **Create Project Directory:** Infer a concise project directory name from the Purpose statement. Navigate into the chosen business section directory and create this new project subdirectory.
-4.  **Save File:** Save the generated markdown vision statement into the newly created project directory using the inferred filename.
+4.  **Save File:** Save the generated markdown vision statement as [vision-statement.md] into the newly created project directory.
 
 After saving:
 

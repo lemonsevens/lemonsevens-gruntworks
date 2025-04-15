@@ -1,13 +1,13 @@
 # GRUNTWORKS ONE-PAGE BUSINESS PLAN
 
 ## COMPANY OVERVIEW
-**Gruntworks** is a specialized marketing systems provider exclusively serving blue-collar landscaping and lawn-care and hardscaping businesses. We deliver no-nonsense, results-driven marketing solutions that generate leads, book jobs, and grow revenue for trade professionals. Unlike traditional agencies, we understand the unique challenges of field service businesses and build systems that work as hard as our clients do.
+**Gruntworks** is a specialized systems provider serving blue-collar landscaping, lawn-care and hardscaping businesses. We deliver no-nonsense, results-driven marketing solutions that generate leads, book jobs, and grow revenue for trade professionals. Unlike traditional agencies, we understand the unique challenges of field service businesses and build systems that work as hard as our clients do.
 
 ## MISSION
 We build battle-tested, AI-powered marketing and automation systems tailored to the field—helping landscaping pros generate leads, grow revenue, and take back their time.
 
 ## VISION
-Become the #1 marketing systems provider for landscaping and lawn-care and hardscaping companies in North America—known for grit, performance, and loyalty to the trades.
+Become the #1 marketing systems provider for landscaping, lawn-care and hardscaping companies in North America—known for grit, performance, and loyalty to the trades.
 
 ## CORE VALUES
 1. **Work Ethic Wins** – Show up early, finish strong
@@ -17,7 +17,7 @@ Become the #1 marketing systems provider for landscaping and lawn-care and hards
 5. **Loyalty Runs Deep** – We back our clients like brothers
 
 ## TARGET MARKET
-- **Primary**: Landscaping and lawn-care and hardscaping business owners
+- **Primary**: Landscaping, lawn-care and hardscaping business owners
 - **Demographics**: Males, 28-50, earning $500K-$5M in annual revenue
 - **Geography**: U.S. suburban and rural markets
 - **Psychographics**: Value results over theory, prefer direct communication, visual learners
@@ -38,7 +38,7 @@ Become the #1 marketing systems provider for landscaping and lawn-care and hards
 - **GW-FRM** – Field resource management integration ($500-$1,500/mo)
 
 ## COMPETITIVE ADVANTAGE
-1. **Industry Specialization**: Exclusively focused on landscaping and lawn-care and hardscaping
+1. **Industry Specialization**: Exclusively focused on landscaping, lawn-care and hardscaping
 2. **Systems Approach**: Integrated marketing systems vs. one-off services
 3. **Field-Tested Results**: Proven performance specifically for trade businesses
 4. **No-Fluff Guarantee**: Every component serves a specific, measurable purpose
@@ -74,7 +74,7 @@ Become the #1 marketing systems provider for landscaping and lawn-care and hards
 - Explore potential franchise or licensing model
 
 ## MARKETING STRATEGY
-1. **Industry Presence**: Dominate landscaping and lawn-care and hardscaping industry events and publications
+1. **Industry Presence**: Dominate landscaping, lawn-care and hardscaping industry events and publications
 2. **Content Authority**: Establish thought leadership through educational content
 3. **Case Study Marketing**: Showcase measurable results from real clients
 4. **Strategic Partnerships**: Align with equipment dealers, software providers, and industry associations

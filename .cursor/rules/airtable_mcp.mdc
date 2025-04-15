@@ -1,0 +1,124 @@
+---
+description: When "airtable" is mentioned
+globs: 
+alwaysApply: false
+---
+ # Airtable MCP Operations
+
+This rule provides guidelines and documentation for interacting with the Airtable database through the MCP integration.
+
+## Connection Information
+- **Base ID:** `app9cv9ob4Qt0A8C0`
+- **Personal Token:** `patF2xe2PROhp4UPq.188fdf5a50e1b2bc6390d3e70deff8f20a9f445bb046691baafc2b1c656704d6`
+
+## Standard Operating Procedure
+
+Always follow this sequence when performing Airtable operations:
+
+1. **Verify Base Access**: Use `mcp_airtable_tools_list_bases` to confirm base availability
+2. **List Tables**: Use `mcp_airtable_tools_list_tables` to see available tables
+3. **Examine Table Structure**: Before operations, check the table schema to understand required fields
+4. **Perform Operation**: Only after understanding the schema, perform create/update/delete operations
+
+## Key Tables and Fields
+
+### Projects Table
+- **Primary Field**: "Project name" (singleLineText)
+- **Required Fields**: "Project name"
+- **Important Fields**:
+  - "Description" (richText)
+  - "Start date" (date)
+  - "End date" (date)
+  - "Type" (singleSelect): "Personal", "Agency"
+  - "Status" (singleSelect): "Not Started", "In Progress", "Completed", "Inbox", "Archived", "Delete", "Paused"
+  - "Assigned to" (singleCollaborator)
+  - "Priority" (singleSelect): "Low", "Medium", "High"
+  - "Tasks" (multipleRecordLinks): Link to tasks related to this project
+  - "Resources" (multipleRecordLinks): Link to resources related to this project
+  - "Accounts" (multipleRecordLinks): Link to accounts related to this project
+
+### Tasks Table
+- **Primary Field**: "Status Title" (formula) - Combines status icon and task name
+- **Required Fields**: "Task" (singleLineText)
+- **Important Fields**:
+  - "Description" (richText)
+  - "Status" (singleSelect): "Inbox", "Not Started", "In Progress", "Completed", "Blocked", "Waiting", "Archived", "Delete"
+  - "Start Date" (date)
+  - "End Date" (date)
+  - "Priority" (singleSelect): "Low", "Medium", "High"
+  - "Project" (multipleRecordLinks): Link to the parent project
+  - "Assignee" (singleCollaborator) 
+  - "Frequency" (singleSelect): Options for recurring tasks
+  - "Resources" (multipleRecordLinks): Link to resources needed for this task
+  - "Accounts" (multipleRecordLinks): Link to accounts related to this task
+
+### Resources Table
+- **Primary Field**: "Name" (singleLineText)
+- **Important Fields**:
+  - "Type" (singleSelect): Document, Spreadsheet, Presentation, etc.
+  - "Category" (singleSelect): Marketing, Sales, Design, etc.
+  - "Status" (singleSelect): Draft, Active, Archive, Delete
+  - "Description" (richText)
+  - "URL" (url)
+  - "Projects" (multipleRecordLinks): Link to related projects
+  - "Tasks" (multipleRecordLinks): Link to related tasks
+  - "Access Level" (singleSelect): Public, Internal, Client, Confidential
+
+### Accounts Table
+- **Primary Field**: "Name" (singleLineText)
+- **Important Fields**:
+  - "Type" (singleSelect): Lead, Prospect, Opportunity, Client, Partner, Vendor, Owned
+  - "Status" (singleSelect): Active, Inactive, Delete
+  - "Owner" (singleCollaborator)
+  - "Projects" (multipleRecordLinks): Link to related projects
+  - "Tasks" (multipleRecordLinks): Link to related tasks
+  - "Contacts" (multipleRecordLinks): Link to related contacts
+  - "Website" (url)
+
+## Key Table Relationships
+- Projects → Tasks (one-to-many)
+- Tasks → Projects (many-to-one)
+- Projects → Resources (many-to-many)
+- Tasks → Resources (many-to-many)
+- Accounts → Projects (one-to-many)
+- Accounts → Tasks (one-to-many)
+- Accounts → Contacts (one-to-many)
+
+## Example Operations
+
+### Creating a Project
+```js
+mcp_airtable_tools_create_record({
+  base_id: "app9cv9ob4Qt0A8C0",
+  table_name: "Projects",
+  fields: {
+    "Project name": "New Project", 
+    "Description": "Project description",
+    "Status": "Not Started",
+    "Type": "Agency",
+    "Priority": "Medium",
+    "Start date": "2025-04-15", 
+    "End date": "2025-05-15"
+  }
+})
+```
+
+### Creating a Task
+```js
+mcp_airtable_tools_create_record({
+  base_id: "app9cv9ob4Qt0A8C0",
+  table_name: "Tasks",
+  fields: {
+    "Task": "New Task", 
+    "Description": "Task description",
+    "Status": "Not Started",
+    "Priority": "Medium",
+    "Start Date": "2025-04-15",
+    "End Date": "2025-04-30",
+    "Project": ["recXXXXXXXXXXXXXX"] // Project record ID
+  }
+})
+```
+
+### Linking Records
+When creating relations between records, use an array of record IDs. Always verify the record IDs exist before linking.
