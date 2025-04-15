@@ -1,0 +1,36 @@
+graph TD
+    subgraph Continuous Prospecting & Refinement Cycle
+        P1[Phase 1: Target Profile Definition] --> P2[Phase 2: Prospect ID & List Building];
+        P2 --> P3[Phase 3: Outreach Playbook & Tactics];
+        P3 --> P4[Phase 4: Engagement & Pitching];
+        P4 --> P5[Phase 5: Execution Workflow & Tracking];
+        P5 -- Logged Data --> P6[Phase 6: Measurement & Refinement];
+        P6 -- Strategy Updates --> P1;
+        P6 -- Process Updates --> P2;
+        P6 -- Tactic Updates --> P3;
+        P6 -- Framework Updates --> P4;
+
+        subgraph Core Execution Loop
+            direction LR
+            P2_Loop[List Building] --> P3_Loop[Outreach Tactics];
+            P3_Loop --> P4_Loop[Engagement];
+            P4_Loop --> P5_Loop[Tracking];
+            P5_Loop --> P2_Loop;
+        end
+
+        P5 --> P5_Loop[Enter Execution Loop via Tracking];
+        P6 -.-> P5_Loop[Refinement Influences Loop];
+
+    end
+
+    style P1 fill:#f9f,stroke:#333,stroke-width:2px;
+    style P2 fill:#ccf,stroke:#333,stroke-width:2px;
+    style P3 fill:#cfc,stroke:#333,stroke-width:2px;
+    style P4 fill:#ffc,stroke:#333,stroke-width:2px;
+    style P5 fill:#fcc,stroke:#333,stroke-width:2px;
+    style P6 fill:#cff,stroke:#333,stroke-width:2px;
+
+    style P2_Loop fill:#ccf,stroke:#333,stroke-width:1px,stroke-dasharray: 5 5;
+    style P3_Loop fill:#cfc,stroke:#333,stroke-width:1px,stroke-dasharray: 5 5;
+    style P4_Loop fill:#ffc,stroke:#333,stroke-width:1px,stroke-dasharray: 5 5;
+    style P5_Loop fill:#fcc,stroke:#333,stroke-width:1px,stroke-dasharray: 5 5; 
