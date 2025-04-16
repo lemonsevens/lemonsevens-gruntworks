@@ -2,70 +2,48 @@
 
 ```
 gruntworks/
-├── README.md
-├── SCRATCHPAD.md
 ├── assets/
-│   ├── colors/
 │   ├── fonts/
 │   ├── images/
 │   ├── logos/
 │   └── templates/
-├── brand/
-│   └── brand-system.md
 ├── business/
-│   ├── 1-page-business-plan.md
-│   └── go-to-market-plan.md
 ├── client/
-│   ├── client-journey-map.md
-│   ├── ideal-client-personas.md
-│   └── onboarding.md
 ├── marketing/
-│   ├── buyers.md
-│   ├── marketing-campaigns.md
-│   ├── offers.md
-│   ├── sales-strategy.md
-│   └── visual-asset-prompts.md
-└── product/
-    └── product-offerings.md
+│   ├── brand/
+│   └── needs-assessment/
+├── operations/
+│   └── project-planning/
+├── product/
+│   └── seo/
+└── sales/
+    ├── demos/
+    └── landscaping-outreach-strategy/
 ```
 
 ## Directory Structure Overview
 
-### Brand
-The brand directory contains all branding guidelines and assets.
-- **brand-system.md**: Comprehensive brand guidelines including strategy, identity, voice, and applications.
+### Assets
+The assets directory holds visual and design elements like fonts, images, logos, and templates.
 
 ### Business
-The business directory contains strategic business documentation.
-- **1-page-business-plan.md**: Concise business plan outlining mission, vision, target market, and growth strategy.
-- **go-to-market-plan.md**: Detailed plan for market entry, launch phases, and growth strategy.
+The business directory contains strategic business documentation like planning and market strategy.
 
 ### Client
-The client directory contains documentation related to customers and their journey.
-- **ideal-client-personas.md**: Detailed profiles of target client segments.
-- **client-journey-map.md**: Mapping of the client experience from awareness through loyalty.
-- **onboarding.md**: Structured process for new client implementation.
+The client directory contains documentation related to customers, including personas, journey maps, and onboarding processes.
 
 ### Marketing
-The marketing directory contains marketing campaign plans and asset specifications.
-- **buyers.md**: Detailed description of the Ideal Customer Profile (ICP) and problem discovery.
-- **offers.md**: Core offerings aligned with customer needs and challenges.
-- **sales-strategy.md**: Comprehensive sales approach to reach and engage the target market.
-- **marketing-campaigns.md**: Strategic campaign plans for different segments and objectives.
-- **visual-asset-prompts.md**: Detailed specifications for creating brand-aligned visual assets.
+The marketing directory contains marketing plans, asset specifications, buyer information, and brand guidelines. It includes subdirectories for `brand` and `needs-assessment`.
+
+### Operations
+The operations directory contains documentation related to internal processes, including project planning materials in the `project-planning` subdirectory.
 
 ### Product
-The product directory contains descriptions of service offerings.
-- **product-offerings.md**: Comprehensive description of service modules and packages.
+The product directory contains descriptions of service offerings and related materials, including SEO information in the `seo` subdirectory.
 
-### Assets
-The assets directory is a placeholder for all visual and design elements.
-- **images/**: Placeholder for brand photography and graphics.
-- **templates/**: Placeholder for document and design templates.
-- **fonts/**: Placeholder for brand typography.
-- **logos/**: Placeholder for logo files in various formats.
-- **colors/**: Placeholder for color palette specifications.
+### Sales
+The sales directory holds materials related to sales strategies and processes, including demonstration materials in `demos` and specific outreach strategies in `landscaping-outreach-strategy`.
 
 ### Root
-- **SCRATCHPAD.md**: Document for planning, organizing, and tracking all active tasks.
+The root directory contains top-level configuration files, planning documents (`SCRATCHPAD.md`), and this project directory overview.
 ``` 
