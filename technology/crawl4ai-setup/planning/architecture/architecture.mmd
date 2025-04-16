@@ -1,0 +1,39 @@
+graph TD
+    subgraph "DigitalOcean Droplet (Ubuntu + Docker)"
+        subgraph "Docker Network: crawl4ai_network"
+            subgraph "crawl4ai_service Container"
+                direction LR
+                CLI[CLI Layer (main.py)]
+                API[API Layer (Flask/FastAPI)]
+                AppLayer[Application Layer\n(CrawlManager, CrawlExecutor, DataExporter)]
+                DomainLayer[Domain Layer\n(Entities, Interfaces)]
+                InfraLayer[Infrastructure Layer\n(crawl4ai, DB Driver, FS)]
+
+                CLI --> AppLayer
+                API --> AppLayer
+                AppLayer --> DomainLayer
+                AppLayer --> InfraLayer
+            end
+
+            PostgresDB[postgres_db Container\n(PostgreSQL)]
+
+            InfraLayer -- SQL (asyncpg) --> PostgresDB
+        end
+
+        VolumeConfig[Volume: config]
+        VolumeOutput[Volume: output]
+        VolumePGData[Volume: postgres_data]
+
+        InfraLayer -- Reads --> VolumeConfig
+        InfraLayer -- Writes --> VolumeOutput
+        PostgresDB -- Reads/Writes --> VolumePGData
+    end
+
+    UserAdmin[User/Admin] -- SSH --> DropletHost[DigitalOcean Droplet]
+    UserAdmin -- Runs --> CLI
+
+    WebhookCaller[Webhook Caller (e.g., N8N)] -- HTTPS --> API
+    InfraLayer -- HTTPS (crawl4ai) --> TargetWebsite[Target Websites]
+
+    style crawl4ai_service Container fill:#f9f,stroke:#333,stroke-width:2px
+    style PostgresDB fill:#ccf,stroke:#333,stroke-width:2px 
