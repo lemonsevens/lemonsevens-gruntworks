@@ -1,46 +1,47 @@
-Story C4S-S1-001-CLI: Implement CLI 'submit' Command and Job Creation
-As a developer/user, I want to use the CLI `submit` command to provide a URL and initiate a crawl job, so that jobs can be created and tracked in the system via the command line.
+Story C4S-S1-001-CLI: Implement CLI 'submit' Command Logic and Prepare for Deployment
+As a developer, I want to implement the core logic for the CLI `submit` command and its interaction with the `CrawlManagerService` for job creation, preparing the code for deployment to the target server.
 
 Acceptance Criteria:
-- CLI `submit` subcommand accepts a target URL argument.
-- Calling `submit <url>` interacts with `CrawlManagerService`.
-- `CrawlManagerService` creates a new record in the `crawl_jobs` table in PostgreSQL.
-- The new job record has a unique ID, the provided URL, an initial status of 'PENDING', and a creation timestamp.
-- The CLI command outputs the unique Job ID upon successful creation.
-- Basic input validation exists (e.g., checking if a URL is provided).
+- Code implementing the CLI `submit` subcommand to accept a target URL argument is added to `cli.py`.
+- Code implementing the interaction with `CrawlManagerService` is added.
+- Code implementing the `CrawlManagerService` logic to create a new record in the `crawl_jobs` table (using the DB connection prepared in C4S-006) is added.
+- The code ensures the new job record includes necessary details (ID, URL, 'PENDING' status, timestamp).
+- The code ensures the CLI command returns the unique Job ID upon successful creation.
+- Code includes basic input validation (e.g., checking if a URL is provided).
+- **Verification (on target server):** After deployment, running `cli.py submit <url>` successfully creates a 'PENDING' job record in the PostgreSQL database and outputs the Job ID.
 
-Dependencies: C4S-006-DBI (DB Schema/Connection), C4S-008-APP (Service Skeletons), C4S-009-CLI (CLI Skeleton).
+Dependencies: C4S-006-DBI (DB Schema/Connection Prepared), C4S-008-APP (Service Skeletons Prepared), C4S-009-CLI (CLI Skeleton Prepared).
 Relevant Resources: CLI Layer (`cli.py`), Application Layer (`CrawlManagerService`), Infrastructure Layer (`database.py`), PostgreSQL.
 Estimated Effort: [Optional]
 
 ---
 
-Story C4S-S1-002-EXE: Execute Single-URL Crawl and Update Job Status
-As the system, I want to process a 'PENDING' job by executing a crawl using `crawl4ai` and updating the job status, so that crawl jobs are actively processed and their lifecycle (Running, Completed, Failed) is tracked.
+Story C4S-S1-002-EXE: Implement Single-URL Crawl Execution Logic and Prepare for Deployment
+As a developer, I want to implement the core logic for the `CrawlExecutorService` to process a 'PENDING' job, execute a single-URL crawl using `crawl4ai`, and update job status, preparing the code for deployment.
 
 Acceptance Criteria:
-- `CrawlExecutorService` picks up a 'PENDING' job (initial trigger mechanism can be simple, e.g., integrated into the `submit` flow for now).
-- Job status is updated to 'RUNNING' in the PostgreSQL `crawl_jobs` table before starting the crawl.
-- `CrawlExecutorService` uses `crawl4ai.AsyncWebCrawler.arun` with the job's target URL.
-- Upon successful completion of `arun`, the job status is updated to 'COMPLETED' in the DB.
-- If `arun` raises an exception, the job status is updated to 'FAILED' in the DB.
-- Basic logging indicates job start, completion, or failure.
+- Code implementing the `CrawlExecutorService` logic to handle a job (e.g., accept a job ID or object) is added.
+- Code implementing the job status update to 'RUNNING' before the crawl is added.
+- Code implementing the use of `crawl4ai.AsyncWebCrawler.arun` with the job's target URL is added.
+- Code implementing the job status update to 'COMPLETED' (on success) or 'FAILED' (on exception) is added.
+- Code implementing basic logging for job start, completion, or failure is added.
+- **Verification (on target server):** After deployment and job submission via CLI, the job status transitions correctly in the database ('PENDING' -> 'RUNNING' -> 'COMPLETED'/'FAILED'), and logs reflect execution.
 
-Dependencies: C4S-S1-001-CLI (Job creation), C4S-003-DEP (`crawl4ai` installed), C4S-005-LOG (Logging), C4S-006-DBI (DB Connection), C4S-008-APP (Service Skeletons).
+Dependencies: C4S-S1-001-CLI (Job creation logic prepared), C4S-003-DEP (`crawl4ai` installed in image), C4S-005-LOG (Logging code prepared), C4S-006-DBI (DB Connection code prepared), C4S-008-APP (Service Skeletons prepared).
 Relevant Resources: Application Layer (`CrawlExecutorService`), Infrastructure Layer (`crawl4ai`, `database.py`, `logging`), PostgreSQL.
 Estimated Effort: [Optional]
 
 ---
 
-Story C4S-S1-003-RES: Persist Basic Crawl Result or Error to Database
-As the system, I want to store the markdown content from a successful crawl or the error message from a failed crawl in the database, so that the fundamental output or failure reason for each crawl job is persisted.
+Story C4S-S1-003-RES: Implement Basic Result/Error Persistence Logic and Prepare for Deployment
+As a developer, I want to implement the logic to store the basic markdown result or error message from a crawl in the database, preparing the code for deployment.
 
 Acceptance Criteria:
-- If a crawl completes successfully (status 'COMPLETED'), the markdown content from the `crawl4ai` result is stored in the `crawl_jobs` table (e.g., in a `result_markdown` text column) or a linked `crawl_results` table.
-- If a crawl fails (status 'FAILED'), the error message/details are stored in the `crawl_jobs` table (e.g., in an `error_message` text column).
-- Database schema (`init_db.sql`) is updated if necessary to include columns for results/errors.
-- Data is successfully persisted and can be retrieved (e.g., via a simple DB query or CLI status check).
+- Code is added to `CrawlExecutorService` to extract markdown content or error message from the `crawl4ai` result/exception.
+- Code is added to interact with the database (via `database.py`) to store the extracted markdown or error message in the appropriate `crawl_jobs` table column (or related table).
+- The prepared database schema script (`scripts/init_db.sql`) includes the necessary columns for storing results/errors.
+- **Verification (on target server):** After deployment and a job completes/fails, the corresponding result markdown or error message is correctly stored in the PostgreSQL database.
 
-Dependencies: C4S-S1-002-EXE (Crawl execution and status update).
+Dependencies: C4S-S1-002-EXE (Crawl execution logic prepared).
 Relevant Resources: Application Layer (`CrawlExecutorService`), Infrastructure Layer (`database.py`), PostgreSQL (`crawl_jobs` table schema).
 Estimated Effort: [Optional] 
