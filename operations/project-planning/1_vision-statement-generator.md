@@ -179,14 +179,21 @@ Would you like to save this vision statement? (Yes/No)
 
 If the user answers 'Yes':
 
-2.  **Infer Appropriate Business Section:** Analyze the vision statement's content (Purpose, Target Audience, Value Proposition) to decide the most appropriate root directory (`operations/`, `business/`, `marketing/`, `sales/`, `product/`) or create a new one if none match.
-3.  **Create Project Directory:** Infer a concise project directory name from the Purpose statement. Navigate into the chosen business section directory and create this new project subdirectory.
-4.  **Save File:** Save the generated markdown vision statement as [vision-statement.md] into the newly created project directory.
+1.  **Infer Appropriate Business Section:** Analyze the vision statement's content (Purpose, Target Audience, Value Proposition) to decide the most appropriate root directory (`operations/`, `business/`, `marketing/`, `sales/`, `product/`) or create a new one if none match.
+2.  **Create Project Directory:** Infer a concise project directory name from the Purpose statement. Navigate into the chosen business section directory and create this new project subdirectory. Let's call the full path `[project_directory_path]`.
+3.  **Create Standard Subdirectories:** Inside the newly created project directory, create the following subdirectories:
+    - `planning/` (For vision, requirements, resources, methodology, architecture docs)
+    - `tasks/` (For scaffolding stories, iteration plans, implementation steps)
+    - `assets/` (For generated outputs, code, deliverables during implementation)
+4.  **Save File:** Save the generated markdown vision statement as `vision-statement.md` inside the `planning/` subdirectory: `[project_directory_path]/planning/vision-statement.md`.
 
 After saving:
 
 ```plaintext
-Vision statement saved to: [path/to/business_section/project_directory/filename.md]
+Project directory created at: [project_directory_path]
+Standard subdirectories created: planning/, tasks/, assets/
+Vision statement saved to: [project_directory_path]/planning/vision-statement.md
+
 You can modify this vision later using #modify-vision
 ```
 

@@ -208,18 +208,19 @@ I'll need to create the following files:
 2. Architecture Diagram Source (`architecture.mmd`)
 3. Generated Diagram Image (`architecture.png`)
 
-These files will be saved relative to the directory containing your project's vision statement and requirements document. I will determine this location from the context.
+These files will be saved relative to the project directory, within the `planning/` structure.
+I will determine the project root location from the context.
 
-- The Architecture Documentation (`architecture.md`) will be saved directly in that directory.
-- A subdirectory named 'architecture' will be created in that directory.
-- The Diagram Source (`architecture.mmd`) and Diagram Image (`architecture.png`) will be saved inside 'architecture/'.
+- The Architecture Documentation (`architecture.md`) will be saved inside the `planning/` directory.
+- A subdirectory named `architecture/` will be created inside the `planning/` directory (i.e., `planning/architecture/`).
+- The Diagram Source (`architecture.mmd`) and Diagram Image (`architecture.png`) will be saved inside `planning/architecture/`.
 
 [Infer project directory path from context, e.g., path/to/project/]
 
 Proposed file locations:
-- [path/to/project/architecture.md]
-- [path/to/project/architecture/architecture.mmd]
-- [path/to/project/architecture/architecture.png]
+- [path/to/project/planning/architecture.md]
+- [path/to/project/planning/architecture/architecture.mmd]
+- [path/to/project/planning/architecture/architecture.png]
 
 I will now:
 1. Prepare the content for these files.
@@ -234,8 +235,9 @@ npm list -g @mermaid-js/mermaid-cli > /dev/null 2>&1 || npm install -g @mermaid-
 
 # 2. Prepare file content (internal step)
 # Define variables for paths determined above
-MERMAID_SOURCE="[path/to/project/architecture/architecture.mmd]"
-IMAGE_OUTPUT="[path/to/project/architecture/architecture.png]"
+ARCHITECTURE_DOC="[path/to/project/planning/architecture.md]"
+MERMAID_SOURCE="[path/to/project/planning/architecture/architecture.mmd]"
+IMAGE_OUTPUT="[path/to/project/planning/architecture/architecture.png]"
 
 # 3. Generate diagram image - Ensure mermaid source file exists first
 # touch "$MERMAID_SOURCE" # Placeholder - actual file content generation happens before saving
@@ -279,9 +281,9 @@ The final architecture documentation (`architecture.md`) will include:
 ```
 Here are the files ready to be saved:
 
-[Show file content/summary for architecture.md]
-[Show file content/summary for architecture.mmd]
-[Show placeholder for generated image path architecture.png]
+[Show file content/summary for architecture.md, using the planning/ path]
+[Show file content/summary for architecture.mmd, using the planning/architecture/ path]
+[Show placeholder for generated image path planning/architecture/architecture.png]
 
 Reply with:
 - 'save' to proceed with saving these files (this will also generate the PNG image)
@@ -293,17 +295,17 @@ Reply with:
 After receiving 'save' confirmation:
 1.  Generate the `architecture.md` content.
 2.  Generate the `architecture.mmd` content.
-3.  Save `architecture.md` and `architecture.mmd` to their respective locations.
+3.  Save `architecture.md` to `[path/to/project/planning/architecture.md]` and `architecture.mmd` to `[path/to/project/planning/architecture/architecture.mmd]`.
 4.  Run the `mmdc` command to generate the `architecture.png` from the saved `.mmd` file:
     ```bash
-    mmdc -i "[path/to/project/architecture/architecture.mmd]" -o "[path/to/project/architecture/architecture.png]" | cat
+    mmdc -i "[path/to/project/planning/architecture/architecture.mmd]" -o "[path/to/project/planning/architecture/architecture.png]" | cat
     ```
 5.  Confirm completion:
     ```
     Architecture files saved and diagram generated:
-    - [path/to/project/architecture.md]
-    - [path/to/project/architecture/architecture.mmd]
-    - [path/to/project/architecture/architecture.png]
+    - [path/to/project/planning/architecture.md]
+    - [path/to/project/planning/architecture/architecture.mmd]
+    - [path/to/project/planning/architecture/architecture.png]
     ```
 
 When "#architecture-status" is seen, respond with:

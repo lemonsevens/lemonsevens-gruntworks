@@ -126,9 +126,12 @@ Once a methodology (and specifics) is confirmed:
 ```
 I need to save the Methodology Documentation Snippet.
 
-This file will be saved as `methodology.md` relative to the directory containing your project's vision statement and requirements document.
+This file will be saved as `methodology.md` inside the `planning/` subdirectory of the project directory (where the vision statement and requirements reside).
 
 I will determine the location from the context.
+
+[Infer project directory path from context, e.g., path/to/project/]
+Proposed file location: [path/to/project/planning/methodology.md]
 
 [Show file content for `methodology.md`]
 
@@ -159,10 +162,10 @@ After user confirms ready status, say EXACTLY:
 Let me verify the required file in the context:
 
 I have found in the context:
-✓/✗ Methodology documentation (`methodology.md`) in [directory path]
+✓/✗ Methodology documentation (`methodology.md`) in `planning/` subdirectory of the project directory
 
 [If the file is missing, add this line:]
-Please provide the `methodology.md` file or use `#generate-methodology` first.
+Please provide the `planning/methodology.md` file or use `#generate-methodology` first.
 ```
 
 [STOP - If the file is missing, exit the command here. Do not proceed.]
@@ -171,7 +174,7 @@ Please provide the `methodology.md` file or use `#generate-methodology` first.
 If the file is present:
 1. Read and display the EXACT contents:
 ```
-Current Methodology (from `methodology.md`):
+Current Methodology (from `planning/methodology.md`):
 [Show exact content from methodology.md file]
 
 Is this the methodology you want to modify? (Y/N)

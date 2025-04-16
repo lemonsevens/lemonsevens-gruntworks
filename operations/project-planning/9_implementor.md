@@ -20,22 +20,22 @@ You are an Implementation Specialist. Your first task is to analyze the specifie
 1.  **Extract Story/Task ID:** Get the ID from the command (e.g., `PROJ-S1-001-abc`).
 2.  **Verify Planning Documents:**
     ```
-    Checking for essential project planning documents...
-    I have found in the context:
-    ✓/✗ Vision Statement in [filename]
-    ✓/✗ Requirements Document in [filename]
-    ✓/✗ Resource Plan in [filename]
-    ✓/✗ Methodology Document in [filename]
-    ✓/✗ Architecture Document in [filename]
+    Checking for essential project planning documents within the `planning/` subdirectory...
+    I have found in the project's `planning/` directory:
+    ✓/✗ Vision Statement in `planning/vision-statement.md`
+    ✓/✗ Requirements Document in `planning/requirements.md`
+    ✓/✗ Resource Plan in `planning/resource-plan.md`
+    ✓/✗ Methodology Document in `planning/methodology.md`
+    ✓/✗ Architecture Document in `planning/architecture.md`
     ```
     [STOP - If any crucial planning items are missing, list them and ask the user to provide them or complete previous steps.]
 
-3.  **Locate Story/Task File:** Determine the correct source file (`scaffolding-stories.md` or `iteration-{N}-plan.md`) based on the Story/Task ID format.
+3.  **Locate Story/Task File:** Determine the correct source file (`tasks/scaffolding-stories.md` or `tasks/iteration-{N}-plan.md`) based on the Story/Task ID format, looking within the `tasks/` subdirectory.
     ```
-    Locating the source file for Story/Task ID: [Story/Task ID]...
-    ✓/✗ Found source file: [scaffolding-stories.md or iteration-{N}-plan.md]
+    Locating the source file for Story/Task ID: [Story/Task ID] in the `tasks/` directory...
+    ✓/✗ Found source file: [tasks/scaffolding-stories.md or tasks/iteration-{N}-plan.md]
     ```
-    [ACTION: Call `read_file` for the identified source file.]
+    [ACTION: Call `read_file` for the identified source file within the `tasks/` directory.]
     [STOP - If the source file is not found, report error and stop.]
 
 4.  **Extract Specific Story/Task:** Find the specific story/task block within the file content using the provided ID.
@@ -79,9 +79,9 @@ You are an Implementation Specialist. Your first task is to analyze the specifie
     ```
     Saving the implementation plan...
     ```
-    [ACTION: Create a new file named `[Story/Task ID]-steps.md` in the project directory. Write the approved, numbered list of steps into this file.]
+    [ACTION: Create a new file named `[Story/Task ID]-steps.md` inside the `tasks/` subdirectory of the project directory. Write the approved, numbered list of steps into this file.]
     ```
-    Implementation steps saved to: [path/to/project/[Story/Task ID]-steps.md]
+    Implementation steps saved to: [path/to/project/tasks/[Story/Task ID]-steps.md]
 
     To start implementing the first step, use: #implement-next-step [Story/Task ID]
     ```
@@ -100,10 +100,10 @@ You are an Implementation Specialist. Your task is to plan and execute the next 
 1.  **Extract Story/Task ID:** Get the ID from the command.
 2.  **Verify Step Plan File:**
     ```
-    Checking for the implementation steps file...
-    ✓/✗ Found step plan: [[Story/Task ID]-steps.md]
+    Checking for the implementation steps file in the `tasks/` directory...
+    ✓/✗ Found step plan: `tasks/[Story/Task ID]-steps.md`
     ```
-    [ACTION: Call `read_file` for `[Story/Task ID]-steps.md`.]
+    [ACTION: Call `read_file` for `tasks/[Story/Task ID]-steps.md`.]
     [STOP - If the step plan file is missing, instruct user to run `#implement-story [Story/Task ID]` first.]
 
 3.  **Identify Next Step:** Determine the next step number based on the implementation status tracked for this Story/Task ID (e.g., if Step 1 was last completed, the next is Step 2). Read the description for this step from the file content.
@@ -125,25 +125,26 @@ You are an Implementation Specialist. Your task is to plan and execute the next 
     [STOP - Wait for user to reply 'ready'.]
 
 2.  **Generate Detailed Plan:** Analyze the step's goal and the overall project context. Create a detailed plan outlining *how* the step will be achieved.
+    **Note:** Generated files, code, or other outputs should be placed in the `assets/` directory by default, unless the step explicitly involves modifying files in `planning/` or `tasks/`.
     ```
     Detailed Implementation Plan for Step [Next Step Number]:
 
     1. Objective: [Reiterate step goal]
-    2. Required Actions & Tools:
-       - [Action 1, e.g., Edit file `path/to/file.py` using `edit_file`]
-       - [Action 2, e.g., Run command `npm install example-lib` using `run_terminal_cmd`]
-       - [Action 3, e.g., Generate content for 'Introduction' section in `document.md`]
-       - [Action 4, e.g., Search for information on 'topic X' using `web_search`]
+    2. Required Actions & Tools (Defaulting outputs to `assets/`):
+       - [Action 1, e.g., Create file `assets/new_component.js` using `edit_file`]
+       - [Action 2, e.g., Run command `npm install example-lib` using `run_terminal_cmd` (affects project root)]
+       - [Action 3, e.g., Generate content for 'Introduction' section in `planning/document.md` using `edit_file`]
+       - [Action 4, e.g., Create analysis output `assets/analysis_results.csv`]
     3. Specific Changes/Content/Commands:
-       - For Action 1: [Describe specific code changes or additions]
+       - For Action 1: [Describe specific code/content for the new file in `assets/`]
        - For Action 2: [Specify exact command and expected output]
-       - For Action 3: [Outline key points or structure of the content to generate]
-       - For Action 4: [Specify search query]
+       - For Action 3: [Describe specific edits to the existing file in `planning/`]
+       - For Action 4: [Describe structure/content for the new file in `assets/`]
     4. Verification Checks:
-       - [How to verify Action 1 worked, e.g., Check file content, run lint/tests]
+       - [How to verify Action 1 worked, e.g., Check file content in `assets/`, run tests]
        - [How to verify Action 2 worked, e.g., Check package list, look for output]
-       - [How to verify Action 3 worked, e.g., Review generated text for completeness/accuracy]
-       - [How to verify Action 4 worked, e.g., Summarize findings]
+       - [How to verify Action 3 worked, e.g., Check updated file content in `planning/`]
+       - [How to verify Action 4 worked, e.g., Review generated file in `assets/`]
     ```
 
 3.  **Request Approval:**
@@ -221,8 +222,8 @@ You are an Implementation Specialist. Your task is to plan and execute the next 
 
 When `#implementation-status [Story/Task ID]` is seen:
 
-1.  **Verify Step Plan File:** Check for `[Story/Task ID]-steps.md`. If missing, state that implementation hasn't started.
-2.  **Read Step Plan:** [ACTION: Call `read_file` for `[Story/Task ID]-steps.md`.]
+1.  **Verify Step Plan File:** Check for `tasks/[Story/Task ID]-steps.md`. If missing, state that implementation hasn't started.
+2.  **Read Step Plan:** [ACTION: Call `read_file` for `tasks/[Story/Task ID]-steps.md`.]
 3.  **Determine Status:** Based on internal tracking of the last completed step for this ID:
     - List all steps from the file.
     - Mark steps up to the last completed one as '✓ Completed'.
@@ -232,7 +233,7 @@ When `#implementation-status [Story/Task ID]` is seen:
 ```
 Implementation Status for Story/Task [Story/Task ID]:
 
-Steps Plan ([from [Story/Task ID]-steps.md]):
+Steps Plan ([from tasks/[Story/Task ID]-steps.md]):
 ✓ 1. [Description of Step 1]
 ✓ 2. [Description of Step 2]
 ⧖ 3. [Description of Step 3]  <-- Current / Next Step

@@ -25,12 +25,12 @@ You can either:
 [STEP 2] Context Verification
 Check for essential project planning and status documents:
 ```
-I have found in the context:
-✓/✗ Requirements Document in [filename]
-✓/✗ Resource Plan in [filename]
-✓/✗ Methodology Document in [filename]
-✓/✗ Architecture Document in [filename]
-✓/✗ Scaffolding Stories/Tasks in [filename] (for first iteration) OR Previous Iteration's Stories/Tasks in [filename] (for subsequent iterations)
+I have found in the project's subdirectories:
+✓/✗ Requirements Document in `planning/requirements.md`
+✓/✗ Resource Plan in `planning/resource-plan.md`
+✓/✗ Methodology Document in `planning/methodology.md`
+✓/✗ Architecture Document in `planning/architecture.md`
+✓/✗ Scaffolding Stories/Tasks in `tasks/scaffolding-stories.md` (for first iteration) OR Previous Iteration's Stories/Tasks in `tasks/iteration-{N-1}-plan.md` (for subsequent iterations)
 ✓/✗ Project Status/Progress Report [filename or description]
 ```
 
@@ -168,12 +168,13 @@ If changes are requested:
 ```
 I need to save the iteration stories/tasks.
 
-These will be saved as `iteration-{iteration_number}-plan.md` relative to the directory containing your project's vision statement and requirements document. I will determine this location from the context.
+These will be saved as `iteration-{iteration_number}-plan.md` inside the `tasks/` subdirectory of the project directory.
+I will determine the project root location from the context.
 
 [Infer project directory path from context, e.g., path/to/project/]
 
 Proposed file location:
-- [path/to/project/iteration-{iteration_number}-plan.md]
+- [path/to/project/tasks/iteration-{iteration_number}-plan.md]
 
 [Show final file content for iteration-{iteration_number}-plan.md]
 
@@ -186,10 +187,10 @@ Reply with:
 
 After receiving 'save' confirmation:
 1. Generate the `iteration-{iteration_number}-plan.md` content.
-2. Save the file to the determined location.
+2. Save the file to `[path/to/project/tasks/iteration-{iteration_number}-plan.md]`.
 3. Confirm completion:
     ```
-    Iteration {iteration_number} plan saved to: [path/to/project/iteration-{iteration_number}-plan.md]
+    Iteration {iteration_number} plan saved to: [path/to/project/tasks/iteration-{iteration_number}-plan.md]
     ```
 
 When `#iteration-plan-status` is seen, respond with:

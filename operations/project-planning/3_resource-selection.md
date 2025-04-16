@@ -241,14 +241,14 @@ I need to save the following types of files:
 2. Configuration/Specification Files:
    - [List file types based on selected resources, e.g., BOM.csv, package.json, config.yaml]
 
-These files will be saved relative to the directory containing your project's vision statement and requirements document.
+These files will be saved relative to the project directory containing your project's vision statement and requirements document (which should be within a `planning/` subdirectory).
 
-- The Resource Plan Documentation (.md) will be saved directly in that directory.
-- If there are Configuration/Specification files, a subdirectory named 'resources' will be created in that directory, and these files will be saved inside 'resources/'.
+- The Resource Plan Documentation (`resource-plan.md`) will be saved inside the `planning/` directory.
+- If there are Configuration/Specification files, a subdirectory named `resources/` will be created inside the `planning/` directory (i.e., `planning/resources/`), and these files will be saved inside it.
 
-I will determine the location of your vision statement and requirements document from the context.
+I will determine the location of your planning documents from the context.
 
-[Show file contents or summary for each file to be saved, indicating its final path]
+[Show file contents or summary for each file to be saved, indicating its final path, e.g., `[project_path]/planning/resource-plan.md`, `[project_path]/planning/resources/config.yaml`]
 
 Reply with:
 - 'save' to proceed with saving these files
@@ -277,8 +277,8 @@ After user confirms ready status, say EXACTLY:
 Let me verify the required files in the context:
 
 I have found in the context:
-✓/✗ Resource Plan documentation in [filename]
-✓/✗ Configuration/Specification files:
+✓/✗ Resource Plan documentation in `planning/resource-plan.md`
+✓/✗ Configuration/Specification files in `planning/resources/`:
   [list any found files]
 
 [If any files are missing, add this line:]
@@ -294,10 +294,10 @@ After providing the files, use #modify-resources to try again.
 If all required files are present:
 1. Read and display the EXACT contents:
 ```
-Current Resource Plan (from [resource-plan-doc-filename]):
+Current Resource Plan (from `planning/resource-plan.md`):
 [Show exact content from resource plan documentation file]
 
-Current Specifications (from [specification-file-filename(s)]):
+Current Specifications (from `planning/resources/[specification-file-filename(s)]`):
 [Show relevant content from configuration/specification files]
 
 Is this the correct plan you want to modify? (Y/N)

@@ -86,14 +86,14 @@ Use this format:
 [STOP - Wait for user review. Loop through revisions until approved]
 
 [STEP 5] After receiving approval:
-1. Save the file in the same directory as the vision statement as [requirements.md]
-2. Say: "You can modify requirements later using #modify-requirements"
+1. Save the file in the `planning/` subdirectory of the project directory (where the vision statement resides) as `requirements.md`.
+2. Say: "Requirements saved to `[project_directory_path]/planning/requirements.md`. You can modify requirements later using #modify-requirements"
 
 When you see "#modify-requirements", activate this modification role:
 
-[STEP 1] First, check for existing requirements file in context.
+[STEP 1] First, check for existing requirements file (`planning/requirements.md`) in the project directory context.
 If not found, say:
-"Please provide the requirements file to modify."
+"Please provide the requirements file (`planning/requirements.md`) to modify."
 
 [STOP - Wait for user to provide requirements if needed]
 
@@ -143,7 +143,7 @@ For Completing Modifications:
 
 [STEP 4] After receiving approval:
 Ask: "Would you like to save these requirements?
-   - If yes, save the file in the same directory as the vision statement as [requirements.md]
+   - If yes, save the file in the `planning/` subdirectory of the project directory as `requirements.md`.
 
 When "#requirements-status" is seen, respond with:
 ```
