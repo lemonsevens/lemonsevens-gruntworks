@@ -1,0 +1,43 @@
+# Placeholder docker-compose.yml for crawl4ai and PostgreSQL
+
+version: '3.8'
+
+services:
+  crawl4ai_service:
+    build:
+      context: . # Assuming Dockerfile is in the root of the service code
+      dockerfile: Dockerfile # Or specify path if different
+    container_name: crawl4ai_service
+    env_file:
+      - .env # Load environment variables from .env file
+    volumes:
+      - ./config:/app/config # Mount local config directory
+      - ./output:/app/output # Mount local output directory for CSV/JSON
+      # Add other volumes as needed
+    depends_on:
+      - postgres_db
+    # Add ports if exposing a web service (e.g., for webhook handling)
+    # ports:
+    #   - "5000:5000"
+    networks:
+      - crawl4ai_network
+
+  postgres_db:
+    image: postgres:latest # Use latest stable PostgreSQL
+    container_name: postgres_db
+    env_file:
+      - .env # Load environment variables from .env file
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persist data
+    ports:
+      - "5432:5432" # Expose PostgreSQL port if needed for direct access (use firewall)
+    networks:
+      - crawl4ai_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  crawl4ai_network:
+    driver: bridge 

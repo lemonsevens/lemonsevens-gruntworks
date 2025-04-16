@@ -1,0 +1,23 @@
+# Placeholder Dockerfile for crawl4ai service
+
+# Use an official Python runtime as a parent image
+FROM python:3.11-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install crawl4ai and any other dependencies
+# Consider using a requirements.txt file for better dependency management
+RUN pip install --no-cache-dir crawl4ai==0.5.0
+
+# Example: Install PostgreSQL client if needed for direct DB export from the script
+# RUN apt-get update && apt-get install -y postgresql-client && rm -rf /var/lib/apt/lists/*
+
+# Copy the local code directory contents into the container at /app
+# COPY . /app
+
+# Define environment variables if needed (can also be passed via docker-compose)
+# ENV MY_VARIABLE=my_value
+
+# Command to run the application (replace with your actual script)
+# CMD ["python", "your_crawler_script.py"] 
