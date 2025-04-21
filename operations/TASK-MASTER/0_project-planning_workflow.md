@@ -1,14 +1,14 @@
-# 🛠️ PROJECT SCAFFOLDING & PLANNING WORKFLOW
+# 🛠️ TASK MASTER: PROJECT PLANNING WORKFLOW
 
 This document gives the step-by-step workflow for how to plan a new project using interactive prompts.
 
 ### Commands:
-- `#start` – Starts a new project by **executing the interactive prompt defined in** `operations/project-planning/vision-statement-generator.md`
+- `#start` – Starts a new project by **executing the interactive prompt defined in** `TASK-MASTER/vision-statement-generator.md`
 - `#continue` – Continues existing project by asking the location of the project directory and then launching the requirements gathering prompt  
 ---
 
 ## 1. Vision & Goals Definition
-- **Action**: Execute the interactive prompt located in `operations/project-planning/1_vision-statement-generator.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/1_vision-statement-generator.md`
 - **Purpose**: Guide the creation of a clear, structured, and compelling vision statement.
 - **Goal**: Clarify what success looks like for the project.
 - **Output**: Vision Statement Document (`vision-statement.md`)
@@ -20,7 +20,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 2. Scope & Requirements Gathering
-- **Action**: Execute the interactive prompt located in `operations/project-planning/2_requirements-gathering.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/2_requirements-gathering.md`
 - **Purpose**: Define and document core project requirements based on the vision.
 - **Goal**: Document essential features, needs, and stakeholder expectations.
 - **Output**: Requirements Document (`requirements.md`)
@@ -32,7 +32,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 3. Resource Selection
-- **Action**: Execute the interactive prompt located in `operations/project-planning/3_resource-selection.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/3_resource-selection.md`
 - **Purpose**: Define and document compatible resources (tools, materials, standards, etc.).
 - **Goal**: Establish the resources that best suit the project requirements.
 - **Output**: Resource Plan Documentation (`resource-plan.md`), Configuration/Specification Files (e.g., `resources/config.yaml`)
@@ -44,7 +44,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 4. Methodology Selection
-- **Action**: Execute the interactive prompt located in `operations/project-planning/4_methodology-selection.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/4_methodology-selection.md`
 - **Purpose**: Select and document an appropriate project management methodology.
 - **Goal**: Establish the methodology (Agile, Waterfall, Lean, etc.) that best suits the project type and characteristics.
 - **Output**: Methodology Documentation (`methodology.md`)
@@ -56,7 +56,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 5. Architecture Design Generation
-- **Action**: Execute the interactive prompt located in `operations/project-planning/5_architecture-generator.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/5_architecture-generator.md`
 - **Purpose**: Define core architectural components for initial project scaffolding.
 - **Goal**: Outline fundamental structures, patterns, and relationships.
 - **Output**: Architecture Documentation (`architecture.md`), Diagram Source (`architecture/architecture.mmd`), Diagram Image (`architecture/architecture.png`)
@@ -67,7 +67,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 6. Initial Scaffolding Story Generation (Sprint 0)
-- **Action**: Execute the interactive prompt located in `operations/project-planning/6_initial-scaffolding-generator.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/6_initial-scaffolding-generator.md`
 - **Purpose**: Generate focused user stories or tasks for the initial project setup (Sprint/Iteration 0).
 - **Goal**: Ensure all foundational elements (environment, core structures, tooling) are properly sequenced.
 - **Output**: Scaffolding Stories (`scaffolding-stories.md`)
@@ -78,7 +78,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 7. Iteration Planning & Story Generation (Sprint 1+)
-- **Action**: Execute the interactive prompt located in `operations/project-planning/7_full-scaffolding-generator.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/7_full-scaffolding-generator.md`
 - **Purpose**: Generate focused user stories or tasks for subsequent work iterations (Sprint/Iteration 1+).
 - **Goal**: Plan the next increment of work based on requirements, architecture, and dependencies.
 - **Output**: Iteration Plan (`iteration-{N}-plan.md`)
@@ -89,7 +89,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 8. Project Management Synchronization (Optional - Airtable)
-- **Action**: Execute the interactive prompt located in `operations/project-planning/8_project-manager.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/8_project-manager.md`
 - **Purpose**: Synchronize project tasks/stories with a designated Airtable base.
 - **Goal**: Maintain project visibility and tracking in Airtable.
 - **Output**: Updated Airtable records (`Projects` and `Tasks` tables).
@@ -101,7 +101,7 @@ This document gives the step-by-step workflow for how to plan a new project usin
 ---
 
 ## 9. Execution & Implementation (Story/Task Level)
-- **Action**: Execute the interactive prompt located in `operations/project-planning/9_implementor.md`
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/9_implementor.md`
 - **Purpose**: Guide the step-by-step implementation of individual stories or tasks defined in `scaffolding-stories.md` or `iteration-{N}-plan.md`.
 - **Goal**: Execute the planned work units.
 - **Output**: Implemented code/deliverables, Step Plan (`[Story/Task ID]-steps.md`), Progress updates.
