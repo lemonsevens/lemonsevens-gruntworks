@@ -2,9 +2,19 @@
 
 This document gives the step-by-step workflow for how to plan a new project using interactive prompts.
 
-### Commands:
-- `#start` – Starts a new project by **executing the interactive prompt defined in** `TASK-MASTER/vision-statement-generator.md`
-- `#continue` – Continues existing project by asking the location of the project directory and then launching the requirements gathering prompt  
+### Overall Commands:
+- `#start` – Starts a new project by executing Phase 1.
+- `#continue` – Continues existing project by asking for the project directory and then launching the next appropriate phase.
+- `#project-summary` – Generates/updates a `PROJECT_README.md` summary file in the project root (Phase 11).
+
+### Phase-Specific Commands:
+- `#generate-<phase>` – Starts the workflow for a specific phase (e.g., `#generate-vision`, `#generate-risks`).
+- `#modify-<phase>` – Modifies the output of a specific phase (e.g., `#modify-requirements`).
+- `#<phase>-status` – Shows the status within a specific phase workflow (e.g., `#requirements-status`).
+- `#implement-story [ID]`, `#implement-next-step [ID]`, `#implementation-status [ID]` – Commands for Phase 9.
+- `#push-to-airtable`, `#modify-airtable-task [ID]`, `#airtable-sync-status` – Commands for Phase 8 (Airtable Sync).
+- `#generate-next-ideas`, `#retrospective-status` - Commands for Phase 10.
+
 ---
 
 ## 1. Vision & Goals Definition
@@ -33,13 +43,25 @@ This document gives the step-by-step workflow for how to plan a new project usin
 
 ## 3. Resource Selection
 - **Action**: Execute the interactive prompt located in `TASK-MASTER/3_resource-selection.md`
-- **Purpose**: Define and document compatible resources (tools, materials, standards, etc.).
-- **Goal**: Establish the resources that best suit the project requirements.
+- **Purpose**: Define and document compatible resources (tools, materials, standards, etc.) tailored to the specific project type.
+- **Goal**: Establish the resources that best suit the project requirements and granular project type.
 - **Output**: Resource Plan Documentation (`resource-plan.md`), Configuration/Specification Files (e.g., `resources/config.yaml`)
 - **Commands**:
   - `#generate-resources` - Starts new resource plan generation
   - `#modify-resources` - Allows modification of existing resource plan
   - `#resources-status` - Shows current progress in resource planning workflow
+
+---
+
+## 3.5. Risk Assessment & Mitigation Planning
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/3.5_risk-assessment.md`
+- **Purpose**: Identify, analyze, and plan mitigations for potential project risks.
+- **Goal**: Proactively manage risks that could impact project success.
+- **Output**: Risk Register (`risk-register.md`)
+- **Commands**:
+  - `#generate-risks` - Starts new risk assessment process
+  - `#modify-risks` - Allows modification of the existing risk register
+  - `#risk-status` - Shows current progress in risk assessment workflow
 
 ---
 
@@ -57,8 +79,8 @@ This document gives the step-by-step workflow for how to plan a new project usin
 
 ## 5. Architecture Design Generation
 - **Action**: Execute the interactive prompt located in `TASK-MASTER/5_architecture-generator.md`
-- **Purpose**: Define core architectural components for initial project scaffolding.
-- **Goal**: Outline fundamental structures, patterns, and relationships.
+- **Purpose**: Define core architectural components using a template relevant to the specific project type.
+- **Goal**: Outline fundamental structures, patterns, and relationships tailored to the project archetype.
 - **Output**: Architecture Documentation (`architecture.md`), Diagram Source (`architecture/architecture.mmd`), Diagram Image (`architecture/architecture.png`)
 - **Commands**:
   - `#generate-architecture` - Starts or resumes architecture design generation
@@ -68,8 +90,8 @@ This document gives the step-by-step workflow for how to plan a new project usin
 
 ## 6. Initial Scaffolding Story Generation (Sprint 0)
 - **Action**: Execute the interactive prompt located in `TASK-MASTER/6_initial-scaffolding-generator.md`
-- **Purpose**: Generate focused user stories or tasks for the initial project setup (Sprint/Iteration 0).
-- **Goal**: Ensure all foundational elements (environment, core structures, tooling) are properly sequenced.
+- **Purpose**: Generate focused user stories or tasks for the initial project setup (Sprint/Iteration 0) using project-type-specific templates. Includes defining mandatory verification criteria (e.g., unit tests, success metrics).
+- **Goal**: Ensure all foundational elements (environment, core structures, tooling) are properly sequenced and verifiable.
 - **Output**: Scaffolding Stories (`scaffolding-stories.md`)
 - **Commands**:
   - `#generate-scaffold-stories` - Starts or resumes scaffolding story generation
@@ -79,8 +101,8 @@ This document gives the step-by-step workflow for how to plan a new project usin
 
 ## 7. Iteration Planning & Story Generation (Sprint 1+)
 - **Action**: Execute the interactive prompt located in `TASK-MASTER/7_full-scaffolding-generator.md`
-- **Purpose**: Generate focused user stories or tasks for subsequent work iterations (Sprint/Iteration 1+).
-- **Goal**: Plan the next increment of work based on requirements, architecture, and dependencies.
+- **Purpose**: Generate focused user stories or tasks for subsequent work iterations (Sprint/Iteration 1+) based on requirements, architecture, risks, and project type. Includes defining mandatory verification criteria.
+- **Goal**: Plan the next increment of verifiable work based on requirements, architecture, dependencies, and risks.
 - **Output**: Iteration Plan (`iteration-{N}-plan.md`)
 - **Commands**:
   - `#generate-iteration-plan` - Starts or resumes sprint/iteration story/task generation
@@ -102,8 +124,8 @@ This document gives the step-by-step workflow for how to plan a new project usin
 
 ## 9. Execution & Implementation (Story/Task Level)
 - **Action**: Execute the interactive prompt located in `TASK-MASTER/9_implementor.md`
-- **Purpose**: Guide the step-by-step implementation of individual stories or tasks defined in `scaffolding-stories.md` or `iteration-{N}-plan.md`.
-- **Goal**: Execute the planned work units.
+- **Purpose**: Guide the step-by-step implementation of individual stories or tasks defined in `scaffolding-stories.md` or `iteration-{N}-plan.md`, ensuring mandatory verification criteria are planned for and met.
+- **Goal**: Execute the planned work units and verify their completion against defined standards.
 - **Output**: Implemented code/deliverables, Step Plan (`[Story/Task ID]-steps.md`), Progress updates.
 - **Commands**:
   - `#implement-story [Story/Task ID]` - Analyzes a story/task and breaks it into steps.
@@ -112,17 +134,24 @@ This document gives the step-by-step workflow for how to plan a new project usin
 
 ---
 
-## 10. Quality Assurance & Testing
-- Verify that each component meets the requirements and acceptance criteria.
-- Conduct appropriate testing (unit, integration, user acceptance) or quality checks.
-- **Output**: QA/Testing reports, Bug fixes, Feedback logs
+## 10. Iteration Retrospective & Next Idea Generation
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/10_retrospective_ideation.md`.
+- **Purpose**: Analyze the project state or last iteration's outcomes and generate suggestions for the next iteration or overall improvements.
+- **Goal**: Facilitate continuous improvement and inform future planning.
+- **Output**: Suggestions Document (`iteration-{N+1}-ideas.md` or `project-retrospective-ideas.md`).
+- **Commands**:
+    - `#generate-next-ideas` - Starts the retrospective and ideation process.
+    - `#retrospective-status` - Shows current progress.
 
 ---
 
-## 11. Evaluation & Continuous Improvement
-- Assess project outcomes against the original vision and goals upon completion or at key milestones.
-- Document lessons learned, successes, and areas for future improvement.
-- **Output**: Project Evaluation Report, Retrospective notes
+## 11. Project Summary Reporter
+- **Action**: Execute the interactive prompt located in `TASK-MASTER/11_reporter.md`.
+- **Purpose**: Generate a high-level summary report (`PROJECT_README.md`) in the project root.
+- **Goal**: Provide a quick overview of project status based on generated artifacts.
+- **Output**: `PROJECT_README.md` file.
+- **Commands**:
+    - `#project-summary` - Generates or updates the summary report.
 
 ---
 
@@ -134,6 +163,8 @@ Phase 2: Requirements Gathering (`#generate-requirements`)
 ↓ Output: `requirements.md`
 Phase 3: Resource Selection (`#generate-resources`)
 ↓ Output: `resource-plan.md`, `resources/*`
+Phase 3.5: Risk Assessment (`#generate-risks`)
+↓ Output: `risk-register.md`
 Phase 4: Methodology Selection (`#generate-methodology`)
 ↓ Output: `methodology.md`
 Phase 5: Architecture Design Generation (`#generate-architecture`)
@@ -146,7 +177,7 @@ Phase 8: Project Management Synchronization (Optional - `#push-to-airtable`, `#m
 ↓ Output: Updated Airtable Records
 Phase 9: Implementation (`#implement-story`, `#implement-next-step`)
 ↓ Output: Progress, Code/Deliverables, `[Story/Task ID]-steps.md`
-Phase 10: Quality Assurance & Testing (Manual/Tool-Assisted)
-↓ Output: Test Results, Feedback
-Phase 11: Evaluation & Continuous Improvement (Manual)
-↓ Output: Reports, Lessons Learned
+Phase 10: Retrospective & Ideation (`#generate-next-ideas`)
+↓ Output: `planning/iteration-{N+1}-ideas.md`
+Phase 11: Project Summary (`#project-summary`)
+↓ Output: `PROJECT_README.md`

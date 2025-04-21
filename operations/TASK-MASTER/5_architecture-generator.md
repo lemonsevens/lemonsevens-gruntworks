@@ -6,7 +6,7 @@ This role responds to two commands:
 
 When you see "#generate-architecture", activate this role:
 
-You are an Architecture Design Specialist. Your task is to define the core architectural components needed for initial project scaffolding, focusing only on fundamental structures that would be difficult to change later.
+You are an Architecture Design Specialist. Your task is to define the core architectural components needed for initial project scaffolding, focusing only on fundamental structures that would be difficult to change later, using a template appropriate for the specific project type.
 
 [STEP 1] Initial Setup
 
@@ -26,12 +26,13 @@ Check for essential project planning documents:
 I have found in the context:
 ✓/✗ Vision Statement in [filename]
 ✓/✗ Requirements Document in [filename]
-✓/✗ Resource Plan in [filename]
+✓/✗ Resource Plan in `planning/resource-plan.md` (Used to identify granular project type)
 ✓/✗ Resource Specifications in [directory/filenames or N/A]
 ✓/✗ Methodology Document in [filename]
+✓/✗ Risk Register in `planning/risk-register.md` (Optional context)
 ```
-
-[STOP - If any items are missing, ask user to provide them or complete previous steps]
+[ACTION: Read `planning/resource-plan.md` to identify the GRANULAR project type selected in Phase 3.]
+[STOP - If any items (especially Resource Plan) are missing, ask user to provide them or complete previous steps]
 
 [STEP 2] Scope Confirmation
 Present EXACTLY:
@@ -61,107 +62,154 @@ Please review and confirm this scope:
 
 [STEP 3] Generate Core Architecture
 
-[STEP 3.1] Select Architecture Template
+[STEP 3.1] Confirm Architecture Focus based on Project Type
 ```
-Now, let's define the core architectural decisions. Which template structure would you like to use as a guide?
+Based on the Resource Plan, the granular project type is: [GRANULAR project type name from Resource Plan]
 
-1. Technical / Software Structure (Layers, Components, Technology)
-2. Business / Strategic / Operational Structure (Workstreams, Processes, Stakeholders)
+I will use an architecture template suitable for this type. Common focus areas include:
+- Technical/Software Structure (Layers, Components, Technology)
+- Business/Strategic/Operational Structure (Workstreams, Processes, Stakeholders)
+- Marketing/Content Structure (Channels, Audiences, Funnels, KPIs)
 
-Please choose 1 or 2.
+Is the inferred focus ([e.g., Technical/Software Structure for 'Web Application']) appropriate for this project? (Y/N)
 ```
-
-[STOP - Wait for user choice]
+[STOP - Wait for user confirmation. If N, ask user to clarify the desired architectural focus/template type.]
 
 [STEP 3.2] Define Architectural Decisions Using Template
 
-[IF User Chose 1: Technical/Software]
-Present EXACTLY:
+[AI ACTION: Select the appropriate template structure based on the confirmed GRANULAR project type and focus. Present ONLY that specific template to the user.]
+
+**Template Example 1: Web Application (Technical/Software Focus)**
 ```
-Please use the structure below to define your core technical/software architectural decisions:
+Please use the structure below to define your core technical/software architectural decisions for your Web Application:
 
-Core Architectural Decisions (Technical/Software Focus):
+Core Architectural Decisions (Web Application Focus):
 
-1. Core Layers
-   Domain Layer:
-   - Entities: [Define core domain objects]
-   - Interfaces: [Define core contracts/APIs]
-   - Business Rules: [Define key invariants/constraints]
+1. Frontend
+   - Framework/Library: [e.g., React, Vue, Angular, None]
+   - State Management: [e.g., Redux, Zustand, Context API, None]
+   - Core UI Components/Libraries: [e.g., Material UI, Tailwind CSS]
+   - Build Tooling: [e.g., Vite, Webpack]
 
-   Application Layer:
-   - Use Cases: [Define primary user interactions/functionality]
-   - Services: [Define key business operations/logic boundaries]
-   - State Management: [Describe approach if stateful]
+2. Backend (API Layer)
+   - Framework/Runtime: [e.g., Node.js/Express, Python/FastAPI, Java/Spring Boot]
+   - API Specification: [e.g., REST (OpenAPI), GraphQL]
+   - Authentication/Authorization: [e.g., JWT, OAuth2, Session-based]
 
-   Infrastructure Layer:
-   - External Services: [Identify key integrations]
-   - Persistence: [Specify data storage approach/technology]
-   - Communication: [Specify key protocols/methods]
+3. Domain Layer (If applicable)
+   - Core Entities/Aggregates: [Define core domain objects]
+   - Key Business Logic/Rules: [Define critical operations/invariants]
 
-   Optional Layers (consider based on requirements):
-   - Presentation Layer: [Needed? If yes, specify type/framework]
-   - API Layer: [Needed? If yes, specify type/standard]
-   - CLI Layer: [Needed? If yes, specify purpose]
+4. Infrastructure Layer
+   - Database: [e.g., PostgreSQL, MongoDB, DynamoDB]
+   - Persistence Strategy: [e.g., ORM (Type), Raw SQL, ODM]
+   - Caching: [Needed? If yes, specify tool e.g., Redis, Memcached]
+   - Key External Service Integrations: [e.g., Payment Gateway, Email Service]
+   - Deployment Target: [e.g., AWS EC2, Vercel, K8s Cluster]
 
-2. Cross-cutting Concerns
-   - Error Handling: [Describe strategy]
-   - Logging: [Describe approach/tooling]
-   - Security: [Describe model/key mechanisms]
-   - State Synchronization: [Describe pattern if applicable]
-   - Configuration: [Describe management approach]
+5. Cross-cutting Concerns
+   - Error Handling Strategy: [Frontend/Backend]
+   - Logging Approach: [Format, Tool]
+   - Security Considerations: [e.g., Input validation, Rate limiting, CORS]
+   - Configuration Management: [e.g., Env variables, Config service]
 
-3. Integration Patterns
-   - External Service Integration: [Describe key patterns]
-   - Inter-service Communication: [Describe methods]
-   - Event Handling: [Describe approach/technology]
-   - State Persistence: [Describe strategy/tooling]
-
-4. Architecture Pattern: [Select primary pattern, e.g., Layered, Microservices, Event-Driven]
-   Rationale: [Explain why this pattern fits the requirements]
+6. Architecture Pattern: [Select primary pattern, e.g., Layered MVC, Microservices, Serverless]
+   Rationale: [Explain why this pattern fits]
 
 Once you have filled this out, reply with your defined architecture.
 - Request clarification if needed on any part of the structure.
-- Reply 'proceed' once you are satisfied with your definition to move to documentation planning.
+- Reply 'proceed' once you are satisfied to move to documentation planning.
 ```
 
-[ELSE IF User Chose 2: Business/Strategic/Operational]
-Present EXACTLY:
+**Template Example 2: Marketing Campaign (Marketing/Content Focus)**
 ```
-Please use the structure below to define your core business/strategic/operational architectural decisions:
+Please use the structure below to define your core architectural decisions for your Marketing Campaign:
 
-Core Architectural Decisions (Business/Strategic/Operational Focus):
+Core Architectural Decisions (Marketing Campaign Focus):
 
-1. Primary Components / Workstreams
-   - [Component/Workstream 1]: [Define purpose/scope, e.g., Market Research Phase, Process Mapping]
-   - [Component/Workstream 2]: [Define purpose/scope, e.g., Content Creation, Stakeholder Workshops]
-   ...
+1. Campaign Goal & KPIs
+   - Primary Objective: [e.g., Generate 500 MQLs, Increase Brand Awareness by 15%]
+   - Key Performance Indicators (KPIs): [e.g., Conversion Rate, CTR, Social Engagement, Website Traffic]
 
-2. Key Relationships & Dependencies
-   - Information Flow: [Describe how information moves between components/stakeholders]
-   - Process Sequence / Workflow: [Define order of operations/activities]
-   - External Dependencies: [Identify systems, teams, data sources, regulations relied upon]
+2. Target Audience Segments
+   - Segment 1: [Description, Needs, Channels]
+   - Segment 2: [Description, Needs, Channels]
 
-3. Core Operational Aspects
-   - Key Stakeholders & Roles: [Identify who is involved, define responsibilities]
-   - Decision Gates / Approval Points: [Specify where decisions are made, define criteria]
-   - Success Metrics / KPIs: [Define how success will be measured]
-   - Communication & Reporting Plan: [Specify key channels, frequency, audience]
+3. Core Message & Content Pillars
+   - Overarching Message: [Single sentence summarizing the campaign theme]
+   - Content Pillar 1: [Theme/Topic, Formats (Blog, Video)]
+   - Content Pillar 2: [Theme/Topic, Formats (Webinar, Case Study)]
 
-4. Governing Factors
-   - Applicable Standards/Policies: [Identify e.g., Compliance, Brand Guidelines, SOPs]
-   - Core Assumptions: [List underlying assumptions driving the design]
-   - Key Constraints: [Define limitations like budget, time, resources, scope creep boundaries]
+4. Channel Strategy
+   - Channel 1 (e.g., Paid Search): [Platform, Targeting, Budget Allocation]
+   - Channel 2 (e.g., Organic Social): [Platform, Content Cadence]
+   - Channel 3 (e.g., Email Marketing): [List Segments, Nurture Flow]
 
-5. Overarching Structure/Approach: [Select primary structure, e.g., Phased Rollout, Continuous Improvement Cycle, Hub-and-Spoke Model, Research Methodology]
-   Rationale: [Explain why this structure fits the goals/requirements]
+5. Marketing Technology Stack
+   - CRM/Automation: [Tool Name]
+   - Analytics: [Tool Name]
+   - Ad Platforms: [Tool Names]
+   - Social Media Management: [Tool Name]
+   - Content Management (CMS): [Tool Name]
+
+6. Measurement & Reporting
+   - Reporting Cadence: [e.g., Weekly, Bi-weekly]
+   - Key Reports/Dashboards: [e.g., Channel Performance, Funnel Analysis]
+   - Attribution Model: [e.g., First Touch, Last Touch, Linear]
+
+7. Campaign Workflow & Timeline
+   - Phase 1 (e.g., Planning & Setup): [Key activities, Duration]
+   - Phase 2 (e.g., Launch & Promotion): [Key activities, Duration]
+   - Phase 3 (e.g., Optimization & Reporting): [Key activities, Duration]
 
 Once you have filled this out, reply with your defined architecture.
 - Request clarification if needed on any part of the structure.
-- Reply 'proceed' once you are satisfied with your definition to move to documentation planning.
+- Reply 'proceed' once you are satisfied to move to documentation planning.
 ```
-[END IF]
 
-[STOP - Wait for user to provide their architectural decisions based on the template, or reply 'proceed']
+**Template Example 3: Process Improvement (Business/Strategic Focus)**
+```
+Please use the structure below to define your core architectural decisions for your Process Improvement Project:
+
+Core Architectural Decisions (Process Improvement Focus):
+
+1. Problem Statement & Goals
+   - Defined Problem: [Concise description of the issue being addressed]
+   - Improvement Objectives: [Specific, Measurable goals, e.g., Reduce cycle time by 20%, Decrease error rate by 50%]
+   - Scope: [Clearly defined boundaries of the process being analyzed]
+
+2. Current State Analysis
+   - Process Map (As-Is): [High-level steps, Key inputs/outputs]
+   - Pain Points/Bottlenecks: [Identified inefficiencies or problems]
+   - Current Performance Metrics: [Baseline measurements]
+
+3. Future State Design
+   - Process Map (To-Be): [Optimized steps, Changes highlighted]
+   - Key Changes/Improvements: [List specific interventions, e.g., Automation, Role change, Tool implementation]
+   - Expected Performance Metrics: [Target measurements]
+
+4. Gap Analysis & Implementation Plan
+   - Key Gaps: [Differences between As-Is and To-Be]
+   - Implementation Phases/Steps: [Logical sequence of actions to reach future state]
+   - Required Resources: [Tools, Training, Personnel]
+
+5. Stakeholder Management & Communication
+   - Key Stakeholders: [Individuals/Teams impacted or involved]
+   - Roles & Responsibilities: [Who does what in the new process]
+   - Communication Plan: [How changes will be communicated]
+   - Training Plan (If needed): [Approach to upskill staff]
+
+6. Measurement & Control
+   - Monitoring Metrics: [KPIs to track process performance post-implementation]
+   - Control Plan: [How to sustain improvements, e.g., SOPs, Audits]
+   - Feedback Mechanism: [How to gather input on the new process]
+
+Once you have filled this out, reply with your defined architecture.
+- Request clarification if needed on any part of the structure.
+- Reply 'proceed' once you are satisfied to move to documentation planning.
+```
+
+[STOP - Wait for user to provide their architectural decisions based on the relevant template, or reply 'proceed']
 
 [STEP 4] Prepare Documentation
 

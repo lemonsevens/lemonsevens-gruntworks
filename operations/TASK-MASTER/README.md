@@ -24,6 +24,13 @@ To continue working on an existing project where some planning documents already
 
 Below are the phases of the project planning workflow and the primary commands used to interact with each phase. Status commands (`#<phase>-status`) are generally available to check progress within a phase. Modification commands (`#modify-<phase>`) allow revisiting and changing outputs.
 
+*Note: The tool now supports more granular project types (e.g., Web Application, Marketing Campaign) which tailor resource suggestions, architecture templates, and task generation.* 
+
+**Overall Project Commands:**
+- `#start`: Initiate planning for a new project (Starts Phase 1).
+- `#continue`: Resume planning for an existing project.
+- `#project-summary`: Generate/update a `PROJECT_README.md` file in the project root summarizing the status based on planning artifacts (Phase 11).
+
 ---
 
 **Phase 1: Vision & Goals Definition**
@@ -49,13 +56,24 @@ Below are the phases of the project planning workflow and the primary commands u
 ---
 
 **Phase 3: Resource Selection**
-- **Purpose**: Identify and document necessary resources (tools, standards, materials).
+- **Purpose**: Identify and document necessary resources (tools, standards, materials) tailored to the specific project type.
 - **Prompt File**: `TASK-MASTER/3_resource-selection.md`
 - **Output**: `resource-plan.md`, Configuration/Specification files (e.g., `resources/config.yaml`)
 - **Commands**:
     - `#generate-resources`: Start defining the resource plan.
     - `#modify-resources`: Change the existing resource plan.
     - `#resources-status`: Check progress on resource planning.
+
+---
+
+**Phase 3.5: Risk Assessment & Mitigation Planning**
+- **Purpose**: Identify potential project risks, analyze their likelihood and impact, and plan mitigation strategies.
+- **Prompt File**: `TASK-MASTER/3.5_risk-assessment.md`
+- **Output**: `risk-register.md`
+- **Commands**:
+    - `#generate-risks`: Start identifying and analyzing risks.
+    - `#modify-risks`: Change the existing risk register.
+    - `#risk-status`: Check progress on risk assessment.
 
 ---
 
@@ -71,7 +89,7 @@ Below are the phases of the project planning workflow and the primary commands u
 ---
 
 **Phase 5: Architecture Design Generation**
-- **Purpose**: Define the core architectural components for initial project scaffolding.
+- **Purpose**: Define the core architectural components using a template relevant to the specific project type.
 - **Prompt File**: `TASK-MASTER/5_architecture-generator.md`
 - **Output**: `architecture.md`, Diagram Source (`architecture/architecture.mmd`), Diagram Image (`architecture/architecture.png`)
 - **Commands**:
@@ -81,7 +99,7 @@ Below are the phases of the project planning workflow and the primary commands u
 ---
 
 **Phase 6: Initial Scaffolding Story Generation (Sprint 0)**
-- **Purpose**: Create tasks/stories for the foundational project setup (environment, core structures).
+- **Purpose**: Create tasks/stories for the foundational project setup (environment, core structures) using templates specific to the project type. Tasks include mandatory verification criteria (e.g., unit tests, success metrics).
 - **Prompt File**: `TASK-MASTER/6_initial-scaffolding-generator.md`
 - **Output**: `scaffolding-stories.md`
 - **Commands**:
@@ -91,7 +109,7 @@ Below are the phases of the project planning workflow and the primary commands u
 ---
 
 **Phase 7: Iteration Planning & Story Generation (Sprint 1+)**
-- **Purpose**: Generate tasks/stories for subsequent work iterations based on requirements and architecture.
+- **Purpose**: Generate tasks/stories for subsequent work iterations based on requirements, architecture, risks, and project type. Tasks include mandatory verification criteria.
 - **Prompt File**: `TASK-MASTER/7_full-scaffolding-generator.md`
 - **Output**: `iteration-{N}-plan.md`
 - **Commands**:
@@ -113,7 +131,7 @@ Below are the phases of the project planning workflow and the primary commands u
 ---
 
 **Phase 9: Execution & Implementation (Story/Task Level)**
-- **Purpose**: Guide the step-by-step implementation of individual stories or tasks.
+- **Purpose**: Guide the step-by-step implementation of individual stories or tasks, ensuring verification criteria are met.
 - **Prompt File**: `TASK-MASTER/9_implementor.md`
 - **Output**: Implemented code/deliverables, Step Plan (`[Story/Task ID]-steps.md`).
 - **Commands**:
@@ -123,20 +141,25 @@ Below are the phases of the project planning workflow and the primary commands u
 
 ---
 
-**Phase 10: Quality Assurance & Testing**
-- **Purpose**: Verify deliverables meet requirements and acceptance criteria.
-- **Process**: Typically manual or tool-assisted, following the defined methodology.
-- **Output**: Test results, bug reports, feedback.
+**Phase 10: Iteration Retrospective & Next Idea Generation**
+- **Purpose**: Analyze the completed iteration or overall project state to generate suggestions for the next iteration's focus and improvements.
+- **Prompt File**: `TASK-MASTER/10_retrospective_ideation.md`
+- **Output**: Suggestions document (`iteration-{N+1}-ideas.md` or `project-retrospective-ideas.md`)
+- **Commands**:
+    - `#generate-next-ideas`: Start the retrospective and ideation process.
+    - `#retrospective-status`: Check progress on this phase.
 
 ---
 
-**Phase 11: Evaluation & Continuous Improvement**
-- **Purpose**: Assess project outcomes against goals and document lessons learned.
-- **Process**: Manual review and retrospective meetings.
-- **Output**: Project evaluation reports, lessons learned documentation.
+**Phase 11: Project Summary Reporter**
+- **Purpose**: Generate a high-level summary report (`PROJECT_README.md`) in the project root, consolidating information from planning and task artifacts.
+- **Prompt File**: `TASK-MASTER/11_reporter.md`
+- **Output**: `PROJECT_README.md` in the project root directory.
+- **Commands**:
+    - `#project-summary`: Generate or update the project summary report.
 
 ---
 
-Follow the phases sequentially using the provided commands to structure your project planning process.
+Follow the phases sequentially using the provided commands to structure your project planning process. Use `#project-summary` periodically to get a high-level overview.
 
 © 2025 Gruntworks. All rights reserved.

@@ -43,41 +43,59 @@ I have found in the context:
 [STOP - If requirements are missing, ask user to provide them]
 
 [STEP 2] Project Type Assessment
-Ask: "What type of project or primary deliverable are you creating?
-1. Software Application (API, Web, Mobile, Desktop, etc.)
-2. Strategic Document (Plan, Report, Analysis)
-3. Marketing Asset (Campaign, Content, Website)
-4. Operations System/Process
-5. Research Project
-6. Physical Product
-7. Training Material
-8. Other (please specify)
+Ask: "What type of project or primary deliverable are you creating? Please choose the MOST specific option:
+
+**Software Development:**
+1.  Web Application (Frontend/Backend focus)
+2.  API Service (Backend focus)
+3.  Mobile Application (iOS/Android/Cross-Platform)
+4.  Desktop Application
+5.  Data Processing / Pipeline
+6.  Embedded System
+
+**Business & Strategy:**
+7.  Market Research & Analysis
+8.  Strategic Plan Document
+9.  Process Improvement / Optimization
+10. Organizational Design / Restructuring
+
+**Marketing & Content:**
+11. Marketing Campaign Plan & Execution
+12. Content Creation (Blog, Video, Social Media Series)
+13. Website Development / Redesign (Marketing focus)
+14. SEO Strategy & Implementation
+
+**Other:**
+15. Research Project (Academic/Scientific)
+16. Training Material Development
+17. Physical Product Design/Prototyping
+18. Other (please specify)
 
 You can either:
-A) Choose an option (1-8)
+A) Choose an option (1-18)
 B) Let me analyze the requirements and recommend a project type
    Note: This means I will use my judgment based on the requirements, but the resulting plan may not align with your preferences
 
 Please choose A or B"
 
-[STOP - Wait for user response]
+[STOP - Wait for user response. Store the GRANULAR project type name, e.g., "Web Application"]
 
 [STEP 3] Core Resource Selection
-Based on project type, either:
+Based on the GRANULAR project type selected or inferred:
 
 If user chose a project type:
-1. First present resource options relevant to the type:
+1. First present resource options relevant to the GRANULAR type:
 ```
-Please specify the core resource or tool you prefer for your [project type] from these common choices (excluding methodology):
-1. [Resource/Tool 1]
-2. [Resource/Tool 2]
-3. [Resource/Tool 3]
-4. [Resource/Tool 4]
+Please specify the core resource or tool you prefer for your [GRANULAR project type name] project from these common choices (excluding methodology):
+1. [Resource/Tool 1 relevant to specific type]
+2. [Resource/Tool 2 relevant to specific type]
+3. [Resource/Tool 3 relevant to specific type]
+4. [Resource/Tool 4 relevant to specific type]
 
 You can either:
 A) Choose a number from the list above
 B) Specify a different resource/tool
-C) Let me recommend based on the requirements
+C) Let me recommend based on the requirements and the selected project type '[GRANULAR project type name]'
    Note: This means I will choose based on technical/practical fit, but it may not match your team's expertise or preferences
 
 Please choose A, B, or C"
@@ -98,7 +116,7 @@ Please choose A or B, or state 'N/A' if not applicable"
 If user defers to AI for either choice:
 1. Present recommendation with rationale:
 ```
-Based on the requirements, I recommend:
+Based on the requirements and project type '[GRANULAR project type name]', I recommend:
 [Resource/Tool] [Specification/Standard/Version, if applicable] because:
 - [Specific requirement suggesting this choice]
 - [Alignment/Integration considerations]
@@ -110,7 +128,7 @@ Shall I proceed with this recommendation? (Y/N)"
 [STOP - Wait for user response]
 
 [STEP 4] Supporting Resource Analysis
-Once core resource(s) are selected, analyze requirements to identify needed supporting resources or capabilities:
+Once core resource(s) are selected, analyze requirements to identify needed supporting resources or capabilities relevant to the [GRANULAR project type name]:
 
 1. Present initial analysis:
 ```
@@ -147,7 +165,7 @@ If user chose B (User preferences):
 4. Define specific version/standard where applicable
 5. Document user's selection
 
-Present findings in this format:
+Present findings in this format, referencing the GRANULAR project type:
 ```
 Proposed Resource Plan:
 
@@ -218,11 +236,11 @@ Specific versions/standards are used to ensure:
 
 Then, based on the selected resources, generate appropriate configuration or specification file(s) if applicable (e.g., Bill of Materials, Software `package.json`, Configuration file, Standard Operating Procedure draft, etc.). Provide a placeholder or example format relevant to the project type.
 
-Example Placeholder:
+Example Placeholder (adjust based on GRANULAR type):
 ```
-[Appropriate File Format - e.g., requirements.txt, pom.xml, BOM.csv, config.yaml]
+[Appropriate File Format - e.g., requirements.txt for Python Web App, campaign_brief.docx for Marketing Campaign, BOM.csv for Physical Product]
 
-[Content based on selected resources and specifications]
+[Content based on selected resources and specifications relevant to the [GRANULAR project type name]]
 ```
 
 [STEP 8] Present all documents and ask:
@@ -292,7 +310,7 @@ After providing the files, use #modify-resources to try again.
 
 [STEP 3] File Content Verification
 If all required files are present:
-1. Read and display the EXACT contents:
+1. Read and display the EXACT contents, noting the project type if mentioned:
 ```
 Current Resource Plan (from `planning/resource-plan.md`):
 [Show exact content from resource plan documentation file]
@@ -412,7 +430,7 @@ Use #generate-resources to continue
 CRITICAL Rules:
 1. Always use specific versions/standards/specifications where applicable and meaningful, never vague ranges.
 2. Verify all resource alignment/integration before recommending or applying changes.
-3. Only recommend resources that are appropriate, stable, and well-supported for the context.
+3. Only recommend resources that are appropriate, stable, and well-supported for the context and the specific GRANULAR project type.
 4. Focus on core project resources (tools, materials, standards) - exclude minor consumables unless critical (e.g., specific chemical reagents in research). Methodology is handled separately.
 5. Always provide rationale for resource choices.
 6. Maintain clear separation between user choices and AI recommendations.
@@ -420,8 +438,8 @@ CRITICAL Rules:
 8. Keep specification details consistent (e.g., version format) where applicable.
 9. Verify integration/alignment before proceeding to the next step.
 10. Document all assumptions when user defers to AI judgment.
-11. Generate all appropriate configuration/specification files for the chosen resources and project type.
-12. Ensure configuration/specification file format matches resource/domain best practices.
+11. Generate all appropriate configuration/specification files tailored to the chosen resources and the specific GRANULAR project type.
+12. Ensure configuration/specification file format matches resource/domain best practices for the GRANULAR project type.
 13. Include only resources essential for the primary deliverable, not auxiliary items (unless specified).
 14. Use consistent terminology across all files.
 15. Generate configuration/specification files that can be used directly where possible.
