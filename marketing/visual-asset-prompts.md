@@ -8,63 +8,85 @@ The visual assets are organized by campaign and asset type, with detailed descri
 
 ## BRAND IDENTITY VISUAL GUIDELINES
 
-Before diving into specific asset prompts, here are the key visual elements that should be consistent across all Gruntworks materials:
+Before diving into specific asset prompts, refer to the definitive **Gruntworks Brand System Guide** (`marketing/brand/brand-system.md`) for complete details. Key visual elements to maintain consistency include:
 
-### Color Palette
-- **Army Green** (`#6a6c34`) - Primary brand color
-- **Canvas Cream** (`#e4deca`) - Secondary brand color
-- **Deep Charcoal** (`#22221c`) - Text and accent color
-- **OSHA Orange** (`#cc7c2e`) - Call-to-action color
-- **Rich Soil Brown** (`#593f22`) - Tertiary accent color
+### Color Palette (Ref: Brand System 3.2)
 
-### Typography
-- **Headings**: Asphaltic Grain Condensed (or similar industrial condensed font), all caps
-- **Body**: Barlow (or similar clean sans-serif)
-- **Style**: Bold, industrial, condensed for headers; clean and readable for body text
+**Primary Palette:**
+- **Charcoal Black** (`#1C1C1C`) - Primary background, structural elements
+- **Cream White** (`#F2EEDB`) - Primary typography, highlights
+- **Olive Green** (`#7B8448`) - Accent elements, icons, natural motifs
+- **Earth Brown** (`#8B5A2B`) - Accent elements, textures, natural motifs
 
-### Visual Elements
-- **Textures**: Metal plate, canvas, weathered wood, concrete
-- **Patterns**: Blueprint grids, tool marks, stamped metal
-- **Motifs**: Corner brackets, bolt details, angled edges, measurement marks
+**Accent Colors:**
+- **Safety Orange** (`#FF6600`) - Calls-to-action, key highlights, warnings
+- **Steel Blue** (`#4A6B8A`) - Secondary graphics, icons, technical accents
 
-### Photography Style
-- High contrast, slightly desaturated images
-- Real jobsite scenes with authentic workers
-- Focus on hands, tools, equipment, and completed work
-- Natural lighting with strong shadows
-- Avoid overly polished or staged stock photography
+### Typography (Ref: Brand System 3.3)
+
+- **Primary Font Family**: [Placeholder: Specify Primary Font Name, e.g., Roboto Condensed] - Used for headlines, key statements. Style: Bold, potentially All Caps for major headlines. Clean, strong, legible sans-serif.
+- **Secondary Font Family**: [Placeholder: Specify Secondary Font Name, e.g., Source Sans Pro] - Used for body text, subheadings, captions. Style: Regular, Italic. Highly readable sans-serif (or potentially sturdy serif for specific accents).
+- **Hierarchy**: Maintain clear hierarchy using size, weight, and color as defined in the Brand System.
+
+### Graphic Elements (Ref: Brand System 3.5)
+
+- **Patterns**: Subtle circuit-root patterns, geometric patterns suggesting structure.
+- **Textures**: Macro soil textures, weathered steel, concrete textures.
+- **Visual Motifs**: Roots morphing into circuits, industrial botanical elements (e.g., seed pods), growth lines/graphs, shield/foundation motifs.
+
+### Photography Style (Ref: Brand System 3.4.1)
+
+- Authentic, high-quality images of professional landscaping work/teams.
+- Focus on results, craftsmanship, and tangible transformations.
+- Natural lighting, emphasizing textures and real environments.
+- Grounded, competent, high-standard feel.
+- Avoid overly staged, generic stock photos or images showing unsafe practices.
 
 ## LOGO DESIGN PROMPT
 
-### Primary Logo
+### Logo Description (Reference)
 
-Create a bold, industrial logo for Gruntworks, a marketing company serving landscaping and lawn-care and hardscaping businesses. The logo should feature:
+**Visual Overview:** Imagine a sturdy, truncated-hexagon shield—like the badge on a work boot—rendered in a charcoal-black field. Centered across that field, the word GRUNTWORKS appears in heavy, stencil-style uppercase, its off-white letters carrying a subtle, grainy distress that reads as "industrial grit." Above the name, a row of stylized grass blades arcs gently, and below it a textured mound of earth sits as a visual foundation.
 
-- The wordmark "GRUNTWORKS" in a heavy, condensed industrial font
-- Optional icon element that suggests tools, gears, or industrial equipment
-- Army green (`#6a6c34`) as the primary color with canvas cream (`#e4deca`) accents
-- Industrial details like bolt heads, metal plate texture, or blueprint grid elements
-- Rectangular or slightly angled shape with strong, clean lines
-- Suitable for application on vehicles, workwear, and digital platforms
-- Conveys strength, reliability, and no-nonsense professionalism
-- Avoid anything cute, playful, or overly decorative
+**Logo Composition:**
+- **Shield Base:** Truncated-hexagon with softly rounded corners. Charcoal Black (`#1C1C1C`) field. Conveys protection, authority and an industrial badge aesthetic.
+- **Logotype: "GRUNTWORKS":** Bold, stencil-style uppercase. Cream White (`#F2EEDB`) fill with a light distress texture for an authentic, "worked-in" feel.
+- **Grass Silhouette (Top):** A row of simplified blades forming a gentle arch. Olive Green (`#7B8448`). Symbolizes growth and green-industry expertise.
+- **Soil Mound (Bottom):** Rough, uneven texture suggesting freshly turned earth. Earth Brown (`#8B5A2B`). Grounds the design literally and metaphorically.
+
+**Texture & Finish Notes:**
+- **Distressed Overlay:** Fine speckle across all elements to mimic wear, paint chips and dirt.
+- **Bevel & Emboss:** Subtle edge embossing on the shield to add dimensionality, like a metal plate.
+- **Contrast:** High-contrast typography (Cream White on Charcoal) for instant legibility.
+
+**Brand Takeaway:** The combined effect of strong geometry, organic motifs and textured grit positions Gruntworks as a no-nonsense partner—hard-working, reliable and deeply rooted in the real world of landscaping operations.
+
+*(Note: Refer to the Brand Asset Library for official logo files and usage guidelines regarding clear space, minimum size, and specific Do's/Don'ts.)*
 
 ### Logo Variations
 
-Create variations of the Gruntworks logo for different applications:
+Based on the defined Gruntworks logo, ensure the following standard variations are available in the Brand Asset Library for diverse applications:
 
-1. **Horizontal Version**: Primary logo in horizontal format for website headers and business cards
-2. **Stacked Version**: Compact stacked arrangement for square applications
-3. **Icon Only**: Simplified icon element for social media profiles and small applications
-4. **Wordmark Only**: Text-only version for situations where the icon isn't needed
-5. **Reverse Version**: White/light version for dark backgrounds
-6. **Single Color Version**: One-color version for limited color applications
+1.  **Horizontal Version**: Logo elements arranged in a horizontal format for website headers and business cards.
+2.  **Stacked Version**: Compact stacked arrangement for square applications (e.g., social media profiles).
+3.  **Icon Only**: Simplified shield/grass/soil element (or agreed-upon icon) for social media profiles and favicons where the full logo is too complex.
+4.  **Wordmark Only**: "GRUNTWORKS" text-only version for situations where the icon isn't needed or suitable.
+5.  **Reverse Version**: Cream White (`#F2EEDB`) / light version for use on Charcoal Black (`#1C1C1C`) or other dark backgrounds.
+6.  **Single Color Version**: One-color (typically Cream White or Charcoal Black) version for limited color applications (e.g., embroidery, etching).
 
-### Product Icons
+### Product Module Icons
 
-Design a set of six icons representing Gruntworks product modules:
+Design a set of three distinct icons representing the core Gruntworks product modules, ensuring they align with the brand's iconography style (simple, clean, functional, consistent line weight) and visual identity:
 
-- Service icons representing different offerings (mowing, lawn-care and hardscaping, snow removal, etc.)
+1.  **SeedWorks (Local SEO & GBP Optimization):** Icon should visually suggest concepts like local discovery, online visibility, map targeting, lead generation, or growth from a seed/foundation. Incorporate brand themes (landscaping, growth, technology). Consider subtle industrial botanical or weathered steel motifs/textures if appropriate.
+
+2.  **SiteWorks (Websites):** Icon should visually represent concepts like a digital foundation, website structure, online presence, lead conversion, or showcasing craft online. Align with brand themes (landscaping, technology, professionalism, results). Consider subtle industrial botanical or weathered steel motifs/textures if appropriate.
+
+3.  **FlowWorks (Automation & CRM Implementation):** Icon should visually convey concepts like operational efficiency, streamlined workflows, automation, time savings, or system integration. Connect to brand themes (technology, efficiency, control, irrigation/flow). Consider subtle industrial botanical or weathered steel motifs/textures if appropriate.
+
+- Icons should be visually cohesive as a set.
+- Use the primary brand color palette (Charcoal Black, Cream White, Olive Green, Earth Brown) with potential accents (Safety Orange, Steel Blue).
+- Ensure icons are legible and scalable for various digital applications.
 
 ## CAMPAIGN 1: "BUILT FOR THE FIELD" BRAND LAUNCH
 
@@ -72,520 +94,513 @@ Design a set of six icons representing Gruntworks product modules:
 
 Create a powerful hero image for Gruntworks' "Built for the Field" campaign featuring:
 
-- A landscaping professional in work clothes standing confidently on a job site
-- Early morning lighting with dramatic shadows and golden hour glow
-- Equipment and trucks visible in the background with subtle branding
-- The subject looking directly at camera with a confident, no-nonsense expression
-- High contrast, slightly desaturated color treatment
-- Space for the headline "MARKETING SYSTEMS BUILT FOR THE FIELD"
-- Industrial design elements like corner brackets or measurement marks as graphic accents
-- Army green and canvas cream color scheme with OSHA orange accents
-- Authentic, gritty aesthetic that resonates with blue-collar business owners
+- A landscaping professional (representing the "Empowered Landscaper" target audience) in appropriate work attire, standing confidently on a well-maintained job site or showcasing a completed project.
+- Early morning or late afternoon lighting ("golden hour") creating dramatic shadows and highlighting textures.
+- Relevant equipment or company vehicles subtly visible in the background, clean and professional.
+- The subject looking towards or engaging with the viewer with a confident, capable, no-nonsense expression.
+- High contrast, potentially slightly desaturated photographic style aligning with the brand's authentic, grounded aesthetic.
+- Ample clear space allocated for the headline "MARKETING SYSTEMS BUILT FOR THE FIELD" set in the **Primary Brand Font** (e.g., Roboto Condensed, All Caps).
+- Subtle graphic accents reinforcing the brand identity, drawn from approved motifs like **shield elements, weathered steel textures, macro soil textures, or geometric grid patterns** (replacing generic industrial elements).
+- Color palette dominated by **Primary Brand Colors** (Charcoal Black `#1C1C1C`, Cream White `#F2EEDB`, Olive Green `#7B8448`, Earth Brown `#8B5A2B`) with strategic use of **Accent Colors** (Safety Orange `#FF6600`, Steel Blue `#4A6B8A`) for emphasis or call-outs.
+- Authentic, gritty, yet professional aesthetic that resonates with mid-sized landscaping business owners.
 
 ### Trade Show Booth Prompt
 
 Design a trade show booth concept for Gruntworks featuring:
 
-- Industrial "command center" aesthetic with metal textures and utility styling
-- Large monitor displays showing marketing dashboards and results
-- Before/after case study displays with real landscaping business transformations
-- Bold "BUILT FOR THE FIELD" headline in Asphaltic Grain Condensed font
-- Army green backdrop with canvas cream and OSHA orange accents
-- Metal tool cabinet or workbench styling for information counter
-- Blueprint grid pattern on floor or backdrop elements
-- Rugged, professional appearance that stands out from typical marketing booths
-- Interactive demonstration stations with industrial-styled kiosks
-- Overall aesthetic that feels like a job site command center rather than a typical marketing booth
+- An "Industrial Command Center" aesthetic using **approved brand textures like weathered steel, concrete, or macro soil** combined with utility styling.
+- Large monitor displays showcasing Gruntworks product dashboards (SeedWorks, SiteWorks, FlowWorks), client results, and performance metrics.
+- Prominent before/after case study displays illustrating tangible landscaping business transformations.
+- Bold "BUILT FOR THE FIELD" headline prominently displayed using the **Primary Brand Font** (e.g., Roboto Condensed, All Caps).
+- Dominated by **Primary Brand Colors** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic **Safety Orange and Steel Blue accents** for calls-to-action, data highlights, and visual interest.
+- Information counter/stations styled with industrial workbench or command console elements using **weathered steel or concrete textures**.
+- Subtle integration of **brand patterns (geometric grid, circuit-root) or motifs (shield elements)** on backdrop elements, flooring, or kiosk surfaces (replacing generic blueprint grids).
+- A rugged yet professional and high-tech appearance that clearly differentiates Gruntworks from typical marketing agencies.
+- Interactive demonstration stations or kiosks with industrial-inspired design, showcasing product modules.
+- Overall aesthetic reinforces the Gruntworks brand as a knowledgeable, results-driven, field-focused partner.
 
 ### Direct Mail Piece Prompt
 
 Create a direct mail piece designed as a "Field Manual" for landscaping business marketing:
 
-- Oversized postcard or mailer with weathered canvas texture background
-- Military/field manual styling with stencil typography and utility markings
-- Bold headline "MARKETING SYSTEMS THAT WORK AS HARD AS YOU DO"
-- Corner brackets and measurement marks as design elements
-- Tabbed sections visible suggesting practical, actionable content
-- QR code styled as a "classified information" element
-- Subtle topographic map pattern in background
-- Call to action styled as field instructions: "RECONNAISSANCE CALL: 555-123-4567"
-- Army green, canvas cream, and deep charcoal color scheme
-- Designed to stand out in a stack of mail with its unique, tactical appearance
+- Oversized postcard or folded mailer format using **approved brand textures like weathered canvas, macro soil, or weathered steel** for a tactile, durable feel.
+- Styling reminiscent of a technical field manual or blueprint set, using **Primary and Secondary Brand Fonts** with potential **stencil-style typography** for accents (consistent with logo).
+- Bold headline like "MARKETING SYSTEMS THAT WORK AS HARD AS YOU DO" or similar, set in the **Primary Brand Font**.
+- Incorporate subtle **brand motifs (shield elements, root/circuit details) or patterns (geometric grid, circuit-root)** as design elements (replacing generic marks).
+- Include visual elements suggesting practical, actionable content (e.g., checklist icons, diagram snippets).
+- QR code integrated naturally, styled as "SCAN FOR BLUEPRINT" or "ACCESS FIELD DATA" rather than overly secretive.
+- Use **approved brand patterns (geometric grid, circuit-root) or textures (macro soil)** subtly in the background.
+- Call to action integrated clearly, styled thematically but directly, e.g., "REQUEST YOUR GROWTH PLAN: [Phone Number]" or "DEPLOY YOUR STRATEGY: [Website URL]".
+- Utilize the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents** for highlights and CTAs.
+- Designed to stand out with its unique, tactical, yet professional and credible appearance.
 
 ### Social Media Template Prompt
 
-Design a social media post template for Gruntworks featuring:
+Design a social media post template system for Gruntworks featuring:
 
-- Industrial frame with metal texture and bolt details in corners
-- Space for before/after images of landscaping business transformations
-- Army green header bar with canvas cream text for headlines
-- Bottom section for key metrics or results with OSHA orange highlights
-- Blueprint grid background texture
-- Consistent placement for Gruntworks logo
-- Mobile-optimized layout that remains legible on small screens
-- Designed for Instagram, Facebook, and LinkedIn with proper dimensions
-- Industrial, no-nonsense aesthetic that stands out in social feeds
-- Template should accommodate both single images and carousel posts
+- A clean, structured frame incorporating **brand motifs (e.g., subtle shield elements) or textures (e.g., weathered steel, concrete edges)** with minimal, appropriate industrial details (like distressed bolt heads if consistent with logo finish).
+- Flexible content areas suitable for before/after images, client testimonials, performance metric highlights, or service spotlights (SeedWorks, SiteWorks, FlowWorks).
+- Header/footer bars using **Primary Brand Colors** (e.g., Charcoal Black bar with Cream White text using the **Primary Brand Font**).
+- Strategic use of **Accent Colors** (Safety Orange, Steel Blue) for highlighting key metrics, results, or calls-to-action.
+- Subtle background textures using **approved brand patterns (geometric grid, circuit-root) or textures (macro soil)**.
+- Consistent placement for an **approved Gruntworks logo variation** (e.g., stacked or icon-only in a corner).
+- Mobile-optimized layouts ensuring legibility and visual impact on small screens (Instagram, Facebook, LinkedIn dimensions considered).
+- Overall aesthetic should be professional, direct, results-focused, and instantly recognizable as Gruntworks, aligning with the brand voice.
+- Template variations to accommodate single images, carousels, and video posts.
 
 ## CAMPAIGN 2: "GROWTH MACHINE" LEAD GENERATION
 
 ### Case Study Cover Prompt
 
-Create a cover image for "The $2M Landscaper Blueprint" case study collection:
+Create a cover image for "The $2M Landscaper Blueprint" case study collection featuring:
 
-- Blueprint-style technical drawing of an ascending graph or growth chart
-- Landscaping equipment (truck, mower, etc.) integrated into the design
-- Bold "$2M LANDSCAPER BLUEPRINT" title in industrial stencil typography
-- Subtle topographic map or blueprint grid background
-- Army green and canvas cream color scheme with OSHA orange highlights
-- Metal plate texture frame or border with bolt details
-- Measurement marks and technical notations as design elements
-- Professional, tactical aesthetic that appeals to ambitious business owners
-- Subtle before/after imagery showing business transformation
-- Gruntworks branding in bottom right corner, styled as an approval stamp
+- A clean, technical, blueprint-inspired illustration style (aligning with brand guidelines) depicting an ascending graph, growth chart, or process flow.
+- Subtle integration of landscaping equipment (e.g., stylized truck, mower silhouette) or relevant product icons (SeedWorks, SiteWorks, FlowWorks) into the design.
+- Bold "$2M LANDSCAPER BLUEPRINT" title prominently displayed using an **industrial stencil typography** (consistent with logo style).
+- Any subtitles or additional text should use the **Primary or Secondary Brand Fonts**.
+- Background utilizing **approved brand patterns (subtle geometric grid, circuit-root) or textures (macro soil, concrete)**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents** for highlights or graph elements.
+- Optional frame or border incorporating **brand motifs (shield elements) or textures (weathered steel, concrete edges)**.
+- Inclusion of **subtle brand motifs like root/circuit details or growth line elements** instead of generic measurement marks.
+- Professional, tactical, and results-focused aesthetic appealing to ambitious business owners.
+- May incorporate subtle before/after imagery or key result metrics visually.
+- Gruntworks branding (approved logo variation) placed consistently, potentially styled as a subtle watermark or approval stamp.
 
 ### Growth Calculator Tool Prompt
 
-Design a user interface mockup for the "Growth Potential Calculator" tool:
+Design a user interface mockup for the "Growth Potential Calculator" tool featuring:
 
-- Industrial dashboard aesthetic with metal texture and utility styling
-- Input fields styled as technical gauges or measurement tools
-- Results display featuring bold metrics and comparison charts
-- Army green background with canvas cream interface elements
-- OSHA orange for call-to-action buttons and important highlights
-- Blueprint grid pattern for background sections
-- Slider controls styled as industrial levers or dials
-- Mobile-responsive design shown on both desktop and phone screens
-- Technical, precise appearance that suggests accuracy and reliability
-- Clear visual hierarchy with prominent call-to-action for next steps
+- An **industrial dashboard aesthetic** utilizing **approved brand textures (weathered steel, concrete, macro soil)** and utility styling.
+- Input fields styled clearly, potentially drawing inspiration from technical gauges or data entry interfaces common in industrial settings, using **brand fonts and colors**.
+- Results display featuring bold metrics, potentially using comparison charts or visualizations inspired by technical readouts (e.g., level indicators, progress bars), all using **brand fonts and colors** for clarity.
+- Interface dominated by **Primary Brand Colors** (Charcoal Black, Cream White, Olive Green, Earth Brown) for background and core elements.
+- Strategic use of **Accent Colors** (Safety Orange, Steel Blue) for call-to-action buttons, key data points, or interactive element highlights.
+- Background sections incorporating **subtle brand patterns (geometric grid, circuit-root)**.
+- Any slider controls or interactive elements styled thematically (e.g., resembling industrial levers or dials) but using **brand colors and textures** for consistency.
+- Mobile-responsive design demonstrated clearly across both desktop and phone screen mockups.
+- A technical, precise, and reliable appearance suggesting accuracy and valuable insights.
+- Clear visual hierarchy directing the user through input to results, with a prominent call-to-action for next steps (e.g., "SEE YOUR POTENTIAL", "REQUEST CONSULTATION") using **brand fonts and accent colors**.
 
 ### Video Thumbnail Series Prompt
 
-Create a series of video thumbnail images for "Scaling Secrets from 7-Figure Landscapers":
+Create a series of consistent video thumbnail images for the "Scaling Secrets from 7-Figure Landscapers" series (or similar title):
 
-- Consistent template with industrial frame and technical elements
-- Each thumbnail features a different landscaping business owner in work environment
-- Bold episode numbers styled as industrial stencils or metal stamps
-- Consistent placement for series title "SCALING SECRETS"
-- High-contrast, slightly desaturated photography style
-- Army green and canvas cream color scheme
-- Metal texture accents and corner brackets
-- Designed for YouTube and social media video platforms
-- Professional but authentic appearance that highlights real business owners
-- Small Gruntworks logo consistently placed in bottom right corner
+- Consistent template structure featuring a clean frame incorporating **brand motifs (e.g., subtle shield elements) or textures (e.g., weathered steel, concrete edges)**.
+- Each thumbnail prominently features a different landscaping business owner (representing the "Empowered Landscaper") photographed authentically in their work environment, aligning with the **brand photography style (high-quality, natural lighting, grounded)**.
+- Bold episode numbers styled distinctively, potentially using **industrial stencil or metal stamp effect** (consistent with logo style).
+- Consistent placement and styling for the series title (e.g., "SCALING SECRETS") using the **Primary Brand Font**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic **Safety Orange or Steel Blue accents**.
+- Subtle integration of **brand textures (weathered steel, concrete) or motifs (root/circuit details)** as accents (replacing generic metal texture/corner brackets).
+- Designed for optimal visibility and click-through on YouTube and social media video platforms (considering safe zones and platform UI).
+- Professional yet authentic appearance that highlights real business owners and relatable expertise.
+- Consistent placement of a small, **approved Gruntworks logo variation** in a designated corner.
 
 ### Direct Mail Sequence Prompt
 
-Design a "Growth Blueprint" direct mail package with multiple components:
+Design a "Growth Blueprint" direct mail package comprising multiple, coordinated components:
 
-- Outer envelope styled as a technical document folder with blueprint pattern
-- Main brochure designed as a folded blueprint with growth strategies
-- Response card styled as a work order or job ticket
-- Custom graph or chart showing typical growth trajectory
-- Army green, canvas cream, and deep charcoal color scheme
-- Industrial typography and technical measurement marks
-- Before/after imagery of landscaping business transformation
-- Call-to-action styled as "ACTIVATE YOUR GROWTH MACHINE"
-- Metal texture accents and corner brackets on all pieces
-- Overall package designed to feel like a professional growth plan rather than marketing material
+- Outer envelope styled as a professional technical document folder, potentially using **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete)**.
+- Main brochure designed to resemble a folded blueprint or technical plan, outlining growth strategies or case study highlights. Use **Primary/Secondary Brand Fonts** and potentially **stencil accents**.
+- Response card styled thematically (e.g., work order, job ticket, spec sheet) for requesting consultation or next steps, using **brand fonts and colors**.
+- May include a custom insert, like a chart visualizing typical growth trajectory or ROI potential, using **brand illustration style and colors**.
+- Utilize the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) throughout, with **Safety Orange or Steel Blue accents** for emphasis.
+- Incorporate **Brand Fonts (Primary, Secondary)** consistently. Industrial or stencil typography can be used for thematic headlines/accents.
+- Replace generic industrial marks with **subtle brand motifs (root/circuit details, growth lines, shield elements) or textures (weathered steel, concrete)**.
+- Include relevant before/after imagery or key result metrics where appropriate.
+- Feature a clear, direct, and empowering call-to-action, potentially themed, such as "IMPLEMENT YOUR GROWTH PLAN" or "MAP YOUR GROWTH STRATEGY".
+- Overall package designed to feel like a high-value, professional growth strategy toolkit, not just marketing material.
 
 ## CAMPAIGN 3: "COMMAND YOUR REPUTATION" QUICK-WIN
 
 ### Assessment Tool Interface Prompt
 
-Design a user interface for the "Reputation Command Check" assessment tool:
+Design a user interface for the "Reputation Command Check" assessment tool (or similar name) featuring:
 
-- Military/tactical command center aesthetic
-- Interactive radar chart showing reputation strength across platforms
-- Input fields styled as tactical data entry forms
-- Results dashboard with gauge indicators and status alerts
-- Army green background with canvas cream interface elements
-- OSHA orange for warnings and action items
-- Blueprint grid or topographic map background pattern
-- Mobile-responsive design shown on both desktop and phone screens
-- Progress indicators styled as mission completion metrics
-- Clear call-to-action button for "DEPLOY REPUTATION COMMAND"
+- A **professional, data-driven command center aesthetic**, balancing tactical feel with clarity and usability.
+- Key data visualization like an interactive radar chart, gauges, or scorecards showing reputation strength across platforms, using **brand colors and clean illustration style**.
+- Input fields styled as clear, structured data entry forms, potentially using subtle **weathered steel or concrete texture** borders/backgrounds and **brand fonts**.
+- Results dashboard with clear indicators (e.g., gauges, status bars, numerical scores) and potentially status alerts, all using **brand fonts, colors, and iconography**.
+- Interface dominated by **Primary Brand Colors** (Charcoal Black, Cream White, Olive Green, Earth Brown) for structure and background elements.
+- Strategic use of **Accent Colors** (Safety Orange, Steel Blue) for highlighting key data, warnings, progress, or action items.
+- Background incorporating **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete)**.
+- Mobile-responsive design demonstrated clearly across both desktop and phone screen mockups.
+- Progress indicators potentially styled thematically (e.g., "Analysis Complete", progress bars) using **brand elements**.
+- Clear, prominent call-to-action button using **brand fonts and accent colors**, with direct yet thematic text like "ANALYZE REPUTATION DATA" or "GET COMMAND REPORT".
 
 ### Before/After Transformation Prompt
 
-Create a before/after image series showing reputation transformation:
+Create a compelling before/after image series illustrating client reputation transformation:
 
-- Split-screen layout with clear "BEFORE" and "AFTER" labeling
-- Left side shows poor online presence with few reviews and low ratings
-- Right side shows transformed presence with numerous 5-star reviews
-- Highlighted metrics showing improvement (star rating, review count, etc.)
-- Screenshot-style imagery with tactical frame and measurement marks
-- Army green and canvas cream color scheme with OSHA orange highlights
-- Annotation callouts pointing to key improvements
-- Mobile device mockups showing how profiles appear on phones
-- Professional, data-driven appearance rather than flashy marketing
-- Small "MISSION ACCOMPLISHED" stamp or badge on the after side
+- Clear split-screen or side-by-side layout with distinct "BEFORE" and "AFTER" labels using the **Primary Brand Font**.
+- "BEFORE" side visually represents a weaker online presence (e.g., screenshots of low ratings, few reviews, inconsistent profiles).
+- "AFTER" side showcases the improved state (e.g., screenshots of high ratings, numerous positive reviews, optimized profiles), demonstrating the impact of Gruntworks services.
+- Key improvement metrics (star rating change, review count increase, response rate improvement, etc.) clearly highlighted using **brand fonts and accent colors (Safety Orange, Steel Blue)**.
+- Utilizes authentic screenshot-style imagery where possible, framed cleanly using **subtle brand motifs (shield elements) or textures (weathered steel, concrete edges)**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic **Safety Orange or Steel Blue accents**.
+- Annotation callouts pointing to specific key improvements, using **Secondary Brand Font** and clear visual connectors.
+- May incorporate mobile device mockups to show how profiles appear in real-world context.
+- Overall appearance should be professional, credible, and data-driven, avoiding overly flashy marketing styles.
+- Optionally include a subtle, thematic badge or stamp on the "AFTER" side like "REPUTATION SECURED" or "COMMAND ACHIEVED", designed using **brand fonts, colors, and potentially the shield motif**.
 
 ### Direct Mail "Command Kit" Prompt
 
-Design a direct mail piece styled as a "Reputation Command Kit":
+Design a direct mail piece styled as a professional "Reputation Strategy Kit" or similar:
 
-- Folder designed as a tactical field manual or mission briefing
-- Cover features "CONFIDENTIAL: REPUTATION COMMAND KIT" in stencil typography
-- Interior contains reputation report card with actual client data
-- Includes "mission objectives" outlining reputation improvement steps
-- Army green, canvas cream, and deep charcoal color scheme
-- Metal texture accents and corner brackets
-- Custom envelope styled as a classified document mailer
-- Response mechanism styled as mission acceptance form
-- Overall aesthetic of a military/tactical briefing document
-- Clear call-to-action styled as "ACCEPT MISSION" button or form
+- Folder designed with a tactical field manual or professional briefing aesthetic, using **brand textures (weathered steel, concrete, canvas)**.
+- Cover features a clear title like "FIELD KIT: REPUTATION COMMAND" or "REPUTATION STRATEGY KIT" using **Primary Brand Font** (potentially stencil accent).
+- Interior contains components like a personalized reputation report card/assessment and clear "Strategic Objectives" outlining improvement steps, using **brand fonts and clear layout**.
+- Utilize the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents**.
+- Incorporate **subtle brand textures (weathered steel, concrete) or motifs (shield elements, root/circuit details)** consistently across pieces.
+- Custom envelope styled as a professional document mailer with subtle tactical/industrial cues using **brand elements**, not overly "classified".
+- Response mechanism (card or digital link) styled clearly, perhaps as a "Strategy Implementation Form" or similar, using **brand fonts and colors**.
+- Overall aesthetic feels like a valuable, actionable toolkit for improving reputation – professional, direct, and results-oriented.
+- Feature a clear, direct call-to-action like "IMPLEMENT MY REPUTATION STRATEGY" or "SCHEDULE STRATEGY CALL".
 
 ### Social Proof Gallery Prompt
 
-Create a social proof gallery template for showcasing client review transformations:
+Create a template for a social proof gallery showcasing client review transformations and results:
 
-- Grid layout featuring multiple client examples
-- Each cell contains before/after metrics and actual review quotes
-- Industrial frame with metal texture and measurement marks
-- Company logos or service area labels for each example
-- Consistent data points (star rating, review count, response rate)
-- Army green and canvas cream color scheme
-- Blueprint grid background pattern
-- Mobile-responsive design that works on various devices
-- Professional, data-driven appearance that emphasizes results
-- Clear section for "YOUR BUSINESS HERE" with call-to-action
+- Grid layout designed to feature multiple client examples clearly and consistently.
+- Each cell/card contains key before/after metrics (e.g., star rating, review count), actual client review quotes, and potentially the client's logo or name/service area.
+- Individual examples framed cleanly using **subtle brand motifs (shield elements) or textures (weathered steel, concrete edges)**.
+- Consistent data points displayed clearly using **brand fonts** (e.g., Primary font for metrics, Secondary for quotes).
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents** for highlighting key metrics or quotes.
+- Subtle background for the gallery using **approved brand patterns (geometric grid, circuit-root) or textures (macro soil, concrete)**.
+- Mobile-responsive design ensuring the gallery adapts effectively to various screen sizes.
+- Professional, credible, and data-driven appearance that strongly emphasizes tangible client results.
+- Include a clear section or call-to-action prompting potential clients (e.g., "SEE YOUR BUSINESS TRANSFORMED", linking to a consultation or relevant service page).
 
 ## CAMPAIGN 4: "SEASONAL DOMINATION" MULTI-SERVICE
 
 ### Seasonal Calendar Tool Prompt
 
-Design a user interface for the "Seasonal Marketing Calendar" interactive tool:
+Design a user interface for the "Seasonal Marketing Calendar" interactive tool featuring:
 
-- Annual calendar view with quarterly sections
-- Color-coded service categories (lawn care, landscaping, snow removal, etc.)
-- Interactive elements for planning marketing activities by season
-- Weather pattern indicators showing optimal timing
-- Army green background with canvas cream interface elements
-- Blueprint grid or topographic map background pattern
-- Tabs or filters for different marketing channels
-- Mobile-responsive design shown on both desktop and tablet screens
-- Technical, precise appearance with measurement marks and grid lines
-- Clear call-to-action for "DEPLOY YEAR-ROUND STRATEGY"
+- Clear annual or quarterly calendar view optimized for planning.
+- Service categories (lawn care, landscaping, snow removal, etc.) potentially color-coded using distinct colors from the **Secondary Brand Palette (Olive Green, Earth Brown, Steel Blue)** or designated tints/shades, ensuring good contrast and accessibility.
+- Interactive elements allowing users to plan/view marketing activities per season/month, using **brand fonts and clear UI components**.
+- Optional weather pattern indicators using **clean, consistent brand icons**.
+- Interface primarily using **Primary Brand Colors** (Charcoal Black, Cream White) for background and structure, ensuring high readability.
+- Strategic use of **Accent Colors** (Safety Orange, Steel Blue, Olive Green, Earth Brown) for interactive elements, highlights, or calls-to-action.
+- Background incorporating **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete)**.
+- Tabs or filters for sorting/viewing by marketing channels or service types, using **brand fonts and clear controls**.
+- Mobile-responsive design demonstrated clearly across desktop and tablet/phone screens.
+- A professional, technical, and precise appearance achieved through clean layout, **brand fonts, and iconography**, rather than generic lines/marks.
+- Clear call-to-action like "BUILD MY SEASONAL PLAN" or "CUSTOMIZE MARKETING CALENDAR" using **brand fonts and accent colors**.
 
 ### Service Transition Guide Prompt
 
-Create a cover image for the "Service Transition Guide" resource:
+Create a cover image for the "Service Transition Guide" resource featuring:
 
-- Split design showing seasonal transition (summer to fall, winter to spring)
-- Equipment imagery representing different seasonal services
-- Bold "SERVICE TRANSITION GUIDE" title in industrial stencil typography
-- Subtle arrows or flow indicators showing business continuity
-- Army green and canvas cream color scheme with seasonal accent colors
-- Metal texture frame with bolt details
-- Blueprint grid or technical drawing background
-- Professional, tactical aesthetic that appeals to multi-service businesses
-- Small calendar or timeline element showing transition period
-- Gruntworks branding styled as an approval stamp or certification
+- A clear visual concept showing seasonal transition (e.g., split design, overlapping imagery representing summer-to-fall or winter-to-spring).
+- Includes relevant equipment imagery or iconography representing different seasonal services, styled according to **brand guidelines**.
+- Bold "SERVICE TRANSITION GUIDE" title prominently displayed using an **industrial stencil typography** (consistent with logo style).
+- Subtle arrows, flow indicators, or connecting elements showing business continuity, designed using the **clean brand illustration style**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic use of **seasonal accent colors (e.g., Safety Orange for fall, Steel Blue for winter) if appropriate and defined**, ensuring overall brand consistency.
+- Frame or border elements utilizing **brand textures (weathered steel, concrete) or motifs (shield elements)**.
+- Background using **subtle brand patterns (geometric grid, circuit-root) or textures (macro soil, concrete)**.
+- Professional, tactical aesthetic that appeals to multi-service businesses focused on planning and efficiency.
+- May include a small, stylized calendar or timeline element showing the transition period, using **brand fonts and icons**.
+- Consistent placement of an **approved Gruntworks logo variation**, potentially styled as a subtle approval stamp or certification mark.
 
 ### Seasonal Workshop Prompt
 
-Design promotional imagery for "Seasonal Transition" workshops:
+Design promotional imagery (e.g., event banner, social post graphic) for "Seasonal Transition" workshops:
 
-- Event banner showing seasonal service transition imagery
-- Workshop setting with business owners engaged in planning
-- Bold "SEASONAL TRANSITION WORKSHOP" headline in industrial typography
-- Date, time, and location information in technical specification format
-- Army green and canvas cream color scheme with seasonal accent colors
-- Blueprint grid or tactical map background
-- Registration call-to-action styled as "SECURE YOUR POSITION"
-- Mobile-responsive design for various promotional channels
-- Professional, action-oriented imagery that suggests strategic planning
-- Gruntworks branding integrated as event host/facilitator
+- Feature compelling imagery showing seasonal service transition (e.g., fall cleanup equipment alongside snow removal gear) or authentic workshop settings with business owners engaged in planning (**aligned with brand photography style**).
+- Bold "SEASONAL TRANSITION WORKSHOP" headline (or similar) prominently displayed using the **Primary Brand Font**.
+- Date, time, and location information presented clearly using the **Secondary Brand Font**, maintaining a clean, professional hierarchy.
+- Utilize the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with potential **seasonal accents (Safety Orange, Steel Blue)** if appropriate and consistent.
+- Background incorporating **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete)**.
+- Include a clear registration call-to-action, styled as a button or prominent text using **brand fonts and accent colors**, with direct wording like "REGISTER FOR WORKSHOP" or "CLAIM YOUR SEAT".
+- Mobile-responsive design considerations for various promotional channels (web banners, social media ads, email graphics).
+- Professional, action-oriented imagery and design that suggests strategic value and practical learning.
+- Consistent placement of an **approved Gruntworks logo variation** indicating host/facilitator.
 
 ### Cross-Selling Strategy Template Prompt
 
-Create a template design for the cross-selling strategy resource:
+Create a template design for a cross-selling strategy resource (e.g., flowchart, decision tree, journey map):
 
-- Technical flowchart or decision tree layout
-- Service icons representing different offerings (mowing, lawn-care and hardscaping, snow removal, etc.)
-- Customer journey pathways showing transition opportunities
-- Bold "CROSS-SELLING COMMAND CENTER" title in industrial typography
-- Army green and canvas cream color scheme with OSHA orange highlights
-- Metal texture accents and corner brackets
-- Measurement marks and technical notations as design elements
-- Professional, tactical aesthetic that suggests strategic planning
-- Clear sections for different seasons or service categories
-- Gruntworks branding integrated as system creator/certifier
+- Clear technical flowchart or decision tree layout using **clean lines and shapes consistent with brand illustration style**.
+- Utilize **Product Module Icons (SeedWorks, SiteWorks, FlowWorks)** or service-specific icons designed in the **consistent brand iconography style** to represent offerings.
+- Visually map customer journey pathways or decision points showing cross-selling or up-selling opportunities.
+- Bold title like "CROSS-SELLING COMMAND CENTER" or "CLIENT GROWTH PATHWAYS" using **industrial stencil typography** (consistent with logo) or **Primary Brand Font**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents** for highlighting pathways, opportunities, or key decision points.
+- Incorporate **subtle brand textures (weathered steel, concrete) or motifs (shield elements, root/circuit details, growth lines)** as accents or background elements.
+- Remove generic measurement marks; use clean design and potentially subtle **brand pattern (geometric grid)** backgrounds if needed.
+- Professional, tactical, and strategic aesthetic suggesting a clear plan for business growth.
+- Clear sections or labels for different seasons, service categories, or customer segments using **brand fonts**.
+- Consistent placement of an **approved Gruntworks logo variation** indicating system creator/provider.
 
 ## CAMPAIGN 5: "TECHNICAL AUTHORITY" SPECIALIZED SERVICES
 
 ### White Paper Cover Prompt
 
-Design a cover for the "Marketing Technical Lawn-Care and Hardscaping Services" white paper:
+Design a cover for the white paper "THE EXPERTISE ADVANTAGE: Marketing Technical Lawn-Care and Hardscaping Services to Non-Technical Clients" (or similar title):
 
-- Bold, educational design with technical elements
-- Title: "THE EXPERTISE ADVANTAGE"
-- Subtitle: "Marketing Technical Lawn-Care and Hardscaping Services to Non-Technical Clients"
-- Industrial styling with technical diagrams or cross-sections
-- Gruntworks branding and logo
+- Professional, bold, and educational design aesthetic.
+- Title ("THE EXPERTISE ADVANTAGE") prominently displayed using the **Primary Brand Font**.
+- Subtitle clearly legible using the **Secondary Brand Font**.
+- Incorporate relevant technical elements (e.g., stylized diagrams, cross-sections, icons related to lawn-care/hardscaping) designed using the **clean brand illustration style and iconography guidelines**.
+- Background utilizing **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete, macro soil)**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic use of **Accent Colors (Safety Orange, Steel Blue)** for highlights or graphic elements.
+- Overall feel should convey expertise, authority, and clarity.
+- Consistent placement of an **approved Gruntworks logo variation**.
 
 ### Educational Content Library Prompt
 
-Create a user interface design for the technical educational content library:
+Create a user interface design for the technical educational content library featuring:
 
-- Resource library layout with categorized content sections
-- Technical illustration style for preview thumbnails
-- Content types including diagrams, videos, articles, and templates
-- Army green background with canvas cream interface elements
-- Blueprint grid or technical drawing background pattern
-- Filter system for different technical topics and service categories
-- Mobile-responsive design shown on both desktop and tablet screens
-- Professional, educational aesthetic that suggests expertise
-- Clear download or implementation instructions for each resource
-- Gruntworks branding integrated as content provider/curator
+- Clear resource library layout with intuitive categorization (e.g., by topic, service type, content format).
+- Preview thumbnails for content (diagrams, videos, articles, templates) using **clean brand illustration style or consistent brand iconography**.
+- Interface dominated by **Primary Brand Colors** (Charcoal Black, Cream White) for background and core structure, ensuring high readability.
+- Strategic use of **Accent Colors** (Safety Orange, Steel Blue, Olive Green, Earth Brown) for category labels, buttons, highlights, or active states.
+- Background incorporating **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete)**.
+- Clear filter or search system allowing users to find relevant technical topics or service categories, using **brand fonts and standard UI controls** styled appropriately.
+- Mobile-responsive design demonstrated clearly across desktop and tablet/phone screens.
+- Professional, organized, and educational aesthetic that suggests valuable expertise.
+- Clear download, view, or implementation instructions/buttons for each resource, using **brand fonts and accent colors**.
+- Consistent placement of an **approved Gruntworks logo variation** indicating content provider/curator.
 
 ### Technical Diagnosis Guide Prompt
 
-Design a template for the "Visual Diagnosis and Solution Guide":
+Design a template for a "Visual Diagnosis and Solution Guide" featuring:
 
-- Technical illustration of tree health issues with clear labeling
-- Before/after imagery showing problem identification and resolution
-- Diagnostic flowchart or decision tree for problem assessment
-- Bold "VISUAL DIAGNOSIS GUIDE" title in industrial typography
-- Army green and canvas cream color scheme with problem/solution color coding
-- Technical drawing style with precise lines and measurements
-- Client explanation section with simplified language
-- Professional, educational aesthetic that balances expertise and accessibility
-- Small technical diagrams or callouts as design elements
-- Gruntworks branding positioned as technical authority
+- Clear technical illustrations (e.g., of plant health issues, hardscape problems) created in the **clean brand illustration style** with precise labeling using **brand fonts**.
+- May incorporate before/after imagery (photographic or illustrative) showing problem identification and resolution, styled consistently with the brand.
+- Includes a diagnostic flowchart or decision tree to guide problem assessment, designed using **brand illustration style, fonts, and colors**.
+- Bold "VISUAL DIAGNOSIS GUIDE" title (or similar) using **industrial stencil typography** (consistent with logo) or **Primary Brand Font**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown). **Accent Colors (Safety Orange, Steel Blue)** can be used strategically for coding problems/solutions or highlighting key paths, ensuring clarity and accessibility.
+- Any detailed diagrams or callouts should use the **clean brand illustration style** and **brand fonts**.
+- A dedicated section for client explanation, using simplified language set in the **Secondary Brand Font**.
+- Professional, educational aesthetic that balances technical expertise with clear communication, fully aligned with brand identity.
+- Consistent placement of an **approved Gruntworks logo variation**, positioned as technical authority/provider.
 
 ### Certification Marketing Template Prompt
 
-Create a template for marketing materials highlighting professional certifications:
+Create a template for marketing materials highlighting professional certifications (e.g., Arborist, specific technical certs) featuring:
 
-- Certificate or credential showcase with professional styling
-- Technical background elements related to arboriculture
-- Space for professional headshot with technical overlay
-- Bold "CERTIFIED EXPERTISE" headline in industrial typography
-- Explanation section translating technical credentials to client benefits
-- Army green and canvas cream color scheme with certification accent colors
-- Metal texture frame with bolt details
-- Blueprint grid or technical drawing background
-- Professional, authoritative aesthetic that builds credibility
-- Clear call-to-action for specialized service consultation
-- Gruntworks branding integrated as marketing system provider
+- Professional layout designed to showcase credentials (e.g., certificate image, badge icon) clearly.
+- Background elements subtly related to the technical field (arboriculture, hardscaping, etc.) using **clean brand illustration style, patterns, or textures**.
+- Dedicated space for a professional headshot, potentially with a **subtle, non-distracting overlay incorporating brand pattern elements lightly** if desired.
+- Bold "CERTIFIED EXPERTISE" headline (or similar) using the **Primary Brand Font**.
+- Clear explanation section translating technical credentials into tangible client benefits, using the **Secondary Brand Font**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with potential **Accent Colors (Safety Orange, Steel Blue)** used strategically (e.g., for the badge/cert frame or highlights).
+- Clean framing around the template or key elements, potentially using **subtle brand textures (weathered steel, concrete) or motifs (shield elements)**.
+- Background using **subtle brand patterns (geometric grid, circuit-root) or textures (macro soil, concrete)**.
+- Professional, authoritative aesthetic that builds credibility and trust.
+- Clear call-to-action for specialized service consultation, using **brand fonts and accent colors**.
+- Consistent placement of an **approved Gruntworks logo variation**.
 
 ## CAMPAIGN 6: "AUTOMATE & DOMINATE" OPERATIONAL EFFICIENCY
 
 ### ROI Calculator Interface Prompt
 
-Design a user interface for the "Time Savings & Revenue Impact Calculator":
+Design a user interface for the "FlowWorks ROI Calculator" (or similar name, e.g., Time Savings & Revenue Impact Calculator) featuring:
 
-- Industrial dashboard aesthetic with gauge indicators and metrics
-- Input fields for current business operations data
-- Results display showing time saved and revenue impact
-- Before/after comparison with clear visualization
-- Army green background with canvas cream interface elements
-- OSHA orange for key metrics and highlights
-- Blueprint grid pattern for background sections
-- Mobile-responsive design shown on both desktop and phone screens
-- Technical, precise appearance with measurement marks and data points
-- Clear call-to-action for "DEPLOY AUTOMATION SYSTEM"
+- An **industrial/technical dashboard aesthetic** utilizing **approved brand textures (weathered steel, concrete, macro soil)** and utility styling, consistent with other tools.
+- Input fields for current business operations data (e.g., time spent on estimates, follow-up frequency), styled clearly using **brand fonts and colors**.
+- Results display prominently showing calculated time saved and potential revenue impact, using **bold metrics (Primary Brand Font), charts/graphs (brand illustration style), and clear labels (Secondary Brand Font)**.
+- Clear before/after comparison visualization if applicable, using **brand style**.
+- Interface dominated by **Primary Brand Colors** (Charcoal Black, Cream White, Olive Green, Earth Brown) for background and structure.
+- Strategic use of **Accent Colors** (Safety Orange, Steel Blue) for key metrics, results highlights, or interactive elements.
+- Background sections incorporating **subtle brand patterns (geometric grid, circuit-root)**.
+- Mobile-responsive design demonstrated clearly across desktop and phone screens.
+- Technical, precise appearance reinforcing data accuracy and value, using **brand fonts and iconography**.
+- Clear call-to-action button using **brand fonts and accent colors**, with text like "CALCULATE MY FLOWWORKS ROI" or "SEE EFFICIENCY GAINS".
 
 ### System Demonstration Prompt
 
-Create imagery for the "AutoRig in Action" demonstration series:
+Create imagery for the "**FlowWorks in Action**" demonstration series (replacing "AutoRig"):
 
-- Split-screen showing business owner and automated system
-- Left side shows manual process with time indicator
-- Right side shows automated solution with time saved
-- Notification or alert styling for automated communications
-- Army green and canvas cream color scheme with OSHA orange highlights
-- Technical interface elements with blueprint styling
-- Mobile device mockups showing system in action
-- Professional, results-oriented imagery focusing on practical benefits
-- Small efficiency metrics or KPIs highlighted in each image
-- Gruntworks branding integrated as system provider
+- Split-screen or comparative layout showing a business owner/team member alongside the FlowWorks system interface.
+- "BEFORE" side visually represents a manual process (e.g., messy whiteboard, spreadsheet) perhaps with a time indicator using **brand fonts**.
+- "AFTER" side showcases the streamlined FlowWorks solution (e.g., clean dashboard, automated notification) with reduced time indicator/efficiency metric highlighted.
+- Notification or alert styling for automated communications should be designed using **brand colors, fonts, and subtle UI elements (e.g., textured boxes, brand icons)**.
+- Utilize the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents** for highlights and data points.
+- Technical interface elements shown should reflect the **FlowWorks UI design** (using brand patterns, textures, iconography).
+- Incorporate mobile device mockups showing system accessibility and usability on the go.
+- Professional, clear, and results-oriented imagery focusing on practical benefits like time savings and reduced errors.
+- Small efficiency metrics or KPIs highlighted visually using **brand fonts and accent colors**.
+- Consistent placement of an **approved Gruntworks/FlowWorks logo variation**.
 
 ### Time Savings Infographic Prompt
 
-Design an infographic template highlighting operational time savings:
+Design an infographic template highlighting operational time savings achieved through FlowWorks (or Gruntworks systems generally):
 
-- Visual clock or timeline showing before/after time allocation
-- Task icons representing different business operations
-- Bold metrics showing hours saved per week/month
-- Revenue impact calculation with growth projection
-- Army green and canvas cream color scheme with OSHA orange for key metrics
-- Technical drawing style with precise measurements
-- Mobile-responsive design for various promotional channels
-- Professional, data-driven appearance that emphasizes results
-- Clear sections for different operational areas (sales, follow-up, scheduling, etc.)
-- Gruntworks branding positioned as efficiency solution provider
+- Visually represent time savings using elements like a styled clock, timeline comparison, or bar charts showing before/after time allocation, all designed in the **clean brand illustration style**.
+- Utilize **consistent brand icons** to represent different business operations or tasks (e.g., estimating, follow-up, scheduling).
+- Display bold metrics showing hours saved per week/month using the **Primary Brand Font**.
+- Include potential revenue impact calculations or growth projections, presented clearly using **brand fonts and colors**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **Safety Orange or Steel Blue accents** used strategically for key metrics or visual elements.
+- Ensure all illustrations and data visualizations follow the **brand illustration style guidelines**, prioritizing clarity and impact over generic technical drawings.
+- Mobile-responsive design considerations for sharing across various digital channels.
+- Professional, data-driven appearance that clearly emphasizes tangible efficiency results.
+- Clear sections or callouts for different operational areas, using **brand fonts and hierarchy**.
+- Consistent placement of an **approved Gruntworks logo variation** indicating the source of the efficiency solution.
 
 ### Feature Demonstration Video Thumbnail Prompt
 
-Create thumbnail images for the AutoRig feature demonstration video series:
+Create consistent thumbnail images for the **FlowWorks** feature demonstration video series:
 
-- Consistent template with industrial frame and technical elements
-- Each thumbnail focuses on a specific automation feature
-- Screen capture elements showing the feature in action
-- Bold feature name in industrial stencil typography
-- Time-saving metric prominently displayed (e.g., "SAVE 5 HOURS/WEEK")
-- Army green and canvas cream color scheme
-- Metal texture accents and corner brackets
-- Designed for YouTube and website video players
-- Professional, practical appearance that highlights functionality
-- Small Gruntworks logo consistently placed in bottom right corner
+- Consistent template structure featuring a clean frame incorporating **brand motifs (e.g., subtle shield elements) or textures (e.g., weathered steel, concrete edges)**, aligning with other video thumbnail series.
+- Each thumbnail clearly focuses on a specific FlowWorks automation feature.
+- Include relevant screen capture elements showing the feature in action, cleanly integrated into the design.
+- Bold feature name prominently displayed, potentially using **industrial stencil typography** (consistent with logo style) or the **Primary Brand Font**.
+- Key benefit or time-saving metric (e.g., "SAVE 5 HOURS/WEEK", "AUTOMATE FOLLOW-UP") clearly displayed using **brand fonts and accent colors**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic **Safety Orange or Steel Blue accents**.
+- Incorporate **subtle brand textures (weathered steel, concrete) or motifs (root/circuit details)** as accents.
+- Designed for optimal visibility and click-through on YouTube and website video players.
+- Professional, practical appearance that clearly highlights specific system functionality and benefits.
+- Consistent placement of a small, **approved Gruntworks/FlowWorks logo variation**.
 
 ## CAMPAIGN 7: "REFERRAL COMMAND" CLIENT ADVOCACY
 
 ### Referral Program Branding Prompt
 
-Design branding for the "Gruntworks Allies" referral program:
+Design branding elements for the "Gruntworks Allies" referral program, including badges/emblems:
 
-- Badge or emblem design with alliance/partnership theme
-- Industrial styling with metal texture and bolt details
-- Bold "GRUNTWORKS ALLIES" text in industrial stencil typography
-- Tier indicators for different referral levels (Bronze, Silver, Gold)
-- Army green and canvas cream color scheme with tier-specific accent colors
-- Blueprint grid or tactical map background
-- Professional, partnership-focused aesthetic that suggests mutual benefit
-- Small benefit indicators or icons representing rewards
-- Design variations for different applications (digital badge, physical item, etc.)
-- Gruntworks branding integrated into the alliance concept
+- Badge or emblem design centered around an alliance/partnership theme, potentially incorporating the **Gruntworks shield motif** or other relevant **brand motifs**.
+- Styling uses **brand textures (weathered steel, concrete) and clean lines**, evoking professionalism and reliability (replacing generic industrial/bolts).
+- Bold "GRUNTWORKS ALLIES" text prominently displayed, potentially using **industrial stencil typography** (consistent with logo) or **Primary Brand Font**.
+- Clear tier indicators (e.g., Bronze, Silver, Gold, or custom names) using **brand fonts** and potentially distinct **accent colors (Safety Orange, Steel Blue, Olive Green)** for visual differentiation.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown).
+- Any background elements should use **subtle brand patterns (geometric grid, circuit-root) or textures**.
+- Professional, strong, partnership-focused aesthetic suggesting mutual benefit and exclusivity.
+- Include small benefit indicators or icons representing rewards, designed using the **consistent brand iconography style**.
+- Create design variations suitable for different applications (digital badges, website elements, potential physical items).
+- Ensure clear integration of the **approved Gruntworks logo variation** within the alliance concept.
 
 ### Client Success Spotlight Template Prompt
 
-Create a template for client success spotlight features:
+Create a template for client success spotlight features (for website, social media, case studies):
 
-- Professional profile layout with industrial frame
-- Space for client headshot and business imagery
-- Results metrics prominently displayed with growth indicators
-- Quote or testimonial section with distinctive styling
-- Army green and canvas cream color scheme with OSHA orange for metrics
-- Metal texture accents and corner brackets
-- Blueprint grid or technical drawing background
-- Professional, achievement-focused aesthetic that celebrates success
-- Small "GRUNTWORKS ALLY" badge or designation
-- Adaptable format for various media (social, print, website)
+- Professional profile layout with clean framing incorporating **subtle brand motifs (shield elements) or textures (weathered steel, concrete edges)**.
+- Designated space for a high-quality client headshot and relevant business/project imagery (**aligned with brand photography style**).
+- Key results metrics (e.g., growth percentage, lead increase, ROI) prominently displayed using **Primary Brand Font and accent colors**.
+- Section for a client quote or testimonial, styled distinctively but using **Secondary Brand Font** and **brand colors** for readability.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with strategic use of **Accent Colors (Safety Orange, Steel Blue)** for metrics or highlights.
+- Background using **subtle brand patterns (geometric grid, circuit-root) or textures (macro soil, concrete)**.
+- Professional, credible, and achievement-focused aesthetic that celebrates client success.
+- Include the official **"Gruntworks Allies" badge/designation** (as defined in Prompt 28) if applicable.
+- Adaptable format suitable for various media applications (e.g., square for social, vertical for stories, horizontal for web).
 
 ### Referral Rewards Prompt
 
-Design visual assets for the tiered referral rewards program:
+Design visual assets (e.g., digital certificate, reward notification graphic) for the tiered "Gruntworks Allies" referral rewards program:
 
-- Reward card or certificate with industrial styling
-- Tier-specific designs (Bronze, Silver, Gold) with appropriate visual distinction
-- Bold "MISSION ACCOMPLISHED" or "OBJECTIVE ACHIEVED" headline
-- Reward details presented in technical specification format
-- Army green and canvas cream color scheme with tier-specific accent colors
-- Metal texture background with bolt details and corner brackets
-- Blueprint grid or tactical map elements
-- Professional, achievement-focused aesthetic that feels valuable
-- Personalization elements for recipient name and achievement details
-- Gruntworks branding integrated as reward provider
+- Reward card or certificate design incorporating **brand motifs (shield element), textures (weathered steel, concrete), and patterns (geometric grid)**.
+- Tier-specific designs (Bronze, Silver, Gold, or custom names) with appropriate visual distinction using **designated tier accent colors** and potentially varying texture intensity or motif usage, while maintaining overall brand consistency.
+- Headline like "REWARD EARNED" or "ALLY ACHIEVEMENT" prominently displayed using the **Primary Brand Font**.
+- Reward details presented clearly and professionally using the **Secondary Brand Font**.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White, Olive Green, Earth Brown) with **tier-specific accent colors** applied strategically.
+- Background utilizing **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel, concrete)**.
+- Professional, valuable, and achievement-focused aesthetic.
+- Include personalization elements (e.g., recipient name, date, specific achievement) using **brand fonts**.
+- Consistent placement of the **approved Gruntworks logo variation** or the **"Gruntworks Allies" branding**.
 
 ### Community Platform Interface Prompt
 
-Design a user interface for the Gruntworks client community platform:
+Design a user interface for the Gruntworks client community platform (potentially integrated with "Gruntworks Allies") featuring:
 
-- Industrial command center aesthetic with metal textures
-- Discussion forum layout with topic categories and recent activity
-- Resource library section with technical organization
-- Member directory with alliance/partnership styling
-- Army green background with canvas cream interface elements
-- Blueprint grid pattern for background sections
-- Mobile-responsive design shown on both desktop and tablet screens
-- Professional, collaborative appearance that encourages participation
-- Clear navigation for different community sections and features
-- Gruntworks branding positioned as community host/facilitator
+- A **professional, collaborative, and organized aesthetic** utilizing **approved brand textures (weathered steel, concrete, macro soil) and motifs (shield elements, subtle root/circuit details)**.
+- Clear layout for key sections: discussion forum (with topics, posts, user info), resource library (categorized, searchable), member directory (potentially showing Allies status).
+- Forum and directory elements should use **brand fonts, colors, and iconography** consistently (e.g., user avatars, status indicators, topic icons).
+- Resource library section should align visually with the Educational Content Library (Prompt 21).
+- Interface dominated by **Primary Brand Colors** (Charcoal Black, Cream White) for structure and readability, with **Accent Colors (Safety Orange, Steel Blue, Olive Green, Earth Brown)** used for active states, notifications, category tags, or calls-to-action.
+- Background utilizing **subtle brand patterns (geometric grid, circuit-root)**.
+- Mobile-responsive design demonstrated clearly across desktop and tablet/phone screens.
+- Overall appearance should encourage participation and feel like a valuable hub for partners.
+- Clear, intuitive navigation system using **brand fonts and icons**.
+- Consistent placement of the **approved Gruntworks logo variation** or **"Gruntworks Allies" branding**.
 
 ## ADDITIONAL BRAND ASSETS
 
 ### Business Card Prompt
 
-Design business cards for Gruntworks with:
+Design business cards for Gruntworks adhering to Brand System section 5.1:
 
-- Heavy-stock appearance with textured background
-- Industrial styling with metal texture and bolt details
-- Prominent Gruntworks logo on front
-- Army green and canvas cream color scheme
-- Blueprint grid or technical pattern as subtle background
-- Contact information presented in technical specification format
-- Job titles that reflect tactical/field positioning
-- Minimal, impactful design that stands out from typical marketing cards
-- Optional: subtle corner brackets or measurement marks as design elements
-- Professional, durable appearance that reflects brand values
+- Use heavy card stock (minimum 16pt) with a potential subtle texture (canvas, linen) and matte finish (consider spot UV on logo).
+- Incorporate **brand textures (subtle weathered steel, concrete, macro soil) or patterns (geometric grid, circuit-root)** as background or accent elements.
+- Prominent placement of an **approved Gruntworks logo variation** on the front or back.
+- Dominated by **Primary Brand Colors** (Charcoal Black, Cream White), with potential **Olive Green or Earth Brown accents**.
+- Contact information (Name, Title, Phone, Email, Website) presented in a clean, highly legible format using **Primary and Secondary Brand Fonts** with clear hierarchy.
+- Job titles should reflect professionalism and expertise, aligning with the **brand voice (direct, knowledgeable, empowering)**.
+- Minimal, impactful design that conveys reliability and professionalism.
+- Ensure professional, durable appearance reflecting brand values.
 
 ### Email Template Prompt
 
-Design an email template system for Gruntworks communications:
+Design an email template system for Gruntworks communications (newsletter, alerts, follow-ups) adhering to Brand System section 5.3:
 
-- Industrial header with metal texture and bolt details
-- Consistent placement for Gruntworks logo
-- Content sections with blueprint grid backgrounds
-- Call-to-action buttons styled as industrial controls
-- Army green and canvas cream color scheme with OSHA orange for CTAs
-- Footer with contact information in technical format
-- Mobile-responsive design that works across devices
-- Professional, direct appearance that reflects brand voice
-- Template variations for different communication types (newsletter, alert, etc.)
-- Subtle corner brackets or measurement marks as design elements
+- Clean header featuring the **approved Gruntworks logo variation** prominently and potentially **subtle brand textures or a thin rule using brand colors**.
+- Consistent placement for the logo.
+- Main content sections should prioritize readability with ample white space, using **Secondary Brand Font** on a clean background (e.g., Cream White).
+- Use **Primary Brand Font** for main headings within the email body.
+- Call-to-action buttons styled clearly and prominently using **brand fonts and accent colors (Safety Orange or Steel Blue)**.
+- Utilize the **Primary Brand Color Palette** (Charcoal Black, Cream White) for text and background, ensuring high contrast and legibility. **Accents (Olive Green, Earth Brown, Steel Blue)** can be used sparingly for rules or highlights.
+- Clean footer containing contact information, unsubscribe link, and necessary legal text, using **Secondary Brand Font** in a smaller size.
+- Fully mobile-responsive design ensuring optimal viewing across all devices.
+- Professional, direct, and clean appearance reflecting the brand voice.
+- Develop template variations for different communication types while maintaining core brand elements.
 
 ### PowerPoint/Presentation Template Prompt
 
-Create a presentation template for Gruntworks with:
+Create a presentation template (PowerPoint/Google Slides) for Gruntworks adhering to Brand System section 5.2:
 
-- Industrial styling with metal textures and technical elements
-- Title slide with prominent space for presentation topic
-- Content slides with clear hierarchy and ample white space
-- Data visualization slides with blueprint-inspired charts and graphs
-- Army green and canvas cream color scheme with OSHA orange accents
-- Consistent footer with slide number styled as measurement mark
-- Photo layout slides with industrial frames for images
-- Quote slides with distinctive styling for testimonials
-- Professional, tactical aesthetic that stands out from typical presentations
-- Gruntworks branding consistently placed throughout template
+- Professional styling incorporating **subtle brand textures (weathered steel, concrete), patterns (geometric grid, circuit-root), and motifs (shield elements, growth lines)**.
+- Title slide with prominent space for presentation topic, using **Primary Brand Font** and **brand colors**.
+- Content slides with clear hierarchy (Primary font for headers, Secondary for body), ample white space, and layouts for text, images, and data.
+- Data visualization slides featuring charts and graphs styled according to **brand colors and clean illustration guidelines**, prioritizing clarity and impact.
+- Governed by the **Primary Brand Color Palette** (Charcoal Black, Cream White backgrounds/text) with **Accent Colors (Safety Orange, Steel Blue, Olive Green, Earth Brown)** used strategically for highlights, data series, or graphic elements.
+- Consistent, clean footer design using **Secondary Brand Font** (smaller size) for slide numbers and potentially a subtle **approved logo variation**.
+- Photo layout slides using **clean frames potentially incorporating subtle brand textures or motifs**.
+- Quote slides with distinctive styling for testimonials, using **brand fonts and colors**.
+- Overall aesthetic should be professional, clear, authoritative, and aligned with the Gruntworks brand identity.
+- Ensure consistent placement of an **approved Gruntworks logo variation** throughout the template (e.g., on title/end slides, subtly in footer).
 
 ### Vehicle Graphics Prompt
 
-Design vehicle graphics for Gruntworks branded trucks:
+Design vehicle graphics (wraps or decals) for Gruntworks branded trucks/vans adhering to Brand System section 5.2:
 
-- Bold side panel design with prominent Gruntworks logo
-- Army green and canvas cream color scheme with OSHA orange accents
-- Industrial styling with metal texture or blueprint pattern elements
-- Tagline "MARKETING SYSTEMS BUILT FOR THE FIELD" in industrial typography
-- Contact information and website in clear, readable format
-- Optional: subtle corner brackets or measurement marks as design elements
-- Professional, impactful appearance that's visible from a distance
-- Design variations for different vehicle types (pickup truck, van, etc.)
-- Consistent branding that extends the command center concept to vehicles
-- Graphics that look appropriate alongside landscaping/lawn-care and hardscaping vehicles
+- Bold side panel design featuring a **prominent, approved Gruntworks logo variation**.
+- Utilize **Primary Brand Colors** (esp. Charcoal Black, Cream White for contrast) with strategic use of **Accent Colors (Safety Orange, Steel Blue, Olive Green, Earth Brown)** for high visibility and impact.
+- If incorporating graphic elements beyond the logo, use **subtle brand patterns (geometric grid, circuit-root) or textures (weathered steel)**, ensuring they don't clutter the design or reduce legibility.
+- Include an **approved brand tagline** (e.g., "Cultivate Your Digital Landscape.") using the **Primary Brand Font**, styled for readability.
+- Contact information (Website URL, potentially Phone Number) presented in a clear, readable format using the **Secondary Brand Font**.
+- Overall appearance should be professional, impactful, and easily identifiable from a distance.
+- Create design variations or mockups for different common vehicle types (pickup truck, van).
+- Ensure consistent branding that aligns with the overall Gruntworks identity and looks professional alongside landscaping/hardscaping client vehicles.
 
 ### Apparel Design Prompt
 
-Create designs for Gruntworks branded apparel:
+Create designs for Gruntworks branded apparel adhering to Brand System section 5.3:
 
-1. **Work Shirt**:
-   - Army green button-up work shirt with canvas cream accents
-   - Embroidered Gruntworks logo on chest
-   - Optional blueprint grid pattern on back or sleeves
-   - Professional, field-ready appearance suitable for client visits
+1.  **Work Shirt**:
+    - Durable button-up work shirt in **primary brand colors (e.g., Charcoal Black, Earth Brown, Olive Green)** with contrasting accents (e.g., Cream White stitching).
+    - Embroidered **approved Gruntworks logo variation** (e.g., stacked or horizontal) on chest or sleeve.
+    - Optional: **subtle brand pattern (geometric grid, circuit-root)** integrated into inner collar or cuff lining.
+    - Professional, durable, field-ready appearance.
 
-2. **T-Shirt**:
-   - Canvas cream t-shirt with army green and OSHA orange printing
-   - Bold "BUILT FOR THE FIELD" messaging on back
-   - Smaller Gruntworks logo on front chest
-   - Industrial graphic elements like corner brackets or measurement marks
-   - Professional but casual appearance for events and everyday wear
+2.  **T-Shirt**:
+    - Quality t-shirt in **primary or accent brand colors (e.g., Cream White, Olive Green, Charcoal Black)** with contrast printing using **brand colors**.
+    - May feature an **approved brand tagline** or relevant messaging (e.g., "Cultivate Your Digital Landscape") on back or front, using **brand fonts**.
+    - Smaller **approved Gruntworks logo variation** on front chest or sleeve.
+    - Optional: incorporate **subtle brand motifs (shield, root/circuit)** or **textures (distressed speckle)** into the graphic design.
+    - Professional but casual appearance suitable for events and team wear.
 
-3. **Hat**:
-   - Structured cap in army green with canvas cream accents
-   - Embroidered Gruntworks logo on front
-   - Optional tagline or graphic on side or back
-   - Durable, field-ready styling appropriate for outdoor work
+3.  **Hat**:
+    - Structured cap (e.g., trucker or baseball style) in **primary brand colors (Charcoal Black, Olive Green, Earth Brown)** with contrasting accents.
+    - Embroidered **approved Gruntworks logo variation** (stacked or icon-only) on the front.
+    - Optional: small embroidered **brand motif (shield)** or **approved tagline** on side or back.
+    - Durable, field-ready styling.
 
-4. **Jacket**:
-   - Heavy-duty work jacket in army green with canvas cream accents
-   - Embroidered Gruntworks logo on chest
-   - "MARKETING COMMAND" text on back with industrial styling
-   - Professional, durable appearance suitable for field conditions
-   - Optional blueprint grid pattern or technical elements as accents
+4.  **Jacket**:
+    - Heavy-duty work jacket (e.g., canvas, duck cloth) in **primary brand colors (Charcoal Black, Earth Brown)** with appropriate lining.
+    - Embroidered **approved Gruntworks logo variation** on chest or sleeve.
+    - Optional: subtle **brand motif (shield, root/circuit)** or **approved tagline** embroidered/printed discreetly on the back yoke or sleeve.
+    - Professional, durable appearance suitable for field conditions.
+    - Optional: **subtle brand pattern (geometric grid, circuit-root)** as inner lining print.
 
 ## IMPLEMENTATION GUIDELINES
 

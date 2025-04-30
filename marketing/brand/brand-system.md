@@ -3,343 +3,250 @@
 ## 1. INTRODUCTION
 
 ### Purpose of the Brand System
-This comprehensive guide establishes the foundation for Gruntworks' identity as a no-nonsense, performance-driven marketing systems provider exclusively serving blue-collar landscaping and lawn-care and hardscaping businesses. It ensures all brand touchpoints reflect our commitment to grit, performance, and respect for the trades.
+This comprehensive guide establishes the foundation for Gruntworks' identity as a no-nonsense, performance-driven marketing systems provider exclusively serving mid-sized landscaping businesses. It ensures all brand touchpoints reflect our commitment to grit, performance, and respect for the trades.
 
 ### How to Use This Document
 This document serves as the central resource for all brand-related decisions and implementations. All team members, contractors, and partners must adhere to these guidelines to maintain visual and verbal consistency across all touchpoints. For questions, clarifications, or approvals, contact the brand team at brand@gruntworks.com.
 
 ### Brand Overview
-Gruntworks stands apart as a tactical marketing partner built specifically for landscaping and lawn-care and hardscaping professionals. We're not another agency full of kids in hoodies—we're a battle-tested team that understands the dirt and grit of real business in the field. Our systems are designed to generate tangible results: more leads, more jobs booked, and more revenue for hardworking trade professionals.
+Gruntworks provides no-nonsense, performance-driven marketing systems exclusively for mid-sized landscaping businesses. We are a growth partner focused on amplifying our clients' craft, boosting efficiency, and helping them build a scalable legacy through strategic marketing and smart technology.
 
 ## 2. BRAND STRATEGY
 
 ### Brand Purpose
-To equip blue-collar landscaping and lawn-care and hardscaping businesses with marketing systems that work as hard as they do—no fluff, just results.
+To empower mid-sized landscaping professionals to cultivate their digital landscape, amplify their craft, and achieve sustainable, profitable growth through reliable marketing systems and genuine partnership.
 
 ### Brand Vision
-Become the #1 marketing systems provider for landscaping and lawn-care and hardscaping companies in North America—known for grit, performance, and loyalty to the trades.
+To be the indispensable growth partner for mid-sized landscaping businesses, recognized for transforming their market presence and operational efficiency through results-driven, ethically applied marketing systems.
 
 ### Brand Mission
-We build battle-tested, AI-powered marketing and automation systems tailored to the field—helping landscaping pros generate leads, grow revenue, and take back their time.
+To provide specialized marketing systems (SeedWorks, SiteWorks, FlowWorks) that generate measurable results, streamline operations, and showcase the expertise of mid-sized landscaping leaders, enabling them to scale their business and reclaim their time.
 
 ### Brand Values
-
-#### 1. Work Ethic Wins
-* Show up early, finish strong
-* We measure success by results, not effort
-* No shortcuts—just smart, consistent execution
-* We outwork the competition, every single day
-
-#### 2. Built for the Field
-* No theory, only tools that work
-* Field-tested systems, not classroom concepts
-* Designed for jobsite conditions, not boardrooms
-* Solutions that make sense to people who work with their hands
-
-#### 3. Respect the Trade
-* Blue-collar isn't second-class—it's first in line
-* We honor the expertise and skill of trade professionals
-* We speak the language of the trades, not marketing jargon
-* We recognize the dignity and value of physical work
-
-#### 4. Simple Over Slick
-* Clean, fast, effective systems
-* No unnecessary complexity or flashy distractions
-* Straightforward solutions that anyone can understand
-* Function always trumps form
-
-#### 5. Loyalty Runs Deep
-* We back our clients like brothers
-* Long-term partnerships, not transactional relationships
-* We stand by our work and our word
-* When times get tough, we dig in deeper
+*   **Grit & Performance:** We embody a strong work ethic and are relentlessly focused on delivering measurable results for our clients.
+*   **Empowerment:** We amplify our clients' strengths and capabilities, providing tools and strategies that give them greater control.
+*   **Partnership:** We act as trusted allies, collaborating transparently and investing in our clients' long-term success.
+*   **Respect for the Craft:** We genuinely understand and value the skill, effort, and artistry involved in professional landscaping.
+*   **Reliability & Transparency:** We build trust through dependable service, clear communication, consistent processes, and ethical practices.
+*   **Simplicity & Clarity:** We make complex marketing strategies and technologies easy to understand and implement.
+*   **Innovation (as Amplifier):** We leverage smart, modern tools (including AI) responsibly to enhance, not replace, human expertise and efficiency.
 
 ### Brand Positioning
-Gruntworks is the no-BS marketing command center for landscaping and lawn-care and hardscaping pros—not another agency full of kids in hoodies, but a tactical partner built for the dirt and grit of real business.
+Gruntworks is positioned as the dedicated, expert marketing systems partner for established, mid-sized regional landscaping businesses ready to scale professionally. We differentiate ourselves from generic agencies by combining deep industry understanding ("soil and software") with proven, productized systems focused on tangible ROI and operational efficiency. We are the amplifier for their craft and the architect of their digital growth, explicitly countering the perception of marketing as a cost center or technology as a threat.
 
 ### Competitive Differentiation
-* **Industry Focus**: Unlike general marketing agencies, we exclusively serve landscaping and lawn-care and hardscaping businesses
-* **Systems Approach**: We deliver complete, integrated marketing systems rather than one-off services
-* **Results Orientation**: Our success is measured solely by client results—leads generated, jobs booked, revenue increased
-* **Trade Respect**: We understand and respect the unique challenges of blue-collar businesses
-* **No-Fluff Guarantee**: Every component of our systems serves a specific, measurable purpose
+*   **Exclusive Niche Focus:** We serve *only* mid-sized landscaping businesses, allowing for deep specialization and tailored solutions unavailable from generalist agencies.
+*   **Productized Systems (SeedWorks, SiteWorks, FlowWorks):** We offer clear, structured service packages focused on specific outcomes (local dominance, high-performance websites, operational automation) ensuring transparency, predictable results, and efficient delivery.
+*   **Empowerment Narrative:** We position technology (including AI) as a tool to *amplify* the client's craft and team, directly addressing industry anxieties about tech replacing skills or losing control.
+*   **Partnership Model:** We emphasize collaboration and long-term relationships over transactional vendor interactions.
+*   **Understanding the Craft:** Our messaging and approach demonstrate genuine respect and knowledge of the landscaping profession's unique challenges and values.
+*   **Results-First Focus:** We prioritize and report on measurable business outcomes (ROI, leads, efficiency gains) over vanity metrics.
 
 ### Target Audience
+The "Empowered Landscaper": Owners and key operational leaders of established, mid-sized regional landscaping businesses.
 
 #### Demographic Snapshot
-* Males, 28–50
-* Owners or partners in landscaping, lawn-care and hardscaping, or similar service trades
-* Located in U.S. suburban and rural markets
-* Earning $500k–$5M in annual revenue
-* Usually hiring, looking to grow but stretched thin
+*   Owners/Managers of mid-sized regional landscaping businesses.
+*   Typically established, not startups.
+*   Focused on scaling beyond relying solely on referrals.
+*   Likely value practical experience and tangible results.
 
 #### Behavioral Insights
-* Value results over theory—care about leads and jobs booked
-* Often burned by agencies and sick of paying for fluff
-* Comfortable with tech if it's framed in utility (not jargon)
-* Prefer direct communication—calls, texts, real talk
-* Visual learners—like seeing dashboards, before/afters, and real work
+*   Time-pressed and often overwhelmed, juggling multiple operational demands.
+*   Pragmatic, action-oriented problem-solvers focused on tangible results and ROI.
+*   Deeply connected to operational realities; value hands-on experience.
+*   Prefer direct, clear, concise communication; avoid jargon.
+*   Visual learners who appreciate seeing results (e.g., project galleries, clear reports).
+*   May exhibit satisficing behavior in decision-making (preferring "good enough," easy choices).
+*   Face significant stress related to business success, team performance, and operational challenges.
 
 #### Psychographic Profile
-* Pride themselves on work ethic and craftsmanship
-* Frustrated by marketing "experts" who don't understand their business
-* Skeptical of fancy promises but open to proven systems
-* Value straightforward, honest communication
-* Respect is earned through results, not credentials
+*   **Drivers/Aspirations:** Growth & Profitability (Validation, Security, Legacy), Operational Efficiency (Control, Reduced Stress, Predictability), Pride in Craft & Reputation (Respect, Validation, Identity), Team Building & Retention (Stability), Future-Proofing (Security, Relevance), Achieving Calm Control, Quality & Reliability.
+*   **Anxieties/Fears:** Labor Shortages (Dominant Concern: Threat to Capacity & Craft), Economic Uncertainty & Cost Pressures (Insecurity), Technology Adoption Hesitation (Fear of Complexity, Cost, Impersonality, Skills Devaluation, Loss of Control), Cash Flow Management (Survival Anxiety), Competition (Frustration, Commoditization), Regulatory Burden (Loss of Autonomy), Scheduling Complexity, Work-Life Balance/Burnout.
+*   **Cultural Codes/Imprints:** Craftsmanship = Identity/Mastery; Control = Stability/Foundation; Growth = Legacy/Recognition; Technology = Tool / Threat Duality; Reliability = Trust.
 
 ## 3. BRAND IDENTITY
 
 ### Logo
-The Gruntworks logo embodies our no-nonsense approach with its bold, industrial design. It features a heavy, condensed wordmark with subtle tool-inspired details that communicate strength, reliability, and craftsmanship.
 
-#### Primary Logo
-[LOGO PLACEHOLDER: Primary horizontal logo with wordmark and optional icon]
+#### Visual Overview
+Imagine a sturdy, truncated-hexagon shield—like the badge on a work boot—rendered in a charcoal-black field. Centered across that field, the word GRUNTWORKS appears in heavy, stencil-style uppercase, its off-white letters carrying a subtle, grainy distress that reads as "industrial grit." Above the name, a row of stylized grass blades arcs gently, and below it a textured mound of earth sits as a visual foundation.
 
-#### Logo Variations
-* **Horizontal (Primary)**: Used in most applications where horizontal space is available
-* **Stacked**: Used when vertical space is more appropriate
-* **Icon Only**: Used for social media profiles, app icons, and where space is extremely limited
-* **Wordmark Only**: Used when the icon is not needed or would be too small to be legible
+#### Logo Composition
+*   **Shield Base:** Truncated-hexagon with softly rounded corners. Conveys protection, authority and an industrial badge aesthetic.
+*   **Logotype: "GRUNTWORKS":** Bold, stencil-style uppercase. Off-white fill with a light distress texture for an authentic, "worked-in" feel.
+*   **Grass Silhouette (Top):** A row of simplified blades forming a gentle arch. Symbolizes the brand's focus on growth and green-industry expertise.
+*   **Soil Mound (Bottom):** Rough, uneven texture suggesting freshly turned earth. Grounds the design literally and metaphorically.
+
+#### Texture & Finish Notes
+*   **Distressed Overlay:** Fine speckle across all elements to mimic wear, paint chips and dirt.
+*   **Bevel & Emboss:** Subtle edge embossing on the shield to add dimensionality, like a metal plate.
+*   **Contrast:** High-contrast typography (Cream White on Charcoal) for instant legibility in any application.
+
+#### Brand Takeaway
+The combined effect of strong geometry, organic motifs and textured grit positions Gruntworks as a no-nonsense partner—hard-working, reliable and deeply rooted in the real world of landscaping operations.
 
 #### Clear Space
-Maintain a minimum clear space around the logo equal to the height of the "G" in "Gruntworks" to ensure visual impact.
+*(Placeholder: Define the minimum clear space required around the logo, e.g., "equal to the height of the G in GRUNTWORKS". Provide visual diagram if possible.)*
 
 #### Minimum Size
-* Horizontal logo: Minimum width of 1.5 inches (print) or 150px (digital)
-* Stacked logo: Minimum height of 0.75 inches (print) or 75px (digital)
-* Icon only: Minimum size of 0.5 inches (print) or 50px (digital)
+*(Placeholder: Specify minimum reproducible size for print (e.g., 1 inch wide) and digital (e.g., 75 pixels wide). Provide visual examples.)*
 
 #### Logo Do's and Don'ts
-* **DO** use the logo in approved colors only
-* **DO** maintain proper clear space around the logo
-* **DO** use the logo on approved background colors or properly contrasting images
-* **DON'T** stretch or distort the logo
-* **DON'T** rotate or tilt the logo
-* **DON'T** add effects like shadows or glows
-* **DON'T** change the logo colors
-* **DON'T** place the logo on busy backgrounds that reduce legibility
+*(Placeholder: Provide visual examples of correct usage and common misuses, such as stretching, rotating, recoloring, adding effects, or placing on busy backgrounds.)*
 
 ### Color Palette
 
-#### Primary Colors
-* **Army Green** – `#6a6c34`
-  * CMYK: 45, 35, 85, 15
-  * RGB: 106, 108, 52
-  * Pantone: 5763 C
-  * Usage: Primary brand color, headers, accents, buttons
+#### Primary Color Palette
 
-* **Canvas Cream** – `#e4deca`
-  * CMYK: 10, 10, 20, 0
-  * RGB: 228, 222, 202
-  * Pantone: 7527 C
-  * Usage: Backgrounds, text on dark colors, secondary elements
+| Color Name     | Usage                | Hex     |
+|----------------|----------------------|---------|
+| Charcoal Black | Shield background    | #1C1C1C |
+| Cream White    | Logotype & key copy  | #F2EEDB |
+| Olive Green    | Grass icon           | #7B8448 |
+| Earth Brown    | Soil mound texture   | #8B5A2B |
 
-* **Deep Charcoal** – `#22221c`
-  * CMYK: 70, 65, 65, 80
-  * RGB: 34, 34, 28
-  * Pantone: Black 6 C
-  * Usage: Body text, footers, dark backgrounds
+#### Accent Colors
 
-* **OSHA Orange** – `#cc7c2e`
-  * CMYK: 20, 60, 100, 0
-  * RGB: 204, 124, 46
-  * Pantone: 7570 C
-  * Usage: Call-to-actions, highlights, warning elements
-
-* **Rich Soil Brown** – `#593f22`
-  * CMYK: 45, 65, 80, 45
-  * RGB: 89, 63, 34
-  * Pantone: 7533 C
-  * Usage: Secondary accents, borders, footers
-
-#### Secondary Colors
-* **Steel Gray** – `#8c8c8c`
-  * Usage: Subtle backgrounds, disabled states, secondary text
-
-* **Safety Yellow** – `#f1d302`
-  * Usage: Highlights, attention-grabbing elements, success indicators
-
-* **Tool Red** – `#a62c21`
-  * Usage: Error messages, important alerts, limited accent use
+| Color Name    | Role                                  | Hex     |
+|---------------|---------------------------------------|---------|
+| Safety Orange | Call-out highlights; button hover states | #FF6600 |
+| Steel Blue    | Secondary graphics; icon strokes      | #4A6B8A |
 
 #### Color Usage Guidelines
-* Army Green and Canvas Cream form the primary brand identity
-* Deep Charcoal should be used for most text to ensure readability
-* OSHA Orange should be reserved for calls-to-action and important highlights
-* Rich Soil Brown works well for secondary elements and borders
-* Maintain sufficient contrast between text and background colors
-* Use secondary colors sparingly and purposefully
+*(Placeholder: Define specific rules for color application. E.g., Primary palette ratios (60% Charcoal, 30% Cream, 10% Accent), when to use which accent color, guidelines for text legibility on colored backgrounds. Provide visual examples of correct color combinations.)*
 
 ### Typography
+*   (Placeholder: Specify Primary and Secondary Font Family names and sources/licenses. E.g., Primary: "Roboto Condensed", Secondary: "Source Sans Pro")
 
 #### Primary Font Family
-**Asphaltic Grain Condensed**
-* A bold, industrial sans-serif that embodies the grit and strength of the Gruntworks brand
-* Used for headlines, subheads, and important callouts
-* Always set in all caps for headers with tight letter spacing
-* Available weights: Regular, Bold, Black
+*   Should be a clean, strong, highly legible sans-serif font. Projects professionalism, modernity, and reliability. Suitable for headlines and key statements.
+*   *(Placeholder: Specify Font Name, Weights to use - e.g., Bold, Regular)*
 
 #### Secondary Font Family
-**Barlow**
-* A clean, readable sans-serif for body copy and longer text
-* Complements the industrial feel of Asphaltic Grain while improving readability
-* Available weights: Regular, Medium, Semi-Bold, Bold
+*   Could be a complementary sans-serif with good readability for body text, or potentially a sturdy serif font for select applications (e.g., testimonials) to add a touch of traditional craftsmanship feel, if used carefully.
+*   *(Placeholder: Specify Font Name, Weights to use - e.g., Regular, Italic)*
 
 #### Backup/Alternative Fonts
-* **Anton** (alternative to Asphaltic Grain Condensed)
-* **Open Sans** (alternative to Barlow)
+*   Standard system fonts (e.g., Arial, Helvetica, Times New Roman) for universal compatibility where brand fonts cannot be used (e.g., certain email clients).
+*   *(Placeholder: Specify preferred fallback order if necessary)*
 
 #### Typographic Hierarchy
-* **H1 (Page Titles)**: Asphaltic Grain Condensed Black, all caps, 36pt/48px
-* **H2 (Section Headers)**: Asphaltic Grain Condensed Bold, all caps, 28pt/36px
-* **H3 (Subsections)**: Asphaltic Grain Condensed Regular, all caps, 22pt/28px
-* **H4 (Minor Headers)**: Barlow Bold, 18pt/24px
-* **Body Copy**: Barlow Regular, 16pt/22px
-* **Small Text/Captions**: Barlow Regular, 14pt/18px
-* **Buttons/CTAs**: Asphaltic Grain Condensed Bold, all caps, 18pt/24px
+*   Establish a clear hierarchy using font size, weight, and color.
+*   Headlines should be significantly larger and bolder than body text.
+*   Subheadings should provide clear structure.
+*   Body text must be highly readable (appropriate size and line spacing).
+*   Use color (e.g., Safety Orange) sparingly for emphasis within text.
+*   *(Placeholder: Provide specific hierarchy rules with font names, sizes, weights, and colors. E.g., H1: [Primary Font], Bold, 48pt, #F2EEDB; Body: [Secondary Font], Regular, 16pt, #F2EEDB on #1C1C1C background)*
 
 #### Typography Do's and Don'ts
-* **DO** maintain consistent line spacing (1.4-1.5x font size)
-* **DO** use proper hierarchy to guide the reader's eye
-* **DO** ensure sufficient contrast between text and background
-* **DON'T** use more than two font families in a single design
-* **DON'T** stretch or condense fonts (use proper weights instead)
-* **DON'T** use script or decorative fonts that conflict with the brand identity
+*   **Do:** Prioritize legibility above all else. Maintain consistency in font usage. Establish clear hierarchy. Use appropriate line spacing.
+*   **Don't:** Use too many different fonts or styles. Use overly decorative or hard-to-read fonts. Sacrifice readability for style. Use excessive ALL CAPS.
+*   *(Placeholder: Add specific examples, e.g., "Don't track body text too tightly", "Always maintain sufficient contrast".)*
 
 ### Imagery
 
 #### Photography Style
-* High contrast, slightly desaturated photos
-* Gritty, authentic jobsite scenes
-* Real workers, trucks, equipment, and materials
-* Natural lighting with strong shadows
-* Focus on hands, tools, and the work itself
-* Avoid overly polished, stock-looking imagery
+*   Authentic, high-quality images showcasing professional landscaping work and teams in action.
+*   Focus on results: well-maintained properties, impressive installations, tangible transformations (before/after where appropriate).
+*   Natural lighting, emphasizing the textures and colors of landscapes and materials.
+*   Should feel grounded, competent, and reflective of high standards. Avoid overly staged or generic stock photos.
 
 #### Photography Subjects
-* Landscaping crews at work
-* Lawn-care and hardscaping operations in progress
-* Close-ups of tools, equipment, and materials
-* Before/after project transformations
-* Business owners in their element (not posed in offices)
-* Trucks and equipment with company branding
+*   Completed projects (residential and commercial).
+*   Professional crews at work (clean uniforms, safe practices).
+*   Detailed shots of quality materials and craftsmanship.
+*   Potential: Owner/client interactions that convey partnership (use judiciously).
+*   Macro shots of soil, plants, hardscape textures, potentially integrated with subtle tech overlays.
 
 #### Photography Don'ts
-* No staged, inauthentic scenes
-* No overly clean or pristine settings
-* No models posing as workers
-* No generic office or computer imagery
-* No clichéd marketing visuals (handshakes, whiteboards, etc.)
+*   Avoid low-quality snapshots.
+*   Avoid overly generic stock imagery that lacks authenticity.
+*   Avoid images showing unsafe practices or messy job sites.
+*   Avoid clichés (e.g., overly staged handshakes).
 
 #### Illustration Style
-* Technical, blueprint-inspired line drawings
-* Isometric diagrams of systems and processes
-* Tool and equipment schematics
-* Minimal color usage, primarily outlines
+*   Clean, potentially technical or blueprint-inspired style.
+*   Can incorporate "industrial botanical" elements (e.g., stylized seed pods, roots integrated with circuit patterns).
+*   Focus on clarity and function when used for diagrams or process explanations.
+*   *(Placeholder: Provide visual examples or link to a reference style guide/mood board.)*
 
 #### Iconography
-* Bold, simple line icons with consistent stroke weight
-* Tool and equipment-inspired shapes
-* Squared corners rather than rounded
-* Minimal detail, maximum clarity
-* Consistent with the industrial aesthetic
+*   Simple, clean, and functional icons.
+*   Consistent line weight and style.
+*   Potentially incorporate "industrial botanical" motifs or weathered-steel effects subtly.
+*   Reflect themes of landscaping, growth, technology, and efficiency.
+*   *(Placeholder: Specify icon set to use or provide visual examples/link to library.)*
 
 ### Graphic Elements
 
 #### Patterns
-* Stamped metal textures
-* Tool mark patterns
-* Blueprint grid backgrounds
-* Topographic map contours
-* Diagonal safety stripes
+*   Subtle circuit-root patterns.
+*   Geometric patterns suggesting structure and systems.
+*   Can be used lightly as backgrounds or section dividers.
 
 #### Textures
-* Rough grain textures
-* Metal plate surfaces
-* Canvas/fabric textures
-* Weathered wood grain
-* Concrete and asphalt textures
+*   Macro soil textures.
+*   Weathered steel or concrete textures.
+*   Subtle textures inspired by natural materials (wood grain, stone).
+*   Used to add depth and tactile feel, especially in print or digital backgrounds.
 
 #### Visual Motifs
-* Angled edge cuts
-* Corner brackets
-* Bolt and rivet details
-* Measurement marks and rulers
-* Warning stripes and industrial elements
+*   Roots morphing into circuits/fiber optics.
+*   Seed pods / Botanical elements rendered in an industrial style.
+*   Growth lines / Upward trending graphs (subtly integrated).
+*   Shield or foundation motifs (implying stability/protection).
 
 ## 4. BRAND VOICE AND MESSAGING
 
 ### Tone of Voice
-Gruntworks speaks with a direct, tactical, respectful, and zero-fluff voice that resonates with hardworking trade professionals.
+Gruntworks speaks with a **Direct, Knowledgeable, Empowering, and Authentic** voice. We are results-oriented partners who understand the landscaping trade.
 
 #### Voice Characteristics
-* **Direct**: Straightforward, no beating around the bush
-* **Tactical**: Focused on practical application and results
-* **Respectful**: Acknowledging the expertise and value of the trades
-* **Zero-Fluff**: No unnecessary words or marketing speak
+*   **Direct & No-Nonsense:** Clear, concise, gets to the point. Avoids fluff and marketing jargon.
+*   **Knowledgeable & Expert:** Speaks with confidence grounded in landscaping industry understanding and marketing expertise. Uses trade terms correctly but explains complex concepts simply.
+*   **Empowering & Supportive:** Focuses on amplifying the client's strengths and helping them regain control. Positions technology as a helpful tool. Collaborative, not condescending.
+*   **Authentic & Relatable:** Uses "blue-collar authenticity"; understands the pressures and pride of the trade. Speaks *to* landscapers, not *at* them. Uses trade-shop metaphors appropriately.
+*   **Results-Oriented:** Emphasizes tangible outcomes, ROI, and measurable benefits.
 
 #### Voice Examples
-* "We don't do pretty websites. We build machines that print money."
-* "Here's the system. Here's how it works. Let's go."
-* "You don't need another marketer. You need a partner who knows how to dig in."
-* "No funnels. No magic hacks. Just leads, calls, and booked jobs."
+*   **Instead of:** "Our synergistic solutions optimize your digital footprint."
+*   **Say:** "SeedWorks gets your business found online by the right local customers, consistently."
+*   **Instead of:** "Leverage our next-generation platform for enhanced workflow."
+*   **Say:** "FlowWorks cuts down your estimate and follow-up time, freeing you up for the actual work."
+*   **Acknowledging Craft:** "You build landscapes that last. We build the marketing systems to match."
+*   **Addressing Pain Points:** "Tired of chasing down leads that go nowhere? We target the high-value jobs you want."
 
 ### Key Messages
 
 #### Storytelling Pillars
+1.  **We Understand Your Craft & Your Grind:** Acknowledge the skill, effort, pride, AND the operational challenges (labor, costs, competition, digital pressure) faced by mid-sized landscapers.
+2.  **You Need More Than Vendors, You Need Partners:** Position Gruntworks as a dedicated growth partner who understands both soil and software, respecting their craft while providing systems for scale.
+3.  **Technology as an Amplifier, Not a Replacement:** Frame our services (SeedWorks, SiteWorks, FlowWorks) and technology (including AI) as dependable tools that enhance efficiency, showcase expertise, and free up time, explicitly countering tech fears.
+4.  **Systems for Scalable Growth & Legacy:** Emphasize how our productized systems create leverage, transforming online presence, attracting quality clients, systematizing operations, and enabling sustainable growth.
+5.  **Measurable Results & Partnership:** Commit to tangible outcomes, transparent reporting, and a deep investment in the client's specific success.
 
-1. **Built for the Field**
-   * "If it doesn't work on the jobsite, we don't sell it."
-   * "Our systems are built for work boots, not wingtips."
-   * "Tested in the field, not just in theory."
-   * "Marketing that makes sense when you've got dirt under your nails."
-
-2. **Grit Over Gimmicks**
-   * "You can't out-hack hard work. But we can make your effort go further."
-   * "No shortcuts. No magic bullets. Just systems that work."
-   * "The difference between us and them? We actually do the work."
-   * "Fancy talk is cheap. Results take grit."
-
-3. **Own Your Time**
-   * "Less chasing leads. More time building your crew, or just fishing."
-   * "Get back to what you started the business for in the first place."
-   * "Stop being a prisoner to your phone. Let the system do the work."
-   * "Work the business, not just in it."
-
-4. **Respect the Trade**
-   * "You built something real. We just help more people find it."
-   * "Blue-collar built this country. We make sure it gets the respect it deserves."
-   * "Your expertise deserves to be seen and valued."
-   * "We speak your language, not marketing BS."
-
-### Tagline
-"MARKETING SYSTEMS BUILT FOR THE FIELD"
+### Taglines
+*   Gruntworks: Cultivate Your Digital Landscape.
+*   Gruntworks: Seed the Search. Build the Site. Harvest the Leads.
+*   Gruntworks: Where Soil Meets Software.
+*   Gruntworks: Command Your Operations. Cultivate Your Growth.
+*   Gruntworks: Master Your Marketing. Reclaim Your Time.
+*   Gruntworks: Grow Smarter, Not Harder.
+*   Gruntworks: Your Partner in Profitable Landscaping Growth.
+*   Gruntworks: Amplifying Your Craft Through Smarter Marketing.
+*   Gruntworks: Tech-Powered Strategy. Landscaper-Driven Results.
+*   Gruntworks: Cultivate Efficiency. Harvest Opportunity.
+*   *Primary Internal:* Gruntworks: Systems for Scale, Partners in Craft.
 
 ### Writing Style Guidelines
-
-#### Sentence Structure
-* Use short, direct sentences
-* Lead with the most important information
-* Vary sentence length for rhythm, but favor brevity
-* Use active voice, not passive
-
-#### Word Choice
-* Use industry terminology correctly
-* Avoid marketing jargon and buzzwords
-* Choose concrete words over abstract concepts
-* Use action verbs that convey strength and purpose
-
-#### Content Structure
-* Use clear, descriptive headers
-* Break information into digestible chunks
-* Use bullet points for lists and features
-* Include specific examples and proof points
-
-#### Formatting
-* Use ALL CAPS sparingly for emphasis and headers
-* Bold important information
-* Keep paragraphs short (3-4 sentences maximum)
-* Use numbered lists for sequential information
+*   **Adhere to the Three Pillars (Copywriting Guide):** Make copy Vivid (concrete imagery), Believable (falsifiable claims/data), and Unique (clear differentiator).
+*   **Simplicity & Clarity:** Use short, direct sentences. Lead with the most important info. Avoid jargon. Instantly clear (two-second rule).
+*   **Active Voice:** Use strong action verbs that convey strength and purpose (e.g., cultivate, construct, irrigate, amplify, command, harvest).
+*   **Audience Focus:** Write *to* the Empowered Landscaper, using their language and acknowledging their context. Address their specific pains and aspirations.
+*   **Specificity:** Use concrete words and examples. Quantify benefits where possible ("Cut admin time by 30%," "Generate 5-15 qualified leads/month").
+*   **Structure & Formatting:** Use clear headers, short paragraphs (3-4 sentences max), bullet points for lists/features. Bold key info sparingly.
+*   **Tone Consistency:** Ensure all copy reflects the Direct, Knowledgeable, Empowering, and Authentic voice characteristics. Read copy aloud to check flow and tone.
 
 ## 5. BRAND APPLICATIONS
 
@@ -348,7 +255,7 @@ Gruntworks speaks with a direct, tactical, respectful, and zero-fluff voice that
 #### Business Cards
 * Heavy-stock, textured paper (minimum 16pt)
 * Matte finish with spot UV on logo
-* Army Green and Canvas Cream color scheme
+* Primarily Charcoal Black and Cream White color scheme, potentially with Olive Green or Earth Brown accents.
 * Minimal information: name, title, phone, email, website
 * Optional: brief tagline or service description
 
@@ -391,18 +298,18 @@ Gruntworks speaks with a direct, tactical, respectful, and zero-fluff voice that
 ### Digital Presence
 
 #### Website
-* Industrial, tool-inspired design elements
-* Mobile-first, responsive layout
-* Fast loading times prioritized over animations
-* Clear navigation and calls-to-action
-* Results-focused content with case studies and testimonials
+*   **Content Focus:** Prioritize results-focused content, case studies with quantified outcomes, testimonials from landscaping peers, and clear explanations of SeedWorks, SiteWorks, and FlowWorks benefits.
+*   Mobile-first, responsive layout
+*   Fast loading times prioritized over excessive animations
+*   Clear navigation and prominent calls-to-action (CTAs)
+*   Showcase high-quality project photography.
 
 #### Social Media
-* Profile pictures: Icon-only logo version
-* Cover images: Job site photos with text overlay
-* Post templates: Before/after results, client testimonials, quick tips
-* Grid layout: Consistent color treatment and visual style
-* Caption style: Direct, action-oriented with clear value proposition
+*   Profile pictures: Icon-only logo version
+*   Cover images: High-quality job site photos or completed projects, potentially with a subtle text overlay (e.g., tagline).
+*   Post templates: Focus on Visual, Believable, Unique content: Before/after results, client testimonials (video/quotes), quick tips relevant to landscapers, showcasing team expertise, highlighting specific benefits of Seed/Site/FlowWorks.
+*   Grid layout: Maintain consistent color treatment (Primary Palette) and visual style using brand templates.
+*   Caption style: Direct, action-oriented, clear value proposition, uses landscaping metaphors/language, includes CTAs where appropriate. Avoid jargon.
 
 #### Email Templates
 * Clean, minimal design
@@ -462,15 +369,16 @@ Gruntworks speaks with a direct, tactical, respectful, and zero-fluff voice that
 5. Final approval before production or publication
 
 ### Brand Guardians
-* **Primary Contact**: [Name], Brand Director, [email], [phone]
-* **Secondary Contact**: [Name], Marketing Manager, [email], [phone]
-* **Digital Assets**: [Name], Digital Marketing Specialist, [email], [phone]
+* **Primary Contact**: [Name - Placeholder: Assign Responsible Person], Brand Director, [email@gruntworks.com - Placeholder], [phone - Placeholder]
+* **Secondary Contact**: [Name - Placeholder: Assign Responsible Person], Marketing Manager, [email@gruntworks.com - Placeholder], [phone - Placeholder]
+* **Digital Assets**: [Name - Placeholder: Assign Responsible Person], Digital Marketing Specialist, [email@gruntworks.com - Placeholder], [phone - Placeholder]
 
 ### Brand Training
 * All new employees receive brand orientation
 * Quarterly brand refresher sessions
 * Access to brand portal with latest guidelines and assets
 * Designated brand champions within each department
+* *(Placeholder: Detail the content covered in orientation/refreshers. Specify location of brand portal.)*
 
 ## 7. BRAND ASSET LIBRARY
 
@@ -542,25 +450,24 @@ The Brand Asset Library serves as the centralized repository for all approved br
 * Template usage guidelines document
 
 ### Access and Maintenance
-* Hosted on [shared drive/cloud platform]
+* Hosted on [shared drive/cloud platform - Placeholder: Specify Location, e.g., Google Drive, Dropbox, Specific Server Path]
 * Access granted to approved team members and vendors
 * Quarterly updates and additions
 * Version control maintained for all assets
+* *(Placeholder: Specify access request process if applicable.)*
 
 ## 8. APPENDICES
 
 ### Product Line Reference
-* **GW-01: BaseKit** – Foundational web presence (site, local SEO, GBP)
-* **GW-02: ScoutOps** – Prospecting and lead gen (email, UGC, outreach)
-* **GW-03: AutoRig** – AI-powered CRM, automation, follow-up
-* **GW-04: Watchtower** – Dashboards, analytics, alerts
-* **GW-05: ShieldLayer** – Reputation and retention engine
-* **Add-On Modules**: GW-COMMS, GW-BRND, GW-FIRE, GW-FRM
+*   **SeedWorks (Local SEO & GBP Optimization):** Transforms your landscaping business into the go-to local authority on Google. Focuses on optimizing Google Business Profile (GBP) and local SEO to secure top visibility in Google Maps/Search within your service areas, drive a steady stream of qualified leads (calls, forms, direction requests), and build online reputation through review management. Offered as a tiered monthly subscription (Essential Growth, Pro Growth, Dominator Growth) designed to cultivate local dominance and deliver measurable ROI. *Tagline Idea: "Seed your search presence—watch your rankings grow."*
+*   **SiteWorks (Websites):** Constructs your high-performance digital foundation. Builds custom, mobile-first, lead-conversion-optimized websites that professionally showcase your craft and attract quality clients. Focuses on reflecting the brand, compelling project galleries, clear calls-to-action, and local SEO integration. Offered primarily as tiered, fixed-scope projects (Foundation Site, Growth Site, Custom Pro Site) with optional ongoing maintenance plans. *Tagline Idea: "Lay the bedrock for your online presence."*
+*   **FlowWorks (Automation & CRM Implementation):** Irrigates your operations for efficiency so leads never dry up. Helps implement CRM and automation workflows to streamline processes like hiring, estimating, lead follow-up, scheduling, and invoicing, cutting administrative time significantly. Aims to reduce manual workload, prevent lost opportunities, and enable smoother scaling. Offered potentially as a hybrid model (tiered setup fee + ongoing subscription) focused on solving specific operational bottlenecks. *Tagline Idea: "Irrigate your operations so leads never dry up."*
 
 ### Glossary of Terms
-* Industry-specific terminology
-* Marketing and technical terms
-* Internal system and process names
+*   **Empowered Landscaper:** Our target audience - owners/managers of mid-sized regional landscaping businesses focused on growth, efficiency, and craft.
+*   **Cultural Codes:** Underlying, often unconscious meanings associated with key concepts (e.g., Craftsmanship = Mastery, Control = Stability, Technology = Tool/Threat).
+*   **Productized Systems:** Our core service delivery model (SeedWorks, SiteWorks, FlowWorks) offering structured packages with defined scope and outcomes.
+*   **Amplifier:** How we position technology and our services – enhancing, not replacing, the client's skills and team.
 
 ### Contact Information
 * Brand team: brand@gruntworks.com

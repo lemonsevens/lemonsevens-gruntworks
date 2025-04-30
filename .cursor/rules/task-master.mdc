@@ -1,0 +1,43 @@
+---
+description: Scaffolding new stories and new iteration plans 
+globs: 
+alwaysApply: false
+---
+# TASK-MASTER Workflow Rules
+
+**CRITICAL OPERATIONAL MANDATES:** Adherence to these rules is paramount when operating within the TASK-MASTER framework. Failure to comply can lead to errors, incorrect outputs, and workflow deviations.
+
+## 1. Strict Workflow Adherence & Context Verification
+- **Never Deviate:** Strictly follow the sequence of operations defined in the corresponding `.md` file for the current task (e.g., `1_vision-statement-generator.md`, `9_implementor.md`). Do not skip steps or combine commands unless explicitly instructed.
+- **Verify Context First:** Before executing *any* command (e.g., `#generate-...`, `#implement-...`), always verify the necessary prerequisite context (Vision, Requirements, Resources, Architecture, Risks, previous outputs) exists and is understood. State the context being used.
+- **Command Specificity:** Only use the commands (`#command-name`) defined within the relevant TASK-MASTER `.md` file. Do not invent commands.
+
+## 2. User Confirmation is MANDATORY
+- **Respect [STOP] Points:** Absolutely **NEVER** proceed past a `[STOP]` instruction in the workflow documentation without explicit user confirmation. This includes waiting for "Y/N", "save", "proceed", "ready", "implement", or other specified confirmation keywords.
+- **Confirmation for Changes:** Before creating, saving, or modifying *any* file, present the proposed content or changes and require explicit user confirmation (e.g., 'save'). For modifications, clearly show the diff or impact.
+
+## 3. Planning vs. Implementation Discipline
+- **Mode Awareness:** Be acutely aware of the current operational mode (e.g., Planning/Ask Mode vs. Implementation/Code Mode), especially within the `9_implementor.md` workflow.
+- **No Actions During Planning:** Do not perform file edits, run external commands, or execute implementation actions when in a planning or information-gathering phase. Plan the action first, get confirmation, then execute if required.
+- **Plan Each Step:** For implementation tasks (`9_implementor.md`), create a detailed plan for *each individual step* and get user approval before executing that step.
+
+## 4. Verification Criteria are Non-Negotiable
+- **Define & Track:** Ensure all generated stories or tasks include mandatory, specific **Verification Criteria** (e.g., tests to pass, metrics to achieve, checks to perform) alongside acceptance criteria.
+- **Confirm Verification:** Actively track the status of Verification Criteria during implementation. A task/story is *only complete* when all implementation steps are done AND all its Verification Criteria are met. Report status clearly.
+
+## 5. Precise File and Tool Handling
+- **Specific File Paths:** Save generated files to the correct directories (`planning/`, `tasks/`) using the specified naming conventions (e.g., `iteration-{N}-plan.md`, `[Story/Task ID]-steps.md`). Infer paths from context; do not ask unless necessary.
+- **Resource Specificity:** When dealing with resources (`3_resource-selection.md`), use specific versions, standards, and tool names. Verify alignment and integration before proceeding.
+- **Airtable Procedures:** Follow the strict procedures for Airtable interactions (`8_project-manager.md`), including base/table checks, using correct `mcp_airtable_tools_*` calls, and updating local files *before* Airtable records.
+- **External Tools:** Use external tools like `mmdc` only as specified, ensuring correct command formats (e.g., `| cat`).
+
+## 6. Focus and Granularity
+- **Tool Scope:** Adhere strictly to the defined scope of each TASK-MASTER tool. Do not perform actions outside that scope (e.g., don't implement features during scaffolding).
+- **Project Type Awareness:** Recognize and adapt behavior based on the identified GRANULAR Project Type (e.g., Code Project requires different Verification Criteria than a Content Project).
+
+**Failure to follow these rules constitutes a critical operational error.**
+
+- Use bracket based checklists ("[ ]", "[X]")
+- After every major task, commit changes to git
+- This projects repo is: https://github.com/lemonsevens/gruntworks.git
+- Check off tasks, commit changes to git, and the automatically proceed
