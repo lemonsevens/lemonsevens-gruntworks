@@ -4,8 +4,8 @@
 
 ---
 
-## Task `GWOS-FIB-IT1-ENT-Crm`: Implement CRM Entities (CLI, DLR) and Basic Relations
-Objective: As the Founder, I want to create the `Client (CLI)` and `Deal (DLR)` Fibery databases with all their specified fields and establish basic relations between them and to existing core entities, so that foundational CRM capabilities are in place.
+## Task `GWOS-FIB-IT1-ENT-Crm`: Implement CRM Entities (CLI, DLR) in `Sales` Space
+Objective: As the Founder, I want to create the `Client (CLI)` and `Deal (DLR)` Fibery databases within the `Sales` Space, with all their specified fields and establish basic relations between them and to existing core entities, so that foundational CRM capabilities are in place.
 Related Goal/Requirement: Iteration 1 Goal, PRD Sections 2.7 (CLI), 2.8 (DLR); REQ-FR-ENT-1, REQ-FR-ENT-2, REQ-FR-ENT-3.
 Key Deliverables / Acceptance Criteria:
 -   Deliverable 1: `Client (CLI)` database created with all fields as per PRD Section 2.7.
@@ -16,7 +16,7 @@ Key Deliverables / Acceptance Criteria:
 -   **Deliverable 6 - Mandatory AC**: Verification Criteria defined below are met.
 
 **Verification Criteria (Checks):**
--   Check 1: CLI and DLR databases exist with all specified fields and types.
+-   Check 1: CLI and DLR databases exist in the `Sales` Space with all specified fields and types.
 -   Check 2: A sample Client can be created, and multiple Deals can be linked to it.
 -   Check 3: A sample Client can be linked to an existing Project.
 -   Check 4: Enums for fields like `Client.Tier`, `Client.Status`, `Deal.Stage` are correctly populated.
@@ -27,8 +27,8 @@ Relevant Risks: RISK-001, RISK-005
 
 ---
 
-## Task `GWOS-FIB-IT1-ENT-Inboxes`: Implement Inbox Entities (EIN, IIN)
-Objective: As the Founder, I want to create the `External Inbox (EIN)` and `Internal Inbox (IIN)` Fibery databases with all their specified fields, so that raw inputs can be captured.
+## Task `GWOS-FIB-IT1-ENT-Inboxes`: Implement Inbox Entities (EIN, IIN) in `Systems` Space
+Objective: As the Founder, I want to create the `External Inbox (EIN)` and `Internal Inbox (IIN)` Fibery databases within the `Systems` Space, with all their specified fields, so that raw inputs can be captured.
 Related Goal/Requirement: Iteration 1 Goal, PRD Section 2.9 (EIN/IIN); REQ-FR-ENT-1, REQ-FR-ENT-2.
 Key Deliverables / Acceptance Criteria:
 -   Deliverable 1: `External Inbox (EIN)` database created with all fields as per PRD Section 2.9.
@@ -37,7 +37,7 @@ Key Deliverables / Acceptance Criteria:
 -   **Deliverable 4 - Mandatory AC**: Verification Criteria defined below are met.
 
 **Verification Criteria (Checks):**
--   Check 1: EIN and IIN databases exist with all specified fields and types.
+-   Check 1: EIN and IIN databases exist in the `Systems` Space with all specified fields and types.
 -   Check 2: Fields `Received At` and `Processed` have correct types and defaults.
 -   Check 3: Enums for `Source` and placeholder `Labels` are correctly set up.
 
@@ -47,8 +47,8 @@ Relevant Risks: RISK-001, RISK-005
 
 ---
 
-## Task `GWOS-FIB-IT1-ENT-OpSupport`: Implement Operational Support Entities (ISC, SCB)
-Objective: As the Founder, I want to create the `Issue (ISC)` and `Scorecard (SCB)` Fibery databases with all their specified fields, so that operational problems and KPIs can be tracked.
+## Task `GWOS-FIB-IT1-ENT-OpSupport`: Implement Operational Support Entities (ISC in `Support` Space, SCB in `Systems` Space)
+Objective: As the Founder, I want to create the `Issue (ISC)` Fibery database in the `Support` Space and the `Scorecard (SCB)` Fibery database in the `Systems` Space, with all their specified fields, so that operational problems and KPIs can be tracked.
 Related Goal/Requirement: Iteration 1 Goal, PRD Sections 2.10 (ISC), 2.11 (SCB); REQ-FR-ENT-1, REQ-FR-ENT-2.
 Key Deliverables / Acceptance Criteria:
 -   Deliverable 1: `Issue (ISC)` database created with all fields as per PRD Section 2.10.
@@ -57,7 +57,7 @@ Key Deliverables / Acceptance Criteria:
 -   **Deliverable 4 - Mandatory AC**: Verification Criteria defined below are met.
 
 **Verification Criteria (Checks):**
--   Check 1: ISC and SCB databases exist with all specified fields and types.
+-   Check 1: ISC database exists in the `Support` Space and SCB database exists in the `Systems` Space, with all specified fields and types.
 -   Check 2: Default values (e.g., `Issue.Owner`) set as per PRD.
 -   Check 3: Enums are correctly populated.
 
@@ -67,8 +67,8 @@ Relevant Risks: RISK-001, RISK-005
 
 ---
 
-## Task `GWOS-FIB-IT1-ENT-Knowledge`: Implement Tracking & Knowledge Entities (TM, SOP, RET)
-Objective: As the Founder, I want to create the `Time Log (TM)`, `SOP Link (SOP)`, and `Retrospective (RET)` Fibery databases with all their specified fields, so that time, procedures, and learnings can be managed.
+## Task `GWOS-FIB-IT1-ENT-Knowledge`: Implement Tracking & Knowledge Entities (TM in `Ship` Space, SOP & RET in `Systems` Space)
+Objective: As the Founder, I want to create the `Time Log (TM)` database in the `Ship` Space, and the `SOP Link (SOP)` and `Retrospective (RET)` databases in the `Systems` Space, with all their specified fields, so that time, procedures, and learnings can be managed.
 Related Goal/Requirement: Iteration 1 Goal, PRD Sections 2.12 (TM), 2.13 (SOP), 2.15 (RET); REQ-FR-ENT-1, REQ-FR-ENT-2.
 Key Deliverables / Acceptance Criteria:
 -   Deliverable 1: `Time Log (TM)` database created with all fields as per PRD Section 2.12 (excluding Duration formula for now, if complex).
@@ -78,7 +78,7 @@ Key Deliverables / Acceptance Criteria:
 -   **Deliverable 5 - Mandatory AC**: Verification Criteria defined below are met.
 
 **Verification Criteria (Checks):**
--   Check 1: TM, SOP, and RET databases exist with all specified fields and types.
+-   Check 1: TM database exists in the `Ship` Space, and SOP and RET databases exist in the `Systems` Space, with all specified fields and types.
 -   Check 2: MultiUser field for `RET.Participants` correctly configured.
 -   Check 3: Enums are correctly populated.
 
@@ -88,8 +88,8 @@ Relevant Risks: RISK-001, RISK-005
 
 ---
 
-## Task `GWOS-FIB-IT1-REL-CoreConnect`: Establish Core Entity Relations & Simple Lookups
-Objective: As the Founder, I want to establish all remaining direct relations and simple lookup fields between all core Fibery entities (new and scaffolded) as defined in the PRD, so that the data model is fully interconnected.
+## Task `GWOS-FIB-IT1-REL-CoreConnect`: Establish Core Entity Relations & Simple Lookups Across Spaces
+Objective: As the Founder, I want to establish all remaining direct relations and simple lookup fields between all core Fibery entities (new and scaffolded, across their respective Spaces: `Sales`, `Systems`, `Support`, `Ship`, `Strategy`) as defined in the PRD, so that the data model is fully interconnected.
 Related Goal/Requirement: Iteration 1 Goal, PRD Section 2 (all subsections); REQ-FR-ENT-3.
 Key Deliverables / Acceptance Criteria:
 -   Deliverable 1: Relation `Task.Project` (many-to-one) confirmed/established.
