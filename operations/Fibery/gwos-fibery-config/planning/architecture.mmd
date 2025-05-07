@@ -1,0 +1,53 @@
+graph TD
+    subgraph Fibery Workspace [Gruntworks OS in Fibery]
+        direction LR
+        subgraph StrategicPlanning [Strategic Layer]
+            OBJ[Objectives OBJ] --> KRs[Key Results KR]
+            KRs --> RCKs[Rocks RCK]
+        end
+        subgraph ExecutionTracking [Execution Layer]
+            RCKs --> PRJs[Projects PRJ]
+            PRJs --> TSKs[Tasks TSK]
+            TSKs --> TMs[Time Logs TM]
+        end
+        subgraph CRMSales [CRM & Sales Layer]
+            CLIs[Clients CLI] --> DLRs[Deals DLR]
+            CLIs --> PRJs
+        end
+        subgraph IngestionIssues [Ingestion & Issues Layer]
+            EIN[External Inbox EIN] --> TSKs
+            IIN[Internal Inbox IIN] --> TSKs
+            ISCs[Issues ISC] --> TSKs
+            RCKs --> ISCs
+        end
+        subgraph MonitoringReporting [Monitoring & Reporting Layer]
+            SCBs[Scorecards SCB]
+            ViewsDash[Views & Dashboards]
+            OBJ --> ViewsDash
+            KRs --> ViewsDash
+            RCKs --> ViewsDash
+            PRJs --> ViewsDash
+            TSKs --> ViewsDash
+            TMs --> ViewsDash
+            SCBs --> ViewsDash
+        end
+        subgraph KnowledgeConfig [Knowledge & Config Layer]
+            SOPs[SOP Links SOP] -.-> ExternalDocs[External SOPs <br/> (MkDocs/GitHub)]
+            TSKs --> SOPs
+            CFG[Config CFG]
+        end
+    end
+
+    subgraph ExternalIntegrations [External Integrations & Automations]
+        direction LR
+        FiberyWorkspace -- Webhooks / API --> n8n[n8n Workflows]
+        n8n -- API --> Toggl[Toggl Track]
+        n8n -- API --> Slack[Slack Notifications]
+        FiberyWorkspace -- Native/Webhook --> Slack
+        n8n -- API --> ThirdPartyAI[3rd Party AI <br/> (for Inbox Classification)]
+        EIN --> n8n
+        IIN --> n8n
+    end
+
+    style FiberyWorkspace fill:#f9f,stroke:#333,stroke-width:2px
+    style ExternalIntegrations fill:#ccf,stroke:#333,stroke-width:2px 
