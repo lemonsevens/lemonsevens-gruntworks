@@ -1,0 +1,98 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Automation Scripts Guidelines
+
+## Script Development Standards
+
+### Shell Script Best Practices
+- Always start with `#!/bin/bash` and `set -e` for error handling
+- Use colored output functions for better UX:
+  ```bash
+  RED='\033[0;31m'
+  GREEN='\033[0;32m'
+  YELLOW='\033[1;33m'
+  NC='\033[0m'
+  print_status() { echo -e "${GREEN}[INFO]${NC} $1"; }
+  print_error() { echo -e "${RED}[ERROR]${NC} $1"; }
+  ```
+
+### Script Structure Requirements
+- Include usage examples in error messages
+- Validate all required arguments before execution
+- Provide clear progress feedback with step indicators
+- Make all scripts executable: `chmod +x scripts/*.sh`
+
+## Client Generation Script (`new-client.sh`)
+
+### Input Validation
+- Validate business type against: `landscaping`, `hvac`, `roofing`, `plumbing`, `general`
+- Generate proper slug from business name (lowercase, hyphens, no special chars)
+- Check for existing directories before creation
+
+### File Generation
+- Copy template from `apps/website/` to new client directory
+- Update `package.json` with unique project name
+- Generate `.env.local` with client-specific values
+- Create `src/config/client.ts` with proper TypeScript interfaces
+- Generate business-type specific homepage component
+
+### Post-Generation Tasks
+- Initialize git repository with initial commit
+- Install dependencies with `pnpm install --force`
+- Provide clear next steps in output
+
+## Deployment Scripts
+
+### Pre-Deployment Checks
+- Verify script is run from correct directory (check for `src/config/client.ts`)
+- Run full test suite: `pnpm test`, `pnpm type-check`
+- Build application successfully before deployment
+- Extract client slug from configuration for logging
+
+### Staging Deployment (`deploy-staging.sh`)
+- Target staging environment in Vercel
+- Allow deployment with warnings but abort on test failures
+- Provide deployment URL in success message
+
+### Production Deployment (`deploy-prod.sh`)
+- Require explicit confirmation with "yes" response
+- Run comprehensive test suite including E2E when stable
+- Target production environment with `--prod` flag
+- Include safety checks and clear warnings
+
+## Script Maintenance
+
+### Error Handling
+- Provide meaningful error messages with context
+- Include troubleshooting tips in error output
+- Exit with appropriate status codes
+- Log errors for debugging purposes
+
+### Documentation
+- Include usage examples in script headers
+- Document all parameters and their formats
+- Provide examples for common use cases
+- Update documentation when script behavior changes
+
+### Testing Scripts
+- Test with various input combinations
+- Verify behavior with invalid inputs
+- Test error conditions and recovery
+- Ensure scripts work across different environments
+
+## Integration with Development Workflow
+
+### Root Package.json Scripts
+- Reference scripts via relative paths: `"./scripts/new-client.sh"`
+- Include script shortcuts in package.json for convenience
+- Ensure scripts work from monorepo root
+
+### Client Project Integration
+- Scripts should work within client project directories
+- Support both relative and absolute path operations
+- Handle monorepo context appropriately
+
+Remember: Scripts are critical to achieving the 2-3 hour deployment goal. They must be reliable, user-friendly, and thoroughly tested.

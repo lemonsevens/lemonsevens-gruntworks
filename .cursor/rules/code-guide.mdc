@@ -1,0 +1,219 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Marketing Site Factory - Development Guidelines
+
+## Project Structure & Organization
+
+### Monorepo Architecture
+- Use pnpm workspaces with Turborepo for build orchestration
+- Follow the established directory structure:
+  ```
+  apps/website/          # Template Next.js application
+  packages/ui/           # Shared component library
+  packages/utils/        # Shared utilities
+  packages/config/       # Shared configurations
+  clients/               # Generated client projects
+  scripts/               # Automation scripts
+  ```
+
+### Naming Conventions
+- **Client projects**: `client-{business-name-slug}-website`
+- **Business types**: `landscaping`, `hvac`, `roofing`, `plumbing`, `general`
+- **Components**: PascalCase with business type prefix (e.g., `LandscapingHero`)
+- **Files**: Use kebab-case for directories, PascalCase for React components
+- **Database**: Use snake_case for column names, camelCase for Prisma models
+
+## TypeScript & React Development
+
+### Component Development Standards
+- Always use TypeScript with strict mode enabled
+- Define interfaces for all component props, extending `BusinessComponentProps` when applicable
+- Use the `ClientSettings` interface for business configuration
+- Implement proper prop validation and default values
+
+```typescript
+interface BusinessComponentProps {
+  clientSlug: string;
+  content?: ContentBlock;
+  settings?: ClientSettings;
+  className?: string;
+}
+```
+
+### Business-Type Component Guidelines
+- Create components in `packages/ui/src/business-types/{type}/` directories
+- Each business type should have: Hero, Services, Gallery, Contact components
+- Use AI prompts from `packages/ui/src/templates/ai-prompts.ts` for initial generation
+- Ensure responsive design with mobile-first approach
+- Implement proper loading states and error boundaries
+
+### State Management
+- Use React hooks for local state management
+- Prefer server components when possible (Next.js App Router)
+- Keep client components minimal and focused
+- Use Zustand for complex global state if needed
+
+## Styling & Design System
+
+### Tailwind CSS Usage
+- Use the established color system: `primary`, `neutral` with proper shades
+- Follow responsive design patterns: `xs:`, `sm:`, `md:`, `lg:`, `xl:`
+- Implement consistent spacing using Tailwind's spacing scale
+- Use `clsx` for conditional classes and `tailwind-merge` for merging
+
+### Component Styling
+- Create base components in `packages/ui/src/components/base/`
+- Use consistent button variants: `primary`, `secondary`, `outline`, `ghost`
+- Implement proper focus states for accessibility
+- Use CSS Grid and Flexbox for layouts
+
+## Database & API Patterns
+
+### Prisma Schema
+- Use `cuid()` for primary keys
+- Include `createdAt` and `updatedAt` timestamps
+- Store client settings as JSON fields for flexibility
+- Use proper indexing for performance
+
+### API Route Structure
+- Follow RESTful conventions
+- Implement proper error handling with meaningful messages
+- Use TypeScript for request/response types
+- Include proper validation and sanitization
+- Log errors appropriately for debugging
+
+```typescript
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json();
+    // Validation logic
+    // Business logic
+    // Response
+  } catch (error) {
+    console.error('API Error:', error);
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+  }
+}
+```
+
+## SEO Implementation
+
+### Schema Markup
+- Always implement `generateLocalBusinessSchema` for business pages
+- Use `generateServiceSchema` for service-specific pages
+- Include proper JSON-LD structured data
+- Ensure all schema references real client data from `ClientSettings`
+
+### Meta Tags & OpenGraph
+- Implement dynamic `generateMetadata` functions
+- Include proper canonical URLs
+- Use descriptive, keyword-rich titles and descriptions
+- Implement OpenGraph and Twitter Card metadata
+
+### Image Optimization
+- Always use the `OptimizedImage` component instead of standard `<img>`
+- Include descriptive `alt` text for accessibility
+- Use appropriate `sizes` prop for responsive images
+- Implement lazy loading for performance
+
+## Testing Standards
+
+### Unit Testing (Vitest)
+- Test business logic and utility functions
+- Mock external dependencies appropriately
+- Use Testing Library for React component testing
+- Aim for >80% code coverage on critical paths
+
+### E2E Testing (Playwright)
+- Test critical user journeys: contact form, navigation
+- Test across different business types
+- Include accessibility testing in E2E flows
+- Test responsive behavior on mobile devices
+
+### Performance Testing
+- Maintain Lighthouse scores: 90+ performance, 95+ accessibility
+- Test Core Web Vitals: LCP, FID, CLS
+- Use bundle analyzer to monitor package sizes
+- Implement performance budgets in CI
+
+## Client Project Generation
+
+### Script Usage
+- Use `./scripts/new-client.sh` for all new client creation
+- Follow the format: `"Business Name" "city-state" "business-type"`
+- Always validate business type against supported types
+- Update client configuration files immediately after generation
+
+### Client Configuration
+- Update `.env.local` with real API keys and URLs
+- Configure `src/config/client.ts` with actual business details
+- Add database record for client in `Client` table
+- Test locally before proceeding to deployment
+
+## Deployment & DevOps
+
+### Environment Management
+- Use separate environment variables for staging/production
+- Never commit API keys or secrets to version control
+- Use Vercel environment variables for deployment
+- Test all integrations in staging before production
+
+### Deployment Process
+- Run full test suite before deployment
+- Use provided deployment scripts: `deploy-staging.sh`, `deploy-prod.sh`
+- Verify DNS configuration for custom domains
+- Monitor deployment success and performance metrics
+
+## Code Quality & Maintenance
+
+### Linting & Formatting
+- Use Biome for consistent code formatting
+- Follow the established Biome configuration
+- Run `pnpm format` and `pnpm lint` before commits
+- Address all TypeScript errors before deployment
+
+### Git Workflow
+- Use descriptive commit messages following conventional commits
+- Create feature branches for all development work
+- Include proper PR descriptions with testing notes
+- Maintain clean commit history
+
+### Documentation
+- Update implementation guides when adding new features
+- Document all environment variables in `.env.example`
+- Include JSDoc comments for complex functions
+- Maintain README files for each package
+
+## Performance & Accessibility
+
+### Performance Requirements
+- Achieve Lighthouse performance score of 90+
+- Optimize images and implement lazy loading
+- Minimize JavaScript bundle sizes
+- Use proper caching strategies
+
+### Accessibility Standards
+- Ensure WCAG 2.1 AA compliance
+- Use semantic HTML elements
+- Implement proper ARIA labels where needed
+- Test with keyboard navigation
+- Provide proper color contrast ratios
+
+## AI Tool Integration
+
+### Using AI for Component Generation
+- Leverage prompts from `ai-prompts.ts` for consistency
+- Review and refine AI-generated components
+- Ensure generated code follows established patterns
+- Test AI-generated components thoroughly
+
+### Code Generation Best Practices
+- Use AI for initial scaffolding, then refine manually
+- Maintain consistent styling and patterns
+- Validate AI suggestions against project requirements
+- Document any custom modifications to generated code
+
+Remember: The goal is 2-3 hour client deployment with 95%+ success rate. Every decision should optimize for speed, reliability, and maintainability.

@@ -4,6 +4,13 @@ This document provides examples and guidelines for interacting with the Fibery A
 
 **Source of Truth:** Always refer to the official Fibery API Documentation (e.g., `https://the.fibery.io/@public/User_Guide/Guide/Schema-API-261`) for the most accurate and up-to-date details. The examples below are based on common API patterns and may need adjustment.
 
+**CRITICAL PRE-OPERATION ADVISORY:**
+**BEFORE ATTEMPTING ANY `curl` COMMANDS FOR SCHEMA OR DATA MODIFICATION DESCRIBED IN THIS GUIDE, YOU MUST:**
+1.  **VERIFY CURRENT FIBERY STRUCTURE:** Use the Fibery GraphQL tools (`list_spaces_and_types`, `get_schema_sdl`) to get the latest state of your Fibery workspace, including exact Space/Type names, existing fields, and their current types.
+2.  **CONSULT DETAILED API DOCUMENTATION:** Cross-reference the intended operation with `operations/Fibery/apidocs.md`. This document contains specific details on payload structure, mandatory fields (including system fields like `fibery/id`, `fibery/public-id`, etc., for type creation), correct `fibery/type` identifiers, and `fibery/meta` properties.
+
+**FAILURE TO PERFORM THESE PREPARATORY STEPS SIGNIFICANTLY INCREASES THE LIKELIHOOD OF API ERRORS AND FAILED OPERATIONS. Do not proceed with `curl` commands based solely on the examples below without this prior verification.**
+
 **Complementary Tools:** For gathering prerequisite information like exact `Space` names/IDs, existing `Type` names, or detailed schema which are often needed for constructing the `curl` commands below, consider using the Fibery GraphQL tools available within environments like Cursor (e.g., `list_spaces_and_types`, `get_schema_sdl`). This can help ensure accuracy before making direct API calls.
 
 ### Domain:

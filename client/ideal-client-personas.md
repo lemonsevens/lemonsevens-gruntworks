@@ -9,11 +9,11 @@ Each persona represents a segment of our target market with distinct characteris
 ## PERSONA 1: GROWTH GARY
 
 ### Demographics
-- **Age:** 35-45
+- **Age:** 30-45
 - **Gender:** Male
 - **Location:** Suburban areas in the Midwest and South
 - **Education:** Some college or trade school
-- **Business Size:** $750K-$2M annual revenue
+- **Business Size:** $750k-$5M annual revenue
 - **Team Size:** 5-12 employees
 - **Years in Business:** 5-10 years
 
@@ -73,13 +73,13 @@ Growth Gary needs a comprehensive marketing system that generates consistent, qu
 ## PERSONA 2: ESTABLISHED EDDIE
 
 ### Demographics
-- **Age:** 45-55
+- **Age:** 45-60
 - **Gender:** Male
-- **Location:** Suburban and urban areas nationwide
-- **Education:** Business degree or extensive industry experience
-- **Business Size:** $2M-$5M annual revenue
+- **Location:** Suburban and ex-urban areas nationwide
+- **Education:** No degree, extensive industry experience
+- **Business Size:** $2M-$15M annual revenue
 - **Team Size:** 15-30 employees
-- **Years in Business:** 10+ years
+- **Years in Business:** 20+ years
 
 ### Business Profile
 - Established landscaping and lawn-care and hardscaping company with multiple service divisions
@@ -144,7 +144,7 @@ Established Eddie needs a sophisticated marketing system that integrates with hi
 - **Education:** High school or trade school, often with military background
 - **Business Size:** $250K-$500K annual revenue
 - **Team Size:** 1-5 employees (often family members or friends)
-- **Years in Business:** 1-3 years
+- **Years in Business:** 1-5 years
 
 ### Business Profile
 - Recently established landscaping business, often transitioning from solo work
@@ -207,7 +207,7 @@ Startup Steve needs an affordable, scalable marketing system that can grow with 
 - **Gender:** Male
 - **Location:** Nationwide, often in areas with mature tree canopy
 - **Education:** Arborist certification or related technical training
-- **Business Size:** $1M-$3M annual revenue
+- **Business Size:** $1M-$5M annual revenue
 - **Team Size:** 8-20 employees
 - **Years in Business:** 5-15 years
 

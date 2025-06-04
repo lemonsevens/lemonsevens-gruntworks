@@ -1036,7 +1036,7 @@ We've developed distinctive experience touchpoints that reinforce our brand whil
 
 We've developed signature campaign approaches that reinforce our brand metaphors and deliver tangible value:
 
-#### HeatWorks Audit
+#### RootWorks Audit
 * 5-day local-SEO "soil test" delivering a comprehensive "Soil Quality Report"
 * Quick-turn analysis of current SEO performance, competitive positioning, and growth opportunities
 * Identifies specific "nutrients" missing from the client's digital presence
