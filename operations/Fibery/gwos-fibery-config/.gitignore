@@ -1,7 +1,0 @@
-# Temporary files
-temp_*.json
-*.tmp
-
-# OS-generated files
-.DS_Store
-Thumbs.db 
